@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "7fd5800610c4d57a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7031734aec1afbe2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db77a8900579f994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 - Jugabilidad"
+            }
+          },
+          {
+            "id": "a784f839ed0cc13d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 - Clasificaciones y Etiquetas"
+            }
+          },
+          {
+            "id": "cebf2e469f6c2bcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00 - Biblioteca de Clasificación"
+            }
+          },
+          {
+            "id": "0618b60e6e5a3c68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04 - Perspectivas y Cámaras"
+            }
+          },
+          {
+            "id": "62ff4e2254028346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/05 - Modos de Juego.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05 - Modos de Juego"
+            }
+          },
+          {
+            "id": "aa91828bc60be861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03 - Plataformas y Consolas"
+            }
+          },
+          {
+            "id": "cfc360cc9637b27f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/02 - Subgéneros y Combinaciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 - Subgéneros y Combinaciones"
+            }
+          },
+          {
+            "id": "a69910b24b395c67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Referencia de Diseño/01 - Géneros.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 - Géneros"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b4ab0a5f9f7846f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6650c7775c8c4cd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4603afaff162131c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "897b407c6f8f562b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4a399f812f7001a8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "06b5b77465a89305",
+    "type": "split",
+    "children": [
+      {
+        "id": "e74334f67605e877",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7860a16be11a86d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "5d0275fc9c4a40e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "02e47cbf9c569962",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7b74fedea7676348",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1765505df7d7d6a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "db77a8900579f994",
+  "lastOpenFiles": [
+    "01 - Visión/01 - Ficha del Proyecto.md",
+    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
+    "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
+    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
+    "11 - Referencia de Diseño/05 - Modos de Juego.md",
+    "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
+    "11 - Referencia de Diseño/01 - Géneros.md",
+    "11 - Referencia de Diseño/02 - Subgéneros y Combinaciones.md"
+  ]
+}
