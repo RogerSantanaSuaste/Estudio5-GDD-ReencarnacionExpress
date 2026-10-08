@@ -6,10 +6,9 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 ## Público objetivo
 
-**Edad aproximada:**
+**Edad aproximada:** 18 - 29 años
 
-**Experiencia esperada:**  
-> Casual, intermedia, avanzada.
+**Experiencia esperada:**  Casual
 
 **Intereses relevantes:**
 
@@ -17,15 +16,15 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 ## Plataforma
 
-| Elemento | Decisión |
-|---|---|
-| Plataforma principal | |
-| Plataformas secundarias | |
-| Método de entrada | Teclado / Mouse / Control / Pantalla táctil |
-| Resolución objetivo | |
-| Relación de aspecto | |
-| Rendimiento objetivo | FPS |
-| Conexión requerida | Sí / No |
+| Elemento                | Decisión        |
+| ----------------------- | --------------- |
+| Plataforma principal    | Pc (Windows)    |
+| Plataformas secundarias | /               |
+| Método de entrada       | Teclado / Mouse |
+| Resolución objetivo     | 1920 x 1080     |
+| Relación de aspecto     | 16:9            |
+| Rendimiento objetivo    | 60 FPS          |
+| Conexión requerida      | Si              |
 
 ## Restricciones de plataforma
 
@@ -33,13 +32,13 @@ Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribu
 
 ## Sesión de juego
 
-**Duración esperada de una sesión:**
+**Duración esperada de una sesión:** 10 - 20 min
 
-**Duración total estimada del juego:**
+**Duración total estimada del juego:** 20 - 30 min
 
 ## Modelo de distribución
 
-> Gratuito, pago único, educativo, prototipo académico, etc.
+> Prototipo académico - Gratuito.
 
 ## Consideraciones
 
