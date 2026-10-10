@@ -23,24 +23,24 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 **Género principal:**  Rol (RPG)
 > Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
 
-**Subgéneros:** Aventura, JRPG, Estrategía, 
+**Subgéneros:** Aventura, JRPG, Estrategia por turnos.
 > Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
-**Plataforma objetivo:**  PC
+**Plataforma objetivo:**  PC (Windows).
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
 **Modo de juego:**  Un Jugador
 > Consulta [[05 - Modos de Juego]].
 
-**Perspectiva:**  Top-Down
+**Perspectiva:**  Top-Down (mapa de eventos) y lateral (combates).
 > Consulta [[04 - Perspectivas y Cámaras]].
 
-**Clasificaciones y etiquetas adicionales:**  Lineal, Combate, Exploración
+**Clasificaciones y etiquetas adicionales:**  Lineal, decisiones del jugador, inventario, jefes, misiones, combate, exploración.
 > Consulta [[06 - Clasificaciones y Etiquetas]].
 
-**Tecnología principal:**  Unity, C#
+**Tecnología principal:**  Unity 6, C#
 > Motor, lenguaje y herramientas principales.
 
 ## Elevator Pitch
@@ -52,8 +52,8 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Estado actual
 
-- [ ] Concepto definido
-- [ ] Alcance inicial definido
+- [x] Concepto definido
+- [x] Alcance inicial definido
 - [ ] Mecánica principal definida
 - [ ] Prototipo funcional
 - [ ] Vertical slice
@@ -64,6 +64,13 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Criterio de éxito del proyecto
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
+ 
+ El proyecto se considerará exitoso cuando se desarrolle y publique una demo funcional de Reencarnación Express que permita experimentar sus principales mecánicas de juego.
 
+ La demo deberá incluir un mapa interactivo con misiones desbloqueables, escenas narrativas tipo novela visual, cuatro protagonistas jugables, entre cinco y siete combates regulares y un enfrentamiento contra un jefe final de zona.
+
+ Asimismo, deberá implementar un sistema de combate por turnos con posicionamiento estratégico, habilidades, efectos de estado, buffs, debuffs y una tienda donde el jugador pueda adquirir objetos consumibles.
+
+ El propósito será presentar una experiencia jugable que integre narrativa, estrategia y progresión, demostrando el potencial del videojuego para continuar su desarrollo.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

@@ -13,40 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Visión/03 - Público y Plataforma.md",
+                "file": "02 - Diseño/04 - Controles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Público y Plataforma"
-            }
-          },
-          {
-            "id": "a784f839ed0cc13d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06 - Clasificaciones y Etiquetas"
-            }
-          },
-          {
-            "id": "cebf2e469f6c2bcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00 - Biblioteca de Clasificación"
+              "title": "04 - Controles"
             }
           },
           {
@@ -288,14 +260,24 @@
   },
   "active": "db77a8900579f994",
   "lastOpenFiles": [
-    "01 - Visión/02 - Visión del Juego.md",
-    "01 - Visión/03 - Público y Plataforma.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
-    "01 - Visión/04 - Pilares de Diseño.md",
+    "02 - Diseño/03 - Sistemas.md",
+    "02 - Diseño/02 - Mecánicas.md",
     "02 - Diseño/01 - Jugabilidad.md",
-    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
-    "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
+    "01 - Visión/02 - Visión del Juego.md",
+    "01 - Visión/01 - Ficha del Proyecto.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "02 - Diseño/04 - Controles.md",
+    "02 - Diseño/07 - Reglas y Estados del Juego.md",
+    "02 - Diseño/06 - Economía y Recursos.md",
+    "02 - Diseño/05 - Progresión.md",
+    "01 - Visión/04 - Pilares de Diseño.md",
+    "01 - Visión/03 - Público y Plataforma.md",
     "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
+    "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
+    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
     "11 - Referencia de Diseño/05 - Modos de Juego.md",
     "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
     "11 - Referencia de Diseño/01 - Géneros.md",
