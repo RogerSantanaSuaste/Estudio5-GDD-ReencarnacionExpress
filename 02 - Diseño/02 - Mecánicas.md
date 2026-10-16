@@ -41,99 +41,34 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 ### Mecánica 01: Combate táctico por turnos
 
+### Nombre de la mecánica
+
 **Propósito:**  
-Constituye la mecánica central del videojuego. Permite al jugador enfrentarse a distintos enemigos mediante decisiones estratégicas, considerando los atributos de cada personaje, el orden de los turnos y las acciones disponibles.
+¿Qué aporta a la experiencia?
 
 **Activación:**  
-El jugador selecciona un encuentro disponible en el mapa del mundo y presiona el botón Iniciar combate.
+¿Qué debe hacer el jugador?
 
 **Reglas:**  
-- Los enfrentamientos se desarrollan por turnos.
-- El jugador controla un equipo de cuatro protagonistas: Valerian, Elaina, Noelle y Evanora.
-- El orden de actuación depende del atributo de velocidad de cada unidad.
-- Cada personaje puede realizar una acción por turno, como utilizar una habilidad o consumir un objeto.
-- El combate termina cuando todos los enemigos son derrotados o cuando ningún integrante del equipo del jugador puede continuar luchando.
+¿Qué puede y qué no puede ocurrir?
 
 **Entrada:**  
-Mouse: seleccionar habilidades, objetivos y acciones mediante los botones de la interfaz
+¿Qué botón, gesto o acción la activa?
 
 **Estado inicial:**
-El equipo del jugador y los enemigos aparecen en sus respectivas posiciones de combate, con sus atributos, habilidades y estados correspondientes.
 
 **Estado final:**
-El enfrentamiento concluye con una victoria o derrota. En caso de victoria, se procesan las recompensas y se habilita el regreso al mapa.
 
 **Recursos utilizados:**
-Puntos de vida (HP), habilidades, turnos, efectos de estado y objetos consumibles.
 
 **Recompensa:**
-Experiencia (XP), Coronas y avance en la progresión del mapa.
 
 **Penalización:**
-Pérdida de puntos de vida, aplicación de efectos negativos y posible derrota del equipo. Si todos los protagonistas son derrotados, la partida termina y se pierde el progreso de la sesión.
 
 **Interacciones con otras mecánicas:**
-Se relaciona directamente con el sistema de habilidades, las posiciones de combate, los efectos de estado, los consumibles y la progresión de personajes.
 
 **Casos límite:**  
-- Si un enemigo es derrotado antes de actuar, pierde su turno.
-- Si una unidad no tiene objetivos válidos para una habilidad, no puede ejecutarla sobre un objetivo fuera de alcance.
-- Si un personaje es derrotado, deja de actuar mientras permanezca fuera de combate.
-- Si todos los enemigos son derrotados, el combate termina y no deben generarse recompensas duplicadas.
-
-### Mecánica 02: Sistema de habilidades y posiciones
-**Propósito:**  
-Aportar profundidad estratégica al combate mediante habilidades únicas para cada protagonista y restricciones de posicionamiento que obliguen al jugador a considerar cómo y cuándo utilizar sus acciones.
-
-**Activación:**  
-Durante el turno de un protagonista, el jugador selecciona una de sus habilidades disponibles y, cuando corresponde, elige un objetivo.
-
-**Reglas:**  
-- Cada protagonista tiene cuatro habilidades activas.
-- Las habilidades pueden causar daño, curar, proteger, aplicar efectos de estado o modificar posiciones.
-- Algunas habilidades tienen un tiempo de reutilización o _cooldown_ que impide utilizarlas en turnos consecutivos.
-- Las habilidades cuentan con restricciones de posición del usuario y de alcance sobre sus objetivos.
-- Los efectos negativos pueden incluir sangrado, veneno, quemadura, debilitamiento, vulnerabilidad y aturdimiento.
-- Los efectos de estado tienen una duración determinada.
-- Los efectos idénticos no se acumulan de manera ilimitada.
-- Algunas habilidades permiten atacar a varios enemigos o modificar la posición de un personaje.
-- El sistema de posiciones utiliza cuatro espacios por equipo.
-
-**Entrada:**  
-Mouse: seleccionar el botón de habilidad y después el objetivo correspondiente.
-
-**Estado inicial:**
-El personaje comienza su turno con sus habilidades disponibles según su posición, sus tiempos de reutilización y los efectos activos.
-
-**Estado final:**
-Se ejecuta la habilidad seleccionada, se aplican sus consecuencias y se actualizan los tiempos de reutilización y los estados de las unidades involucradas.
-
-**Recursos utilizados:**
-Turno del personaje, disponibilidad de habilidades, tiempos de reutilización, puntos de vida y efectos de estado.
-
-**Recompensa:**
-Ventaja táctica, eliminación de amenazas, protección de aliados, recuperación de vida o debilitamiento de enemigos.
-
-**Penalización:**
-Una habilidad utilizada en un momento inadecuado puede desperdiciar una oportunidad estratégica. Además, su tiempo de reutilización puede impedir utilizarla cuando resulte más necesaria.
-
-**Interacciones con otras mecánicas:**
-Combate por turnos, efectos de estado, inteligencia artificial, consumibles y transformación de Noelle.
-
-**Casos límite:**  
-- Un encuentro bloqueado no puede iniciarse.
-- Un encuentro completado no puede recompensar nuevamente al jugador.
-- Si el jugador selecciona repetidamente el botón de iniciar combate, solo debe producirse una transición.
-- El evento de Noelle debe completarse antes de continuar con determinados encuentros de Bosque.
-- El acceso al jefe final permanece bloqueado mientras no esté disponible en la versión del juego.
-
-### Mecánica 03: Exploración y progresión mediante el mapa
-
-**Propósito:**  
-Permitir al jugador avanzar a través de las diferentes regiones del videojuego, seleccionando encuentros, descubriendo eventos y desbloqueando nuevas zonas conforme supera desafíos.
-
-**Activación:**  
-El jugador accede al mapa al comenzar una nueva partida o después de completar un encuentro.
+¿Qué ocurre en situaciones poco comunes?
 
 **Reglas:**  
 - El mapa representa diferentes regiones del mundo mediante localizaciones interactivas.
