@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Diseño/04 - Controles.md",
+                "file": "07 - Tecnología/01 - Arquitectura Técnica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Controles"
+              "title": "01 - Arquitectura Técnica"
             }
           },
           {
@@ -260,27 +260,31 @@
   },
   "active": "db77a8900579f994",
   "lastOpenFiles": [
+    "04 - Contenido/05 - Misiones y Desafíos.md",
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "04 - Contenido/03 - Enemigos y NPC.md",
+    "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
+    "07 - Tecnología/04 - Datos y Persistencia.md",
+    "07 - Tecnología/03 - Requisitos Técnicos.md",
+    "07 - Tecnología/02 - Motor y Herramientas.md",
+    "07 - Tecnología/01 - Arquitectura Técnica.md",
+    "04 - Contenido/02 - Niveles.md",
+    "04 - Contenido/01 - Estructura del Contenido.md",
+    "02 - Diseño/07 - Reglas y Estados del Juego.md",
+    "02 - Diseño/06 - Economía y Recursos.md",
+    "02 - Diseño/05 - Progresión.md",
+    "02 - Diseño/04 - Controles.md",
     "02 - Diseño/03 - Sistemas.md",
     "02 - Diseño/02 - Mecánicas.md",
     "02 - Diseño/01 - Jugabilidad.md",
+    "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/02 - Visión del Juego.md",
     "01 - Visión/01 - Ficha del Proyecto.md",
     "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "03 - Historia y Mundo/03 - Personajes.md",
     "03 - Historia y Mundo/02 - Mundo.md",
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
-    "02 - Diseño/04 - Controles.md",
-    "02 - Diseño/07 - Reglas y Estados del Juego.md",
-    "02 - Diseño/06 - Economía y Recursos.md",
-    "02 - Diseño/05 - Progresión.md",
-    "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/03 - Público y Plataforma.md",
-    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
-    "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
-    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
-    "11 - Referencia de Diseño/05 - Modos de Juego.md",
-    "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
-    "11 - Referencia de Diseño/01 - Géneros.md",
-    "11 - Referencia de Diseño/02 - Subgéneros y Combinaciones.md"
+    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md"
   ]
 }

@@ -6,11 +6,11 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 
 ## Métodos narrativos
 
-- Diálogo
-- Cinemáticas
-- Texto ambiental
-- Objetos
-- Exploración
+- **Diálogo**
+- **Cinemáticas**
+- **Texto ambiental**
+- **Objetos**
+- **Exploración**
 - Audio
 - Narración
 
@@ -42,7 +42,7 @@ Describe el lenguaje, humor, formalidad y estilo de comunicación.
 
 ¿El juego tendrá diferentes idiomas?
 
-Idiomas previstos:
+Idiomas previstos: **Español**
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →
