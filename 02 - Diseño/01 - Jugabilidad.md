@@ -6,7 +6,7 @@ La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evol
 
 ## Bucle principal de juego
 
-El ciclo principal consiste en seleccionar misiones, conocer su contexto narrativo, enfrentar desafíos y obtener recompensas que permitan fortalecer al equipo y avanzar en la historia.
+El ciclo principal consiste en seleccionar misiones, conocer su contexto narrativo, enfrentar desafíos en forma de encuentros de combate y obtener recompensas que permitan fortalecer al equipo en la forma de experiencia, monedas de oro al igual que objetos especiales y desbloquear nuevas misiones para continuar la historia del juego.
 
 **Bucle del proyecto:** 
 
@@ -34,7 +34,7 @@ Al comenzar la partida, el jugador observará una introducción narrativa que pr
 Durante el primer enfrentamiento, el jugador aprenderá a seleccionar habilidades, identificar objetivos, comprender el sistema de turnos y reconocer cómo las posiciones influyen en las acciones disponibles.
 ## Experiencia minuto a minuto
 
-Durante una sesión de juego, el jugador alternará entre la selección de misiones disponibles, las conversaciones narrativas, los enfrentamientos y la preparación de su equipo.
+Durante una sesión de juego, el jugador alternará entre seleccionar misiones, conversaciones con NPCs, su equipo y combatir enemigos, todo esto a través de la interfaz principal, la cuál sería un mapa del mundo a explorar.
 
 ## Experiencia a largo plazo
 

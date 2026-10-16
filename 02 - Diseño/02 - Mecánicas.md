@@ -41,7 +41,34 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 ### Mecánica 01
 
-<!-- Copiar la plantilla anterior -->
+### Nombre de la mecánica
+
+**Propósito:**  
+¿Qué aporta a la experiencia?
+
+**Activación:**  
+¿Qué debe hacer el jugador?
+
+**Reglas:**  
+¿Qué puede y qué no puede ocurrir?
+
+**Entrada:**  
+¿Qué botón, gesto o acción la activa?
+
+**Estado inicial:**
+
+**Estado final:**
+
+**Recursos utilizados:**
+
+**Recompensa:**
+
+**Penalización:**
+
+**Interacciones con otras mecánicas:**
+
+**Casos límite:**  
+¿Qué ocurre en situaciones poco comunes?
 
 ### Mecánica 02
 
