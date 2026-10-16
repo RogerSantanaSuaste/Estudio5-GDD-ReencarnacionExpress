@@ -6,10 +6,14 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 ## Plantilla de nivel
 
-### Capítulo 1: Pradera
+### Capítulo 1: Llanuras Centrales
 
 **Objetivo principal:**
-Introducir al jugador a las mecánicas fundamentales del combate por turnos y completar los cuatro encuentros disponibles para desbloquear la siguiente región.
+El capítulo se desarrolla en las Llanuras Centrales de Aethel, donde los asentamientos humanos se encuentran amenazados por el avance de las fuerzas expedicionarias del Rey Demonio.
+
+Después de su muerte y reencarnación, los cuatro protagonistas comienzan a comprender sus nuevas capacidades y el propósito de su llegada a este mundo. Guiados por el jugador, deberán enfrentarse a los peligros de la región mientras aprenden a combatir juntos.
+
+Este capítulo representa el inicio de su adaptación a Aethel y de la formación del equipo.
 
 **Objetivos secundarios:**
 - Familiarizarse con las habilidades y características de los cuatro protagonistas.
@@ -79,10 +83,17 @@ INICIO DE PARTIDA
 Bosque desbloqueado
 ```
 
-### Capítulo 2: Bosque
+### Capítulo 2: Bosque Oscuro
 
 **Objetivo principal:**
-Superar los tres encuentros de la región y completar el evento narrativo **La máscara rota**, permitiendo que Noelle desbloquee sus habilidades divinas y que el equipo continúe hacia Corrupción.
+**Contexto narrativo:**
+Tras superar los peligros de las Llanuras Centrales, los protagonistas se adentran en el Bosque Oscuro, situado al este de la región humana.
+
+Según la historia, este bosque alberga un puesto de avanzada de las fuerzas expedicionarias del Rey Demonio. Los protagonistas deben avanzar por el territorio para debilitar esa presencia enemiga y proteger los asentamientos cercanos.
+
+Durante el recorrido ocurre La máscara rota, un acontecimiento que marca el desarrollo personal de Noelle. Al comenzar a superar sus inseguridades y fortalecer su confianza en el jugador y sus compañeros, logra despertar sus poderes divinos.
+
+En términos jugables, su transformación sustituye sus cuatro habilidades anteriores sin modificar su nivel ni sus estadísticas.
 
 **Objetivos secundarios:**
 - Enfrentarse a enemigos con mayor velocidad y nuevas habilidades.
@@ -158,10 +169,17 @@ Bosque desbloqueado
 Corrupción desbloqueada
 ```
 
-### Capítulo 3: Corrupción
+### Capítulo 3: Corrupción del Bosque
 
 **Objetivo principal:**
-Superar los enfrentamientos más exigentes de la demo, utilizando las habilidades adquiridas y administrando correctamente la vida, los estados y los recursos del equipo.
+**Contexto narrativo:**
+El capítulo transcurre en una sección del Bosque Oscuro que ha sido corrompida por la influencia de las fuerzas del Rey Demonio.
+
+La corrupción ha convertido parte del bosque en un territorio más peligroso, donde los protagonistas deben enfrentarse a criaturas de mayor resistencia y poder ofensivo.
+
+Esta región representa la última etapa de la expedición. Los protagonistas deben superar sus desafíos para acercarse al capitán de las fuerzas expedicionarias, cuya derrota permitiría poner fin a la amenaza inmediata sobre las Llanuras Centrales.
+
+La derrota del capitán y la purificación del bosque corresponden al desenlace narrativo previsto para la demo y todavía requieren la implementación del enfrentamiento final.
 
 **Objetivos secundarios:**
 - Identificar y eliminar enemigos prioritarios.

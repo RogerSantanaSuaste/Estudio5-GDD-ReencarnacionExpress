@@ -2,9 +2,21 @@
 
 ## Descripción de la sección
 
-Documenta las entidades controladas por el juego y su comportamiento.
+## Relación de los enemigos con la historia
 
-# Capítulo 1: Pradera
+Los enemigos de Reencarnación Express aparecen durante el avance de los protagonistas por las Llanuras Centrales y el Bosque Oscuro, donde se desarrolla el conflicto contra las fuerzas expedicionarias del Rey Demonio.
+
+En Pradera, el equipo se enfrenta a diferentes grupos de goblins mientras aprende a combatir y avanza por los territorios humanos amenazados.
+
+En Bosque, aparecen lobos salvajes, bandidos, chamanes y guardianes forestales. Estos enfrentamientos representan los peligros del territorio en el que operan las fuerzas expedicionarias.
+
+En Corrupción, los protagonistas enfrentan criaturas corruptas que reflejan el deterioro provocado en parte del Bosque Oscuro. Estos enemigos representan una amenaza mayor y preparan al equipo para el enfrentamiento final.
+
+La historia todavía no establece la afiliación individual de todos los tipos de enemigos. Por ello, no se considera automáticamente que cada criatura encontrada sea un miembro directo de las fuerzas del Rey Demonio.
+
+El capitán de las fuerzas expedicionarias se contempla como antagonista final de la demo.
+
+# Capítulo 1: Llanuras Centrales
 
 ## Enemigo 01: Goblin común
 
@@ -102,7 +114,7 @@ Evaluar objetivos → Seleccionar ataque → Atacar o reposicionarse → Finaliz
 
 ---
 
-# Capítulo 2: Bosque
+# Capítulo 2: Bosque Oscuro
 
 ## Enemigo 04: Lobo salvaje
 
@@ -233,7 +245,7 @@ Evaluar amenazas → Determinar necesidad de protección → Atacar o fortalecer
 
 ---
 
-# Capítulo 3: Corrupción
+# Capítulo 3: Corrupción del Bosque
 
 ## Enemigo 08: Corrupto errante
 
@@ -362,6 +374,7 @@ Incluida en la recompensa global del encuentro: 150 XP y 60 Coronas.
 
 **Estados de IA:**
 Evaluar amenazas → Revisar protección activa → Seleccionar ataque o defensa → Ejecutar acción → Finalizar turno.
+
 
 # Funcionamiento general de la inteligencia artificial
 

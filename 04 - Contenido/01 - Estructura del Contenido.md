@@ -7,50 +7,37 @@ Organiza el contenido del videojuego en unidades manejables: mundos, capítulos,
 ## Estructura
 
 ```Reencarnación Express
+Reencarnación Express
 │
-├── Mundo: Aethel
-│   │
-│   ├── Capítulo 1: Pradera
-│   │   ├──
-│   │   │   ├── Encuentro P1: Dos goblins comunes
-│   │   │   └── Encuentro P2: Goblin común y arquero
-│   │   │
-│   │   └── 
-│   │       ├── Encuentro P3: Dos goblins y arquero
-│   │       └── Encuentro P4: Goblin bruto,
-│   │           goblin común y arquero
-│   │
-│   ├── Capítulo 2: Bosque
-│   │   ├── 
-│   │   │   └── Encuentro B1: Dos lobos salvajes
-│   │   │
-│   │   ├── Santuario Velado
-│   │   │   └── Evento: La máscara rota
-│   │   │       └── Transformación de Noelle
-│   │   │
-│   │   └── 
-│   │       ├── Encuentro B2:
-│   │       │   Bandido, lobo y chamán
-│   │       └── Encuentro B3:
-│   │           Guardián forestal,
-│   │           bandido y chamán
-│   │
-│   ├── Capítulo 3: Corrupción
-│   │   └── 
-│   │       ├── Encuentro C1:
-│   │       │   Corrupto errante,
-│   │       │   acechador y hechicero
-│   │       └── Encuentro C2:
-│   │           Guardián corrupto,
-│   │           corrupto errante
-│   │           y hechicero
-│   │
-│   └── Final de la demo (planeado)
-│       └── 
-│           └── Jefe final demo
-│              
-│
-└── Fin del recorrido disponible
+└── Mundo: Aethel
+    │
+    ├── Capítulo 1: Llanuras Centrales
+    │   ├── Campamento del Alba
+    │   │   ├── P1: Dos goblins comunes
+    │   │   └── P2: Goblin común y arquero
+    │   └── Ruinas de Liria
+    │       ├── P3: Dos goblins comunes y arquero
+    │       └── P4: Goblin bruto, común y arquero
+    │
+    ├── Capítulo 2: Bosque Oscuro
+    │   ├── Claro del Susurro
+    │   │   └── B1: Dos lobos salvajes
+    │   ├── Santuario Velado
+    │   │   └── Evento: La máscara rota
+    │   │       └── Transformación divina de Noelle
+    │   └── Sendero Sombrío
+    │       ├── B2: Bandido, lobo y chamán
+    │       └── B3: Guardián forestal, bandido y chamán
+    │
+    ├── Capítulo 3: Corrupción del Bosque
+    │   └── Tierras Marchitas
+    │       ├── C1: Corrupto errante, acechador y hechicero
+    │       └── C2: Guardián corrupto, errante y hechicero
+    │
+    └── Final de la demo (planeado)
+        └── Capitán de las fuerzas expedicionarias
+            ├── Enfrentamiento final
+            └── Purificación del bosque (desenlace previsto)
 ```
 
 ## Cantidad estimada
@@ -62,7 +49,7 @@ Organiza el contenido del videojuego en unidades manejables: mundos, capítulos,
 | Niveles / encuentros |        9 |
 | Enemigos             | 11 tipos |
 | Jefes                |        1 |
-| NPC                  |        1 |
+| NPC                  |        0 |
 | Objetos              |        2 |
 
 ## Dependencias
@@ -72,15 +59,15 @@ Organiza el contenido del videojuego en unidades manejables: mundos, capítulos,
 El contenido de Reencarnación Express sigue una progresión principalmente lineal. Para acceder a determinados encuentros o eventos, el jugador debe haber completado previamente otros desafíos.
 ### Dependencias entre regiones
 
-**Pradera → Bosque**
+**Llanuras Centrales → Bosque Oscuro**
 
 El jugador debe completar P1, P2, P3 y P4 para desbloquear Bosque.
 
-**Bosque → Corrupción**
+**Bosque  Oscuro→ Corrupción del Bosque**
 
 El jugador debe completar los encuentros de Bosque y el evento obligatorio de Noelle para desbloquear Corrupción.
 
-**Corrupción → Jefe final**
+**Corrupción del Bosque → Jefe final**
 
 El jugador debe completar C1 y C2 para cumplir el requisito de progresión hacia el jefe final.
 ### Dependencias narrativas

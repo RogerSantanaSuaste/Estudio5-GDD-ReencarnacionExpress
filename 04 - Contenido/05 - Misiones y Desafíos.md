@@ -6,7 +6,7 @@ Las misiones y desafíos convierten las mecánicas en objetivos concretos para e
 
 ## Plantilla de misión
 
-### Misión 01: Primeros pasos en Pradera
+### Misión 01: Primeros pasos en Llanuras
 
 **Tipo:** Principal
 
@@ -14,7 +14,13 @@ Las misiones y desafíos convierten las mecánicas en objetivos concretos para e
 Superar los cuatro encuentros de Pradera para familiarizarse con las mecánicas del combate y desbloquear la región Bosque.
 
 **Contexto:**
-El equipo de protagonistas inicia su recorrido por una región de campos abiertos, ruinas y caminos habitados por diferentes grupos de goblins.
+**Contexto:**
+
+Después de fallecer en un mismo accidente, Valerian, Elaina, Noelle y Evanora son reencarnados en el continente de Aethel. El jugador, quien actúa como una deidad, los guía y les concede poder para enfrentarse a las fuerzas del Rey Demonio.
+
+Los protagonistas comienzan su aventura en las Llanuras Centrales, donde los asentamientos humanos están amenazados por una expedición demoníaca.
+
+Sin tiempo suficiente para prepararse, deberán aprender a utilizar sus nuevas habilidades y trabajar en equipo mientras superan los peligros de las praderas.
 
 **Requisitos:**
 Iniciar una nueva partida desde el menú principal.
@@ -47,7 +53,7 @@ Valerian, Elaina, Noelle y Evanora.
 **Nivel relacionado:**
 Capítulo 1: Pradera, encuentros P1–P4.
 
-## Misión 02: Los peligros del Bosque
+## Misión 02: Los peligros del Bosque Oscuro
 
 **Tipo:** Principal.
 
@@ -55,7 +61,12 @@ Capítulo 1: Pradera, encuentros P1–P4.
 Superar los tres encuentros de Bosque y completar el evento obligatorio de Noelle para desbloquear la región Corrupción.
 
 **Contexto:**
-Después de abandonar Pradera, los protagonistas ingresan a una región donde los enemigos presentan mayores capacidades ofensivas y estrategias de apoyo.
+**Contexto:**
+Después de superar los desafíos de las Llanuras Centrales, los protagonistas avanzan hacia el Bosque Oscuro, situado al este de los territorios humanos.
+
+En este lugar se concentra un puesto de avanzada de las fuerzas expedicionarias del Rey Demonio. El equipo deberá superar los peligros del bosque para continuar su misión de detener la amenaza.
+
+Durante esta etapa ocurre un acontecimiento importante para Noelle: La máscara rota, que representa su desarrollo personal y el despertar de sus habilidades divinas.
 
 Durante su recorrido, el grupo se enfrenta a lobos salvajes, bandidos, chamanes y guardianes forestales.
 
@@ -109,9 +120,11 @@ Capítulo 2: Bosque, encuentros B1–B3 y evento La máscara rota.
 Superar los dos encuentros de Corrupción mediante el uso estratégico de habilidades, protecciones, curaciones y recursos del equipo.
 
 **Contexto:**
-Los protagonistas llegan a una región de tierras marchitas y afectadas por fuerzas corruptas.
+Los protagonistas llegan a una sección del Bosque Oscuro afectada por la corrupción de las fuerzas del Rey Demonio.
 
-Los enemigos presentan una mayor resistencia y capacidad ofensiva, además de habilidades que provocan sangrado, quemaduras y debilitamientos.
+El territorio se ha convertido en un lugar especialmente peligroso, habitado por enemigos con mayor resistencia y poder ofensivo. Para continuar, el equipo deberá actuar de manera coordinada y aprovechar las habilidades desarrolladas durante la aventura.
+
+La superación de esta región permitirá acercarse al enfrentamiento contra el capitán de las fuerzas expedicionarias.
 
 
 **Requisitos:**
@@ -135,11 +148,11 @@ Que todos los protagonistas sean derrotados durante cualquiera de los encuentros
 - Cumplimiento del requisito de progresión hacia el jefe final.
     
 **Consecuencias:**
-El jugador completa el recorrido de los nueve encuentros normales disponibles en la demo.
+Al completar los dos encuentros de Corrupción, el jugador habrá superado los nueve enfrentamientos normales de la demo y cumplido los requisitos de progresión hacia el jefe final.
 
-El acceso al jefe final permanece pendiente de implementación, por lo que superar C2 todavía no activa un enfrentamiento final.
+Narrativamente, los protagonistas habrán avanzado hasta el último tramo de su misión contra las fuerzas expedicionarias.
 
-En caso de derrota total, la partida termina y se pierde el progreso de la sesión.
+El combate contra el capitán y la resolución de la historia permanecen pendientes de implementación. Si el equipo sufre una derrota total, la sesión termina y debe reiniciarse.
 
 **Personajes relacionados:**
 Valerian, Elaina, Noelle y Evanora.
@@ -155,13 +168,15 @@ Capítulo 3: Corrupción, encuentros C1 y C2.
 Desbloquear los verdaderos poderes de Noelle para permitir que el equipo continúe avanzando por Bosque.
 
 **Contexto:**
-Noelle comienza la aventura utilizando habilidades convencionales mientras mantiene oculta una parte importante de su identidad.
+Noelle comienza la aventura como una clérigo que todavía no ha logrado despertar sus verdaderas habilidades divinas. Su inseguridad y falta de confianza en el jugador y en algunos de sus compañeros dificultan que acepte plenamente su nuevo papel.
 
-Después de superar el primer encuentro de Bosque, el jugador puede acceder al Santuario Velado, donde ocurre el evento La máscara rota.
+Durante el recorrido por el Bosque Oscuro, las experiencias compartidas con el equipo contribuyen a su desarrollo personal.
 
-Este acontecimiento representa un cambio importante en el desarrollo jugable de Noelle, ya que sus habilidades anteriores son sustituidas por capacidades divinas.
+Después de superar el primer encuentro de esta región, el jugador puede acceder al evento La máscara rota en el Santuario Velado.
 
-El texto narrativo definitivo del evento continúa sujeto al desarrollo de la historia.
+La ruptura de la máscara representa el momento en que Noelle empieza a superar sus inseguridades, fortalece su fe y confianza, y consigue manifestar sus poderes divinos.
+
+Este acontecimiento marca un cambio en su personalidad y en sus habilidades de combate. La transformación no modifica sus estadísticas actuales, nivel ni experiencia.
 
 **Requisitos:**
 - Haber completado el encuentro B1.
@@ -203,45 +218,59 @@ Noelle, protagonista central del evento.
 **Nivel relacionado:**
 Capítulo 2: Bosque.
 
-## Misión 05: El desafío final
+## Misión 05: El capitán de la expedición
 
 **Tipo:** Principal — planeada.
 
 **Objetivo:**
-Superar un enfrentamiento contra el jefe final de la demo, utilizando las mecánicas aprendidas durante el recorrido.
+Derrotar al capitán de las fuerzas expedicionarias del Rey Demonio para detener la amenaza inmediata sobre las Llanuras Centrales.
 
 **Contexto:**
-Tras completar los encuentros de Corrupción, el equipo se acercará al destino final del recorrido.
+Después de superar los peligros del Bosque Oscuro y su sector corrompido, los cuatro protagonistas se preparan para enfrentar al capitán que dirige las fuerzas expedicionarias del Rey Demonio.
 
-La identidad del jefe, su historia y las circunstancias del enfrentamiento todavía se encuentran en proceso de diseño.
+Este enfrentamiento representa el último desafío de la demo. Aunque los protagonistas han desarrollado sus habilidades y fortalecido su trabajo en equipo, deberán utilizar todo lo aprendido para obtener la victoria.
+
+La derrota del capitán no representa el fin del Rey Demonio, sino una victoria importante dentro de un conflicto mucho mayor.
 
 **Requisitos:**
-Completar los nueve encuentros normales y los eventos obligatorios de progresión.
+Haber completado los nueve encuentros normales de Pradera, Bosque y Corrupción, además del evento obligatorio La máscara rota.
 
 **Pasos:**
-1. Completar la región Corrupción.
-2. Acceder a la localización final cuando sea implementada.
-3. Enfrentar al jefe utilizando las habilidades y recursos del equipo.
-    
+1. Completar los encuentros de Corrupción.
+2. Acceder al enfrentamiento final cuando se encuentre implementado.
+3. Enfrentar al capitán de las fuerzas expedicionarias.
+4. Derrotarlo para completar el objetivo principal de la demo.
 
 **Condición de éxito:**
-Derrotar al jefe final.
+Derrotar al capitán de las fuerzas expedicionarias del Rey Demonio.
 
 **Condición de fracaso:**
-Derrota total del equipo, siguiendo las reglas generales del juego.
+Que todos los protagonistas sean derrotados durante el enfrentamiento final.
 
 **Recompensa:**
-Purificación del bosque.
-Créditos del juego y un recuerdo de parte del equipo desarrollador de Reencarnación Express.
+- Victoria narrativa sobre las fuerzas expedicionarias.
+- Purificación del sector afectado del Bosque Oscuro.
+- Conclusión del recorrido principal de la demo.
 
 **Consecuencias:**
-Purificación del bosque.
+Con la derrota del capitán, la corrupción del bosque comienza a desaparecer y las fuerzas expedicionarias supervivientes se retiran hacia el norte, buscando refugio en la región de la Forja de Combustión, controlada por el Rey Demonio.
+
+Los protagonistas regresan a los territorios humanos como héroes después de proteger las Llanuras Centrales.
+
+Sin embargo, la amenaza del Rey Demonio continúa, por lo que esta victoria representa únicamente el cierre de la primera etapa de su aventura.
 
 **Personajes relacionados:**
-Valerian, Elaina, Noelle, Evanora y  jefe final.
+Valerian, Elaina, Noelle, Evanora y el capitán de las fuerzas expedicionarias.
 
 **Nivel relacionado:**
-Trono Sellado, enfrentamiento final.
+Enfrentamiento final de la demo, posterior a Corrupción. 
+
+
+**Consecuencia narrativa de la derrota:**
+
+Según la historia de la demo, cuando los cuatro protagonistas pierden la vida en combate, el jugador pierde su último vínculo con el mundo de Aethel y deja de actuar como una entidad divina.
+
+En términos jugables, esta consecuencia se representa mediante el final de la sesión y el regreso al menú principal. Una nueva partida reinicia el recorrido desde Pradera.
 
 
 
