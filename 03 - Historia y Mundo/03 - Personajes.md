@@ -46,7 +46,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función jugable:** Controlado durante combate por turnos por el jugador.
 
-**Función narrativa:** Líder del equipo de héroes.
+**Función narrativa:** Extraño para el resto de héroes pero encargado de liderar. Actúa como la voz de la razón y el sentido común durante la historia.
 
 **Descripción física:** 1.75 m de estatura. Complexión estándar, con la espalda ligeramente tensa por años de mala postura en sillas ergonómicas baratas y manos que solían tener callos de teclado, no de empuñadura. Su rostro refleja el desgaste de la treintena: ojeras crónicas marcadas, barba descuidada de varios días y cabello castaño revuelto.
 
@@ -140,29 +140,41 @@ Sin máscara:
 
 ### Evanora
 
-**Rol:**
+**Rol:** Maga miembro del equipo de héroes reencarnados.
 
-**Función jugable:**
+**Función jugable:** Controlada por el jugador durante combate.
 
-**Función narrativa:**
+**Función narrativa:** Entropía del grupo, debido a su amnesia, fuerte poder pero complejidad débil, actúa como una fuente de conflicto y energía constante.
 
-**Descripción física:**
+**Descripción física:** 1.62 m de estatura. Su tez es pálida, acentuada por una mirada calculadora, distante y gélida. Destaca su melena ondulada de un matiz lavanda oscuro, entrelazada con destellos magenta extremadamente vibrantes.
 
-**Personalidad:**
+Porta un atuendo heterogéneo: la túnica azul clásica de una academia mágica, abierta sobre un uniforme estudiantil compuesto por blusa blanca, chaleco rosado, falda corta en tono púrpura y botas oscuras que se extienden hasta el muslo. Acompaña su figura sosteniendo firmemente su báculo de maga.
 
-**Motivaciones:**
+**Personalidad:** 
 
-**Objetivos:**
+**Motivaciones:** Su equipo es su motivación, la única cosa que conoce en debido a su amnesia.
 
-**Conflicto:**
+**Objetivos:** 
+- Recuperar su memoria.
+- Traer paz a las Llanuras Centrales.
+- Proteger a su equipo.
 
-**Relaciones:**
+**Conflicto:** Su personalidad es poco constante y cambiante, su estado mental frágil debido a que poco a poco recupera sus recuerdos.
 
-**Arco del personaje:**
+**Relaciones:** Aunque era amiga de la arquera y la clérigo en su anterior vida, al reencarnar la amnesia le hace creer que sus amigas son completas extrañas, mucho menos hablar del caballero, el cual ni siquiera la conoce.
 
-**Habilidades:**
+**Arco del personaje:** Recupera sus memorias pero descubre que la persona que solía ser y quien es ahora son fundamentalmente distintas, deberá elegir que lado de ella conservar y cual dejar atrás.
+
+**Habilidades:** Dominio de las artes arcanas por naturaleza, tiene una conexión sobrenatural con el mundo arcano y las extrañas energías del mundo.
+Utiliza esta conexión para conjurar poderosos hechizos para arrasar con los enemigos más fuertes.
+- Orbe Arcano: Un ataque de energía mágica pura, cualquier creatura sin conexión arcana recibe daño moderado que desencadena debilidad debido a la radiación arcana.
+- Llamarada: Energía mágica convertida en fuego sobrenatural, capaz de arder con la suficiente fuerza como para derretir metal y cremar la piel.
+- Sello de Ruptura: Un hechizo particularmente malicioso, ataca directamente el alma de los oponentes, causando daño moderado a la manifestación física de este y adicionalmente aplicando una debilitación considerable.
+- Golpe de Meteorito: Una conjuración poderosa pero extremadamente agotadora, conjura un meteorito sobre los oponentes, el cual es posteriormente lanzado usando fuerza arcana, provocando una explosión capaz de mermar incluso a los oponentes más duros.
 
 **Debilidades:**
+Su amnesia la hace un personaje inconstante y dispuesta a cambios.
+Su cuerpo es débil y frágil, presentando debilidad ante prácticamente cualquier daño y físico.
 
 **Frases o tono de diálogo:**
 
@@ -171,34 +183,121 @@ Sin máscara:
 ****
 ### Elaina
 
-**Rol:**
+**Rol:** 
 
-**Función jugable:**
+**Función jugable:** Arquera especializada en ataques a distancia, identificación de objetivos prioritarios y movilidad dentro de la formación
 
-**Función narrativa:**
+Su función principal es causar daño a enemigos individuales mediante disparos precisos, aplicar marcas que aumentan el daño recibido por los objetivos y utilizar habilidades de reposicionamiento para mantenerse fuera del alcance de los enemigos.
 
-**Descripción física:**
+También puede aprovechar las corrientes de viento para potenciar sus flechas y atravesar parcialmente las defensas enemigas.
 
-**Personalidad:**
+**Función narrativa:** Elaina representa la perspectiva de una humana que ha sido trasladada a un mundo desconocido, donde las condiciones de su llegada le impidieron conservar su cuerpo original y provocaron que adquiriera la apariencia de una joven elfa.
 
-**Motivaciones:**
+A través de sus experiencias, el jugador descubre las costumbres, los peligros y las diferencias entre las razas que habitan este mundo.
+
+Su comportamiento contrasta con el de los elfos nativos, ya que conserva recuerdos, emociones y una mentalidad humana que influyen en su manera de interpretar su entorno.
+
+**Descripción física:** Joven de rasgos élficos y contextura esbelta. De mirada expresiva y constante gesto de asombro o ligera incertidumbre, evidencia poca experiencia en el combate real. Su rostro infantil se complementa con orejas largas y puntiagudas, un peinado de cabello corto y claro con una pequeña trenza lateral ajustada por un broche o símbolo geométrico.
+
+Su atuendo es una mezcla funcional de ropa ligera y protecciones improvisadas: viste una túnica de tela suave con bordes desgastados de piel, complementada por un cuello protector verde abotonado al frente. Sobre el hombro lleva una pieza de armadura acolchada con remiendos y costuras visibles, sujetada por un tahalí o correa de cuero ajustada al pecho con una hebilla metálica. Los antebrazos y muslos presentan vendas de soporte, proyectando la imagen de una recluta o aventurera novata que ha tenido que adaptar y reparar sus propias prendas para adentrarse en los caminos.
+
+**Personalidad:** 
+- Expresiva: Manifiesta abiertamente sus emociones, especialmente el asombro, la incertidumbre y la curiosidad.
+- Inexperta: Aunque posee talento natural, todavía desconoce muchos peligros del mundo y carece de experiencia en situaciones de combate real.
+- Perseverante: A pesar de sus limitaciones y temores, continúa esforzándose por superar los obstáculos que encuentra.
+
+Su perspectiva es diferente a la de los elfos nativos, ya que conserva una mentalidad más cercana a la de su vida anterior.
+
+**Motivaciones:** Elaina desea comprender por qué fue enviada a ese mundo y cuál es la razón por la que tuvo que adoptar un cuerpo élfico.
+
+También busca adaptarse a su nueva existencia sin perder los recuerdos y la identidad que la conectan con su vida anterior.
 
 **Objetivos:**
 
-**Conflicto:**
+Objetivo principal: Descubrir las circunstancias de su llegada al nuevo mundo y comprender su transformación en elfa.
 
-**Relaciones:**
+Objetivos secundarios:
+
+- Aprender a desenvolverse con su nuevo cuerpo.
+- Comprender las características y capacidades de la raza élfica.
+- Desarrollar sus habilidades como arquera.
+- Descubrir si existe alguna posibilidad de regresar a su mundo de origen.
+- Construir relaciones de confianza con sus compañeros de aventura.
+
+**Conflicto:**
+Conflicto interno: Elaina enfrenta una crisis de identidad al encontrarse en un cuerpo perteneciente a una raza diferente de la suya. Aunque conserva su conciencia y recuerdos humanos, debe acostumbrarse a una apariencia y capacidades que desconoce.
+
+Conflicto externo: Su desconocimiento del mundo y de las costumbres élficas dificulta su adaptación. Además, debe enfrentarse a los peligros de un entorno donde su inexperiencia puede poner en riesgo su vida y la de sus compañeros.
+
+**Relaciones:** Amiga de la arquera y la maga.
 
 **Arco del personaje:**
+Inicio: Elaina despierta en un mundo desconocido dentro de un cuerpo élfico. Se siente confundida por su transformación y desconoce las circunstancias que la llevaron hasta allí.
+
+Desarrollo: Durante sus aventuras, comienza a comprender las capacidades de su nuevo cuerpo y a desarrollar sus habilidades como arquera. Al mismo tiempo, descubre las diferencias entre su antigua vida humana y la sociedad élfica.
+
+Clímax: Elaina debe enfrentarse a una situación que pone a prueba su identidad y la obliga a decidir qué significa realmente pertenecer a ese mundo.
+
+Resolución: Aprende a aceptar su nueva existencia sin renunciar a los recuerdos y experiencias que formaron su identidad humana. Su transformación deja de representar únicamente una pérdida y se convierte en parte de su crecimiento personal.
 
 **Habilidades:**
+- Ataque básico: Hace una ataque normal con arco
+- Marca: Puede marcar a un enemigo provocando que reciba más daño  
+- Tiro Evasivo: Ejecuta un disparo directo a media distancia mientras realiza un rápido despliegue de maniobra hacia atrás. Le permite causar daño al objetivo y cambiar de posición en la formación durante el mismo turno para mantener la distancia de seguridad. 
+- Tiro Perforante:Concentra una ráfaga de viento en la punta de la flecha para realizar un disparo de alta potencia. El proyectil impulsado por ráfagas cortantes atraviesa las defensas básicas del enemigo, ignorando parte de su armadura o protección.
 
 **Debilidades:**
-
+- Al ser reencarnada en un cuerpo élfico, Elaina carece de la fuerza física y resistencia que poseía en su forma humana. Esto la hace más vulnerable a ataques físicos y le dificulta realizar tareas que requieren fuerza bruta.
 **Frases o tono de diálogo:**
 
 **Referencias visuales:**
+
 ### Antagonista
+
+### Capitán de las Fuerzas Expedicionarias
+
+**Rol:** Antagonista principal, líder de las fuerzas del rey demonio.
+
+**Función jugable:** Ninguna. Funciona como jefe de nivel y enemigo final en la historia.
+
+**Función narrativa:** Jefe militar del rey demonio, encargado de liderar las fuerzas invasoras y mantener el control sobre los territorios conquistados. Su presencia representa la amenaza constante que enfrenta el grupo de héroes reencarnados. Jefe final del alcance de la demo.
+
+**Descripción física:** Cabeza esquelética con un traje militar oscura, inspirado en las fuerzas expedicionarias británicas de la Primera Guerra Mundial. Gorra de oficial con googles de aviador, bufanda verde y guantes de cuero. Su ojo izquierdo esta vendado por completo, mientras que ojo derecho esta vacío excepto por una púpila espectral de color rojo neón. Su cuerpo es delgado y alto, con una postura rígida y militar. Porta un sable ceremonial. En su hombro derecho porta una pieza de armadura metálica, mismo material plateado que cubre su pecho y parte de su espalda.
+
+**Personalidad:** Frío, extremadamente cínico y calculador. Su lealtad al rey demonio es absoluta, y su objetivo principal es cumplir con las órdenes de su señor: Obtener información y debilitar los asentamientos humanos de las Llanuras Centrales para facilitar la invasión del Rey Demonio.
+
+**Motivaciones:** Lealtad al rey demonio y deseo de cumplir con su deber militar. Busca demostrar su valía como líder y estratega, asegurando la victoria de las fuerzas del rey demonio en la guerra.
+
+**Objetivos:** 
+- Obtener información sobre los héroes reencarnados y sus habilidades para anticipar sus movimientos y estrategias.
+- Debilitar los asentamientos humanos de las Llanuras Centrales mediante ataques estratégicos y sabotajes.
+- Asegurar la victoria de las fuerzas del rey demonio en la guerra, consolidando su posición como líder militar y ganando reconocimiento ante su señor.
+
+**Conflicto:**
+- Los héroes reencarnados son entidades completamente ajenas al mundo y la guerra. Siendo completamente impredecibles ante los ojos de un estratega militar cuya experiencia se basa en la guerra actual.
+- La naturaleza sobrenatural de los héroes reencarnados hace que sus acciones sean impredecibles y que sus motivaciones no sean comprensibles para un soldado común.
+- Los rumores de que los héroes estan siendo guíados por una deidad desconocida generan desconfianza y temor entre las fuerzas del rey demonio, lo que complica la planificación y ejecución de sus estrategias.
+
+**Relaciones:**
+- Su relación con el rey demonio es de subordinación absoluta, cumpliendo sus órdenes sin cuestionarlas y buscando siempre la aprobación de su señor.
+- Su relación con los héroes reencarnados es de antagonismo, viéndolos como una amenaza directa a los planes del rey demonio y buscando constantemente formas de derrotarlos y obtener información sobre ellos.
+- Su relación con sus subordinados es de respeto y autoridad, esperando lealtad y disciplina.
+
+**Arco del personaje:**
+Comienza como una figura mística para los héroes reencarnados, para finales de la demo en el Bosque Corrupto, se revela como antagonista tangible y el obstáculo más díficil que se enfrentará el jugador en la demo.
+
+**Habilidades:**
+Por Definir.
+
+**Debilidades:**
+Por Definir.
+
+**Frases o tono de diálogo:**
+- "Tú dios no es más que un mito, y yo soy la prueba de ello."
+- "No hay lugar para la misericordia en la guerra, solo para la victoria."
+- "La muerte es lo único que los espera."
+- "Jamás pondrás un dedo sobre mi señor, y si lo haces, pagarás con tu vida."
+**Referencias visuales:**
 
 ### Personajes secundarios
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 - Tecnología/01 - Arquitectura Técnica.md",
+                "file": "03 - Historia y Mundo/03 - Personajes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Arquitectura Técnica"
+              "title": "03 - Personajes"
             }
           },
           {
@@ -116,7 +116,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -249,17 +249,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "db77a8900579f994",
   "lastOpenFiles": [
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "01 - Visión/02 - Visión del Juego.md",
+    "02 - Diseño/02 - Mecánicas.md",
+    "07 - Tecnología/01 - Arquitectura Técnica.md",
     "04 - Contenido/05 - Misiones y Desafíos.md",
     "04 - Contenido/04 - Objetos y Coleccionables.md",
     "04 - Contenido/03 - Enemigos y NPC.md",
@@ -267,7 +274,6 @@
     "07 - Tecnología/04 - Datos y Persistencia.md",
     "07 - Tecnología/03 - Requisitos Técnicos.md",
     "07 - Tecnología/02 - Motor y Herramientas.md",
-    "07 - Tecnología/01 - Arquitectura Técnica.md",
     "04 - Contenido/02 - Niveles.md",
     "04 - Contenido/01 - Estructura del Contenido.md",
     "02 - Diseño/07 - Reglas y Estados del Juego.md",
@@ -275,15 +281,9 @@
     "02 - Diseño/05 - Progresión.md",
     "02 - Diseño/04 - Controles.md",
     "02 - Diseño/03 - Sistemas.md",
-    "02 - Diseño/02 - Mecánicas.md",
     "02 - Diseño/01 - Jugabilidad.md",
     "01 - Visión/04 - Pilares de Diseño.md",
-    "01 - Visión/02 - Visión del Juego.md",
     "01 - Visión/01 - Ficha del Proyecto.md",
-    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
-    "03 - Historia y Mundo/02 - Mundo.md",
-    "03 - Historia y Mundo/01 - Premisa y Trama.md",
     "01 - Visión/03 - Público y Plataforma.md",
     "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md"
   ]

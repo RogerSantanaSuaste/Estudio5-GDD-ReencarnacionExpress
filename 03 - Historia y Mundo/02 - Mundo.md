@@ -29,19 +29,19 @@ Cuatro personas de otro mundo reencarnan en Aethel. Al no estar conectadas a los
 ### Después del juego
 (No definido en la demo.)
 
-| Lugar               | Descripción | Función jugable | Importancia narrativa |
-| ------------------- | ----------- | --------------- | --------------------- |
-| Asentamiento Humano |             |                 |                       |
-| Llanuras Centrales  |             |                 |                       |
-| Bosque Oscuro       |             |                 |                       |
-| Bosque Corrupto     |             |                 |                       |
+| Lugar               | Descripción                                                                                                                                                                    | Función jugable                                                                                                                                                                                                                             | Importancia narrativa                                                                                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asentamiento Humano | Un asentamiento humano fortificado, el bastión más formidable de las Llanuras Centrales.                                                                                       | Sección de Introducción a la historia.                                                                                                                                                                                                      | Punto de reencarnación de los héroes, principal exposición de historia se realiza en esta sección.                                                              |
+| Llanuras Centrales  | Área amplía de nada más que pastos verdes y colinas.                                                                                                                           | Primera sección de gameplay e historia. Enemigos de bajo nivel, funciona como el tutorial.                                                                                                                                                  | Introducción narrativa de los personajes, en este punto es donde interactúan más y discuten su situación previo a y después de un combate.                      |
+| Bosque Oscuro       | Un área mucho más pequeña en los bordes del Este de las Llanuras Centrales. Se trata de un bosque denso el cual oscurece la luz del sol.                                       | Segunda sección de gameplay, los enemigos son considerablemente más fuertes e incluso llegan a tener ser equivalentes al jugador.                                                                                                           | Introducción al misterio de la demo, el origen de las fuerzas expedicionarias del Rey Demonio.                                                                  |
+| Bosque Corrupto     | Un área aún más pequeña pero peligrosa. Un área del bosque que ha sido corrompida y se encuentra permeada por energías demoniacas que empoderan a las fuerzas del Rey Demonio. | Tercera y última sección de gameplay, los enemigos son equivalentes o superiores al jugador en estadísticas puras.<br>El jugador debe utilizar estrategia al igual que consumir sus recursos para lograr derrotar al jefe final de la zona. | Introducción al antagonista principal de la demo, el Capitán de las fuerzas expedicionarias. Y un combate para derrocarlo y traer paz a las Llanuras Centrales. |
 
 ## Facciones
 
-| Facción            | Objetivo | Relación con el jugador |
-| ------------------ | -------- | ----------------------- |
-| Humanos            |          |                         |
-| Fuerzas Demoniacas |          |                         |
+| Facción            | Objetivo                                                                                                                               | Relación con el jugador |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Humanos            | Defenderse de las legiones de fuerzas demoniacas que están atacando y destruyendo los asentamientos humanos de las Llanuras Centrales. |                         |
+| Fuerzas Demoniacas | Tomar control completo del mundo entero, conquistando cada región de este y corrompiendo los Reliquiarios.                             |                         |
 
 ## Coherencia del mundo
 
