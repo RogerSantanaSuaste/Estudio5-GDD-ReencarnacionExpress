@@ -6,27 +6,27 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 
 ## Identidad visual
 
-**Estilo:**
+**Estilo:** Estilo de dibujo en estilo anime, con elementos de fantasía medieval.
 
-**Referencias:**
+**Referencias:** JRPG, fantasía medieval, anime.
 
-**Sensación buscada:**
+**Sensación buscada:** Aventura, exploración, fantasía rustica.
 
-**Nivel de realismo:**
+**Nivel de realismo:** Bajo
 
-**Formas predominantes:**
+**Formas predominantes:** Circulares y orgánicas
 
-**Iluminación:**
+**Iluminación:** Suave y cálida
 
-**Materiales:**
+**Materiales:** Metálicos, madera, piedra, cuero y tela. Tanto para las interfaces, las cuáles deben tener un estilo de fantasía medieval, como para los escenarios y personajes.
 
 ## Paleta de color
 
-**Colores principales:**
+**Colores principales:** Oro, rojo oscuro,, verde bosque, marrón y gris.
 
-**Colores secundarios:**
+**Colores secundarios:** Plata, azul oscuro, azul claro y beige.
 
-**Colores para información jugable:**
+**Colores para información jugable:**Oro, rojo oscuro, verde bosque y azul claro.
 
 ## Reglas visuales
 
