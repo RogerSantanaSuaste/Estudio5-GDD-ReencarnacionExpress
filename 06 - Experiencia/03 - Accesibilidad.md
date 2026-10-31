@@ -16,8 +16,8 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 - [ ] Reducción de destellos
 - [ ] Asistencia de apuntado
 - [ ] Dificultad ajustable
-- [ ] Volumen independiente
-- [ ] Indicadores visuales para sonidos importantes
+- [X] Volumen independiente
+- [x] Indicadores visuales para sonidos importantes
 
 ## Consideraciones
 

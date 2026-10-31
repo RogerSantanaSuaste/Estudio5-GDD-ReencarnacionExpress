@@ -15,12 +15,11 @@ Consumible de recuperación.
 Objeto que permite recuperar parte de los puntos de vida de un protagonista durante un enfrentamiento. Representa un recurso de apoyo que puede utilizarse cuando las habilidades de curación no están disponibles o cuando un personaje necesita recuperar vida de manera inmediata.
 
 **Función:**
-Recuperar el 30 % de los puntos de vida máximos del personaje seleccionado, sin superar su límite de HP.
+Recuperar el 50 % de los puntos de vida máximos del personaje seleccionado, sin superar su límite de HP.
 
 **Cómo se obtiene:**
 - El jugador comienza una nueva partida con una poción.
 - Puede adquirir pociones adicionales en la tienda del mapa utilizando Coronas.
-    
 
 **Cómo se utiliza:**
 Durante un combate, el jugador selecciona la opción **Objetos**, elige una Poción de curación y selecciona a un aliado válido.
@@ -42,7 +41,6 @@ Común. Es un objeto de uso habitual que puede adquirirse en la tienda.
 - No permite revivir personajes derrotados.
 - Durante el combate, su utilización consume una acción.
 - No puede superar el límite de cinco unidades en el inventario.
-    
 
 **Interacciones:**
 Se relaciona con el sistema de combate, los puntos de vida, el inventario, la economía y las habilidades curativas de Noelle.
@@ -95,7 +93,6 @@ Común. Puede adquirirse directamente en la tienda.
 - No recupera puntos de vida.
 - No permite revivir personajes derrotados.
 - Durante el combate consume una acción.
-    
 
 **Interacciones:**
 Se relaciona con el sistema de efectos de estado, el combate, el inventario y la economía.

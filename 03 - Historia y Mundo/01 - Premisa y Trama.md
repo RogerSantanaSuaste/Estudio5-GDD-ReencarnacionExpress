@@ -13,7 +13,7 @@ Resume el conflicto principal en pocas líneas.
 
 Describe el argumento completo sin entrar todavía en cada escena.
 
-Los protagonistas reencarnan en otro mundo y se les otorga poderes para que puedan enfrentarse a fuerzas demoniacas que amenazan con destruir el mundo. Los protagonistas deberán batallar a enemigos y descubrir historias secundarias para mejorar sus habilidades y ganar fuerza suficiente para poder derrocar al lacayo del Rey Demonio en las Llanuras Centrales.
+Los protagonistas reencarnan en otro mundo y se les otorga poderes para enfrentarse a las fuerzas que amenazan con destruir ese mundo. En la demo recorren nueve encuentros y La máscara rota, fortalecen al equipo con experiencia y Coronas, y derrotan al capitán de las fuerzas expedicionarias en las Llanuras Centrales. El Rey Demonio continúa después de ese cierre.
 
 ## Estructura narrativa
 
@@ -35,15 +35,15 @@ Las fuerzas del Rey Demonio han logrado corromper parte del bosque, convirtiendo
 El acto finalizará con la derrota del capitán de las fuerzas expedicionarias, poniendo fin al terror que ha caído sobre las Llanuras Centrales.
 ## Eventos principales
 
-| Orden | Evento                              | Participación del jugador                                      | Consecuencia                    |
-| ----- | ----------------------------------- | -------------------------------------------------------------- | ------------------------------- |
-| 1     | Reencarnación de los protagonistas. | El jugador inicia la partida reencarnando a los protagonistas. | Comienza la historia del juego. |
-| 2     |                                     |                                                                |                                 |
-| 3     |                                     |                                                                |                                 |
-| 4     |                                     |                                                                |                                 |
-| 5     |                                     |                                                                |                                 |
-| 6     |                                     |                                                                |                                 |
-| 7     |                                     |                                                                |                                 |
+| Orden | Evento                              | Participación del jugador                                                                                                                             | Consecuencia                                               |
+| ----- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 1     | Reencarnación de los protagonistas. | El jugador inicia la partida reencarnando a los protagonistas.                                                                                        | Comienza la historia del juego.                            |
+| 2     | Ruptura de la máscara de Noelle     | La máscara de Noelle se rompe. El jugador confirma el intercambio de sus cuatro habilidades enmascaradas por las cuatro divinas.                                             | Arco de personaje e intercambio de habilidades.            |
+| 3     |                                     |                                                                                                                                                       |                                                            |
+| 4     |                                     |                                                                                                                                                       |                                                            |
+| 5     |                                     |                                                                                                                                                       |                                                            |
+| 6     |                                     |                                                                                                                                                       |                                                            |
+| 7     |                                     |                                                                                                                                                       |                                                            |
 
 ## Finales
 

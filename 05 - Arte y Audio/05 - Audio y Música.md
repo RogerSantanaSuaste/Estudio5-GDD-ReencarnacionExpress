@@ -48,7 +48,7 @@ Tema Game over: Piano melancólico con violines exagerados entendiendo que todo 
 | Sonido al comprar          |                                                                                                                                                                          |                                                                                |
 | Selección de opciones.     |                                                                                                                                                                          |                                                                                |
 | Pausar juego               |                                                                                                                                                                          |                                                                                |
-| Guardar juego              |                                                                                                                                                                          |                                                                                |
+
 
 
 ## Audio espacial

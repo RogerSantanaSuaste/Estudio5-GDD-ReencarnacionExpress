@@ -78,7 +78,7 @@ Haber completado los cuatro encuentros de Pradera.
 **Pasos:**
 1. Acceder al Claro del Susurro y superar el encuentro B1 contra dos lobos salvajes.
 2. Visitar el Santuario Velado y completar el evento La máscara rota.
-3. Utilizar las nuevas habilidades de Noelle para superar B2 y B3 en el Sendero Sombrío.
+3. Utilizar las habilidades divinas de Noelle, ya intercambiadas, para superar B2 y B3 en el Sendero Sombrío.
 4. Completar todos los encuentros para desbloquear Corrupción.
     
 
@@ -91,12 +91,12 @@ Que todos los protagonistas sean derrotados durante uno de los enfrentamientos.
 **Recompensa:**
 - 300 puntos de experiencia en total.
 - 120 Coronas en total.
-- Desbloqueo de las cuatro habilidades divinas de Noelle.
+- Intercambio de las cuatro habilidades de Noelle.
 - Acceso a la región Corrupción.
     
 
 **Consecuencias:**
-Noelle obtiene nuevas capacidades de apoyo y combate que permanecen activas durante el resto de la sesión.
+Noelle combate el resto de la sesión con sus cuatro habilidades divinas. Las cuatro enmascaradas ya no están disponibles.
 
 Los protagonistas pueden avanzar hacia encuentros más exigentes.
 
@@ -152,7 +152,7 @@ Al completar los dos encuentros de Corrupción, el jugador habrá superado los n
 
 Narrativamente, los protagonistas habrán avanzado hasta el último tramo de su misión contra las fuerzas expedicionarias.
 
-El combate contra el capitán y la resolución de la historia permanecen pendientes de implementación. Si el equipo sufre una derrota total, la sesión termina y debe reiniciarse.
+El capitán es el jefe final de la demo. Si el equipo sufre una derrota total, la sesión termina y debe reiniciarse.
 
 **Personajes relacionados:**
 Valerian, Elaina, Noelle y Evanora.
@@ -165,7 +165,7 @@ Capítulo 3: Corrupción, encuentros C1 y C2.
 **Tipo:** Principal — evento narrativo obligatorio.
 
 **Objetivo:**
-Desbloquear los verdaderos poderes de Noelle para permitir que el equipo continúe avanzando por Bosque.
+Intercambiar las cuatro habilidades de Noelle por sus habilidades divinas para que el equipo pueda continuar por Bosque.
 
 **Contexto:**
 Noelle comienza la aventura como una clérigo que todavía no ha logrado despertar sus verdaderas habilidades divinas. Su inseguridad y falta de confianza en el jugador y en algunos de sus compañeros dificultan que acepte plenamente su nuevo papel.
@@ -198,10 +198,8 @@ No tiene una condición de derrota propia.
 Si el jugador selecciona Volver, el evento permanece pendiente y puede abrirse nuevamente.
 
 **Recompensa:**
-- Desbloqueo de Impacto Consagrado.
-- Desbloqueo de Plegaria Focalizada.
-- Desbloqueo de Bendición Continua.
-- Desbloqueo de Amparo Divino.
+- Intercambio de habilidades. Salen Golpe de Lucero, Impacto Quebrantador, Resistencia Obstinada y Auxilio Improvisado.
+- Entran Impacto Consagrado, Plegaria Focalizada, Bendición Continua y Amparo Divino.
 - Acceso al encuentro B2.
 No otorga XP ni Coronas.
 

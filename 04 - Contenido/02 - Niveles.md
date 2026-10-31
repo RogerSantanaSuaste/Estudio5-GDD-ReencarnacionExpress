@@ -100,7 +100,7 @@ En términos jugables, su transformación sustituye sus cuatro habilidades anter
 - Aprender a contrarrestar efectos de estado como el veneno y el debilitamiento.
 - Priorizar enemigos de apoyo que pueden curar o fortalecer a sus aliados.
 - Aprovechar las habilidades de protección y curación.
-- Adaptarse a las nuevas capacidades de Noelle después de su transformación.
+- Adaptarse al intercambio de habilidades de Noelle después de su transformación.
 
 **Duración estimada:**
 Entre 4 y 6 rondas por encuentro. El capítulo contiene tres combates, por lo que se estima una duración total de 12 a 18 rondas, más el tiempo dedicado al evento narrativo.
@@ -113,7 +113,7 @@ Media-alta a alta. Los enfrentamientos presentan enemigos con comportamientos m�
 - Mayor presencia de efectos de estado.
 - Enemigos capaces de fortalecer su defensa.
 - Evento narrativo obligatorio.
-- Transformación de Noelle y sustitución de habilidades.
+- Intercambio de habilidades de Noelle.
 
 **Mecánicas utilizadas:**
 Combate táctico, protección de aliados, habilidades curativas, efectos positivos y negativos, administración de cooldowns, uso de consumibles y selección de objetivos prioritarios.
@@ -130,7 +130,7 @@ La región también presenta un obstáculo de progresión: el jugador debe compl
 **Recompensas:**
 - 300 XP en total por los tres encuentros.
 - 120 Coronas en total. 
-- Desbloqueo de las cuatro habilidades divinas de Noelle mediante el evento La máscara rota.
+- Intercambio de habilidades de Noelle mediante el evento La máscara rota.
 - Desbloqueo de Corrupción.
 - Recuperación de vida después de cada victoria.
 El evento de Noelle no entrega experiencia ni Coronas adicionales.
@@ -145,7 +145,7 @@ Haber completado los cuatro encuentros de Pradera.
 Derrotar a los enemigos de B1, completar La máscara rota y superar B2 y B3.
 
 **Eventos narrativos:**
-**La máscara rota:** evento obligatorio disponible después del primer combate de Bosque. El jugador accede al Santuario Velado, donde Noelle abandona su etapa enmascarada y desbloquea sus habilidades divinas.
+**La máscara rota:** evento obligatorio disponible después del primer combate de Bosque. El jugador accede al Santuario Velado, donde Noelle intercambia sus cuatro habilidades enmascaradas por las cuatro divinas.
 
 Este cambio permanece durante el resto de la partida y permite continuar hacia el siguiente encuentro.
 
@@ -177,9 +177,7 @@ El capítulo transcurre en una sección del Bosque Oscuro que ha sido corrompida
 
 La corrupción ha convertido parte del bosque en un territorio más peligroso, donde los protagonistas deben enfrentarse a criaturas de mayor resistencia y poder ofensivo.
 
-Esta región representa la última etapa de la expedición. Los protagonistas deben superar sus desafíos para acercarse al capitán de las fuerzas expedicionarias, cuya derrota permitiría poner fin a la amenaza inmediata sobre las Llanuras Centrales.
-
-La derrota del capitán y la purificación del bosque corresponden al desenlace narrativo previsto para la demo y todavía requieren la implementación del enfrentamiento final.
+Esta región representa la última etapa de los encuentros normales. Los protagonistas deben superar C1 y C2 para enfrentar al capitán de las fuerzas expedicionarias, jefe final de la demo. Su derrota pone fin a la amenaza inmediata sobre las Llanuras Centrales y purifica el bosque.
 
 **Objetivos secundarios:**
 - Identificar y eliminar enemigos prioritarios.
@@ -187,7 +185,7 @@ La derrota del capitán y la purificación del bosque corresponden al desenlace 
 - Proteger a los personajes más vulnerables.
 - Utilizar estratégicamente las habilidades divinas de Noelle.
 - Administrar consumibles y curaciones para mantener vivo al equipo.  
-- Prepararse para el futuro enfrentamiento contra el jefe final.
+- Prepararse para el enfrentamiento contra el capitán, jefe final de la demo.
 
 **Duración estimada:**
 Entre 5 y 7 rondas por encuentro como objetivo de balance. El capítulo contiene dos combates, por lo que se estima una duración total de 10 a 14 rondas.
@@ -220,7 +218,7 @@ Las diferentes combinaciones enemigas buscan obligar al jugador a administrar su
 - 300 XP en total por los dos encuentros.
 - 120 Coronas en total.
 - Experiencia y progresión adicional para los protagonistas.
-- Cumplimiento de los requisitos para acceder al futuro jefe final.
+- Cumplimiento de los requisitos para acceder al capitán, jefe final de la demo.
 - Recuperación de vida después de cada victoria.
 
 **Puntos de guardado:**
@@ -233,7 +231,7 @@ Haber completado los tres encuentros de Bosque y el evento La máscara rota.
 Derrotar a todos los enemigos de C1 y C2.
 
 **Eventos narrativos:**
-No existe todavía un evento narrativo independiente implementado para esta región. Su función actual es presentar la amenaza más importante del recorrido y preparar el acceso al jefe final.
+Esta región no tiene un evento narrativo propio. Su función es preparar el acceso al capitán, jefe final de la demo.
 
 **Mapa / diagrama:**
 ## Flujo del nivel

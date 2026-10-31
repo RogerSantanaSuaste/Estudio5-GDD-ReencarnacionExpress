@@ -9,12 +9,8 @@ Define la estructura funcional de las interfaces y menús.
 ```text
 Menú principal
 ├── Nueva partida
-├── Continuar
 ├── Configuración
 │   ├── Audio
-│   ├── Video
-│   ├── Controles
-│   └── Accesibilidad
 └── Salir
 ```
 

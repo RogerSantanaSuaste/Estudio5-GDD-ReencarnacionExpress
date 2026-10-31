@@ -187,7 +187,7 @@ Organizar el recorrido del jugador y administrar el acceso a encuentros y evento
 El sistema consulta el progreso de la partida para determinar qué encuentros y localizaciones están disponibles.
 La demo cuenta con tres regiones principales: Pradera, Bosque y Corrupción.
 Pradera contiene cuatro combates; Bosque, tres; y Corrupción, dos. Los encuentros deben superarse siguiendo la progresión establecida.
-También existen localizaciones con eventos narrativos y un acceso reservado para el futuro jefe final.
+También existe el evento La máscara rota y el acceso al jefe final, el capitán, en el Trono Sellado.
 
 **Salidas:**
 - Desbloqueo de encuentros y regiones.
@@ -281,7 +281,7 @@ Los consumibles disponibles en la beta son:
 - Poción de curación: 35 CR.
 - Antídoto: 20 CR.
 
-Las pociones recuperan el 30 % del HP máximo de un aliado vivo. Los antídotos eliminan sangrado, veneno y quemadura.
+Las pociones recuperan el 50 % del HP máximo de un aliado vivo. Los antídotos eliminan sangrado, veneno y quemadura.
 El inventario permite almacenar un máximo de cinco unidades por tipo de consumible.
 
 **Salidas:**
@@ -375,7 +375,7 @@ Progreso de encuentros, selección de eventos y confirmaciones del jugador.
 **Procesamiento / reglas:**
 El sistema verifica si se cumplen las condiciones para activar un evento.
 Actualmente, el evento implementado es **La máscara rota**, disponible después de completar el primer combate de Bosque.
-Al confirmarlo, Noelle reemplaza sus habilidades convencionales por sus cuatro habilidades divinas. El cambio permanece activo durante el resto de la sesión.
+Al confirmarlo, Noelle intercambia sus cuatro habilidades convencionales por sus cuatro habilidades divinas. Las anteriores dejan de estar disponibles. El cambio permanece activo durante el resto de la sesión.
 
 **Salidas:**
 - Evento completado.

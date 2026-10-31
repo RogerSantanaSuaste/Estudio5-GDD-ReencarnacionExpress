@@ -18,7 +18,6 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 - [ ] El bucle principal funciona.
 - [ ] Las condiciones de victoria y derrota funcionan.
-- [ ] El progreso puede guardarse.
 - [ ] Los sistemas principales están integrados.
 - [ ] Las pruebas críticas están aprobadas.
 - [ ] El rendimiento cumple el objetivo definido.

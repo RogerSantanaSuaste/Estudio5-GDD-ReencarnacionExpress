@@ -34,10 +34,10 @@ Reencarnación Express
     │       ├── C1: Corrupto errante, acechador y hechicero
     │       └── C2: Guardián corrupto, errante y hechicero
     │
-    └── Final de la demo (planeado)
+    └── Jefe final
         └── Capitán de las fuerzas expedicionarias
             ├── Enfrentamiento final
-            └── Purificación del bosque (desenlace previsto)
+            └── Purificación del bosque
 ```
 
 ## Cantidad estimada
@@ -69,12 +69,12 @@ El jugador debe completar los encuentros de Bosque y el evento obligatorio de No
 
 **Corrupción del Bosque → Jefe final**
 
-El jugador debe completar C1 y C2 para cumplir el requisito de progresión hacia el jefe final.
+El jugador debe completar C1 y C2 para enfrentar al capitán, jefe final de la demo.
 ### Dependencias narrativas
 
 El evento La máscara rota solo puede activarse después de completar B1.
 
-Su realización es obligatoria para continuar hacia B2 y permite que Noelle desbloquee sus habilidades divinas.
+Su realización es obligatoria para continuar hacia B2. Noelle intercambia sus cuatro habilidades enmascaradas por cuatro habilidades divinas. Las anteriores dejan de estar disponibles.
 
 La transformación permanece activa durante el resto de la sesión.
 ### Dependencias de progresión

@@ -58,7 +58,7 @@ En la versión beta de Reencarnación Express, no se contempla la reasignación 
 |Seleccionar un objeto en la tienda|Se verifica el costo y, si la compra es válida, se actualizan las Coronas y el inventario.|
 |Presionar un encuentro bloqueado|Se muestra su estado, pero no se permite iniciar el combate.|
 |Abrir el evento de Noelle|Se presenta el panel narrativo con opciones para confirmar o regresar.|
-|Confirmar La máscara rota|Se desbloquean las habilidades divinas de Noelle y el siguiente encuentro de Bosque.|
+|Confirmar La máscara rota|Noelle intercambia sus cuatro habilidades por las divinas y se abre el siguiente encuentro de Bosque.|
 |Seleccionar Volver al menú|Se solicita una segunda confirmación antes de descartar la partida.|
 |Ganar un combate|Se muestra el resultado y la opción para continuar hacia el mapa.|
 |Perder un combate|Se presenta la derrota y la opción de regresar al menú principal.|
