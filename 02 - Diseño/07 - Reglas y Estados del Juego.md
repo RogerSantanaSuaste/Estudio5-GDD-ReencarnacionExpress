@@ -21,31 +21,30 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 
 ## Transiciones
 
-| Estado origen       | Evento                          | Estado destino       | Condición                     |
-|---------------------|---------------------------------|----------------------|-------------------------------|
-| Menú principal      | Nueva partida                   | Intro                | —                             |
-| Intro               | Termina animación               | Mapa                 | —                             |
-| Mapa                | Selecciona misión               | Diálogo              | La misión tiene escena previa |
-| Mapa                | Selecciona misión               | Combate              | La misión no tiene escena previa |
-| Diálogo             | Termina escena                  | Combate              | La misión tiene combate       |
-| Diálogo             | Termina escena                  | Mapa                 | La misión no tiene combate    |
-| Combate             | Todos los enemigos derrotados   | Victoria de combate  | —                             |
-| Combate             | Los 4 protagonistas caen        | Derrota              | —                             |
-| Victoria de combate | Confirmar recompensas           | Mapa                 | —                             |
-| Derrota             | Continuar                       | Mapa                 | —                             |
-| Derrota             | Salir al menú                   | Menú principal       | —                             |
-| Mapa                | Interactuar con tienda          | Tienda               | —                             |
-| Tienda              | Salir                           | Mapa                 | —                             |
-| Mapa / Diálogo / Combate | Pausar                     | Pausa                | —                             |
-| Pausa               | Continuar                       | Estado anterior      | —                             |
-| Mapa                | Completar demo                  | Créditos             | —                             |
+| Estado origen            | Evento                        | Estado destino      | Condición                        |
+| ------------------------ | ----------------------------- | ------------------- | -------------------------------- |
+| Menú principal           | Nueva partida                 | Intro               | —                                |
+| Intro                    | Termina animación             | Mapa                | —                                |
+| Mapa                     | Selecciona misión             | Diálogo             | La misión tiene escena previa    |
+| Mapa                     | Selecciona misión             | Combate             | La misión no tiene escena previa |
+| Diálogo                  | Termina escena                | Combate             | La misión tiene combate          |
+| Diálogo                  | Termina escena                | Mapa                | La misión no tiene combate       |
+| Combate                  | Todos los enemigos derrotados | Victoria de combate | —                                |
+| Combate                  | Los 4 protagonistas caen      | Derrota             | —                                |
+| Victoria de combate      | Confirmar recompensas         | Mapa                | —                                |
+| Derrota                  | Salir al menú                 | Menú principal      | —                                |
+| Mapa                     | Interactuar con tienda        | Tienda              | —                                |
+| Tienda                   | Salir                         | Mapa                | —                                |
+| Mapa / Diálogo / Combate | Pausar                        | Pausa               | —                                |
+| Pausa                    | Continuar                     | Estado anterior     | —                                |
+| Mapa                     | Completar demo                | Créditos            | —                                |
 
 ## Reglas globales
 
-1. La vida de los protagonistas se conserva al terminar un combate. No se regenera automáticamente.
-2. Fuera de combate, usar una poción de vida restaura el 100% de la vida de todos los protagonistas.
+1. Tras una victoria, los personajes derrotados regresan con el 40 % de su vida máxima. Quienes siguen en pie conservan la vida con la que cerraron el combate.
+2. La Poción de curación solo se usa en combate. Cuesta la acción del personaje y restaura el 50 % de la vida máxima de un aliado vivo. No revive.
 3. El juego se puede pausar desde el mapa, el diálogo y el combate.
-4. Las pociones de vida, daño extra y antídoto tienen límites de inventario (3, 4 y 4 respectivamente).
+4. El inventario admite hasta cinco Pociones de curación y cinco Antídotos. El Antídoto elimina sangrado, veneno y quemadura.
 
 ## Casos especiales
 

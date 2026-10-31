@@ -45,7 +45,7 @@ Los cuatro protagonistas suben de nivel al obtener experiencia de misiones y com
 ### Clérigo
 - **Rol:** Soporte.
 - **Crecimiento prioritario:** Vida y Defensa intermedias (menores que el Caballero, mayores que Arquera y Maga). Daño y Agilidad moderados.
-- **Habilidades:** Las habilidades de curación y de aumento de daño/defensa de aliados ganan potencia al subir de nivel. Sus ataques con la estrella de la media noche mantienen el efecto de aturdimiento.
+- **Habilidades:** Antes del intercambio usa el conjunto enmascarado, que incluye el aturdimiento de Impacto Quebrantador. Después de La máscara rota usa solo el conjunto divino. En ambos casos, curación y apoyo ganan potencia al subir de nivel.
 - **Función en combate:** Reduce la dependencia de pociones de vida. Sus curaciones y buffs permiten que el equipo aguante enfrentamientos más largos o de mayor dificultad. El aturdimiento puede interrumpir el ritmo del enemigo.
 
 ### Maga
@@ -57,15 +57,18 @@ Los cuatro protagonistas suben de nivel al obtener experiencia de misiones y com
 ### Notas
 - El crecimiento de estadísticas es automático y diferente por clase.
 - Los efectos de estado (Sangrado, Marca, Aturdimiento y los de la Maga) escalan con el nivel del personaje para mantenerse relevantes en las zonas posteriores.
-- No se desbloquean habilidades nuevas en la demo. El progreso se siente a través de estadísticas más altas y efectos más potentes.
-- Los consumibles y los objetos especiales (cuando se definan) pueden potenciar aún más a los personajes, pero la base de la progresión está en los niveles y las diferencias de clase.
+- Subir de nivel no enseña habilidades nuevas. El avance de estadísticas y de efectos se siente en los combates posteriores.
+- El único intercambio de habilidades de la demo es La máscara rota. Noelle sustituye Golpe de Lucero, Impacto Quebrantador, Resistencia Obstinada y Auxilio Improvisado por Impacto Consagrado, Plegaria Focalizada, Bendición Continua y Amparo Divino. Conserva nivel, experiencia y atributos.
+- Los consumibles de la demo son la Poción de curación y el Antídoto. La base del crecimiento sigue siendo el nivel y la clase.
 
 ## Desbloqueos
 
 | Desbloqueo | Requisito | Efecto |
 | ---------- | --------- | ------ |
-|            |           |        |
-|            |           |        |
+| Bosque Oscuro | Completar P1, P2, P3 y P4 | Abre la segunda región. |
+| La máscara rota | Completar B1 | Sustituye las habilidades de Noelle y abre B2. No otorga XP ni Coronas. |
+| Corrupción del Bosque | Completar B1, La máscara rota, B2 y B3 | Abre la tercera región. |
+| Trono Sellado | Completar C1 y C2 | Abre el enfrentamiento contra el capitán. |
 
 ## Curva de dificultad
 
@@ -73,15 +76,15 @@ Describe cómo aumenta el desafío y qué nuevos elementos aparecen.
 - Sección 0: Tutorial
 El jugador es introducido al mundo del juego y se le enseña las mecánicas principales, de esta forma el jugador aprende a utilizar al equipo de héroes.
 - Sección 1: Pradera
-El jugador pone en práctica sus conocimientos, deberá combatir enemigos y hablar con NPCs para avanzar la historia, obtener recursos y objetos especiales.
+El jugador pone en práctica el combate en los cuatro encuentros de Pradera. Al ganarlos obtiene experiencia y Coronas, y puede comprar consumibles en la tienda del mapa.
 Los enemigos son más débiles que el jugador (50% más débiles), el jugador deberá de poder avanzar a la siguiente zona utilizando ataques normales sin demasiada estrategia.
 - Sección 2: Bosque
 El jugador deberá de haber aprendido las bases del juego y debe de poner en práctica estrategia.
 Los enemigos en esta sección serán un cambio en dificultad significativo, los enemigos tendrán estadísticas similares a las del jugador en cuanto a salud y daño. Por lo que, el jugador deberá usar estrategias efectivas para derrotar a los enemigos con ventaja.
-En esta sección, el jugador también encontrará mejoras especiales que le den una ventaja significativa, esto asegurará que, aquellos jugadores que comprendan el juego, obtendrán recompensas que les ayudarán a garantizar su llegada la última sección.
+En esta sección ocurre La máscara rota. Al completarla, Noelle sustituye sus cuatro habilidades por las divinas. Esa es la ventaja especial de la región y es obligatoria para continuar hacia B2.
 - Sección 3: Corrupción
-Los enemigos en esta sección tendrán estadísticas de vida y daño superior a las del jugador, esto obligará al jugador a utilizar no solo estrategia y objetos especiales para superar los enfrentamientos, si no que también sus recursos acumulados, como pociones de vida y más.
-Esta sección también introducirá al jefe final de la demo, el cuál será un enemigo particularmente fuerte.
+Los enemigos en esta sección tendrán estadísticas de vida y daño superior a las del jugador. El equipo necesita la estrategia aprendida, las habilidades divinas de Noelle y los consumibles acumulados para superar C1 y C2.
+El capitán no forma parte de esos dos encuentros. Se desbloquea después, en el Trono Sellado, y es el jefe final de la demo.
 ## Curva de aprendizaje
 
 ¿Qué debe dominar el jugador antes de introducir el siguiente concepto?
@@ -94,8 +97,8 @@ De igual forma, cada clase tiene distintos ataques con distintas funciones que v
 El jugador deberá aprender a usar estas diferencias a su beneficio, empleando estrategia.
 
 Aprendizaje 3:
-Objetos especiales.
-Los jugadores podrán encontrar distintos objetos especiales, desde armaduras hasta armas que cambiarán de forma pronunciada la forma en la que los miembros del equipo funcionan.
-Desde aumentar o disminuir estadísticas, hasta nuevos sets de ataques. El jugador deberá aprender a combinar estos objetos especiales para crear equipos que tengan sinergia, y por ende sean más fuertes de lo normal.
+Consumibles y La máscara rota.
+La Poción de curación restaura el 50 % de la vida máxima de un aliado vivo y cuesta la acción del turno. El Antídoto elimina sangrado, veneno y quemadura. Ninguno revive personajes.
+Después de B1, el jugador confirma La máscara rota. Noelle pasa a combatir con sus cuatro habilidades divinas durante el resto de la sesión.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →

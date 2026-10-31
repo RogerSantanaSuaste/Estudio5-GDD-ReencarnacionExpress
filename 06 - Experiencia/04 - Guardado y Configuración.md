@@ -8,6 +8,8 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 **Tipo:** Automático / Manual / Mixto
 
+**NO SE PLANEA INCLUIR SISTEMA DE GUARDADO EN ESTA DEMO.**
+
 **Cuándo se guarda:**
 
 **Qué datos se guardan:**
@@ -18,13 +20,13 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Configuración
 
-| Categoría | Opciones |
-|---|---|
-| Audio | |
-| Video | |
-| Controles | |
-| Accesibilidad | |
-| Jugabilidad | |
+| Categoría     | Opciones                                            |
+| ------------- | --------------------------------------------------- |
+| Audio         | Nivel de sonido de música y nivel de sonido de SFX. |
+| Video         |                                                     |
+| Controles     |                                                     |
+| Accesibilidad |                                                     |
+| Jugabilidad   |                                                     |
 
 ## Restablecimiento
 

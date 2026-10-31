@@ -11,11 +11,11 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | **Nombre del proyecto**      | Reencarnación Express                                                                                                                        |
 | **Nombre clave**             | RE                                                                                                                                           |
 | **Versión del GDD**          | 0.1.0                                                                                                                                        |
-| **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado                                                                              |
+| **Estado del proyecto**      | Concepto / Preproducción / **Producción** / Pruebas / Publicado                                                                              |
 | **Equipo**                   | Santana Suaste Roger Emanuel<br>Concepción Jaimez Lizbeth<br>Reyes Chan Erick Gilberto<br>Herrera Perez Angel Daniel<br>Romano Chavez Steven |
 | **Responsable del proyecto** | Santana Suaste Roger Emanuel                                                                                                                 |
 | **Fecha de inicio**          | 2026-09-15                                                                                                                                   |
-| **Última actualización**     | 2026-09-29                                                                                                                                   |
+| **Última actualización**     | 2026-10-2026                                                                                                                                 |
 | **Repositorio**              | WIP                                                                                                                                          |
 
 ## Identidad del videojuego
@@ -54,8 +54,8 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 - [x] Concepto definido
 - [x] Alcance inicial definido
-- [ ] Mecánica principal definida
-- [ ] Prototipo funcional
+- [x] Mecánica principal definida
+- [x] Prototipo funcional
 - [ ] Vertical slice
 - [ ] Producción
 - [ ] Pruebas
@@ -67,9 +67,9 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
  
  El proyecto se considerará exitoso cuando se desarrolle y publique una demo funcional de Reencarnación Express que permita experimentar sus principales mecánicas de juego.
 
- La demo deberá incluir un mapa interactivo con misiones desbloqueables, escenas narrativas tipo novela visual, cuatro protagonistas jugables, entre cinco y siete combates regulares y un enfrentamiento contra un jefe final de zona.
+ La demo deberá incluir un mapa interactivo con misiones desbloqueables, escenas narrativas tipo novela visual y cuatro protagonistas jugables. El recorrido tiene nueve combates regulares —P1 a P4 en Llanuras Centrales, B1 a B3 en Bosque Oscuro y C1 a C2 en Corrupción del Bosque—, el evento obligatorio La máscara rota y el enfrentamiento contra el capitán de las fuerzas expedicionarias.
 
- Asimismo, deberá implementar un sistema de combate por turnos con posicionamiento estratégico, habilidades, efectos de estado, buffs, debuffs y una tienda donde el jugador pueda adquirir objetos consumibles.
+ Asimismo, deberá implementar un sistema de combate por turnos con posicionamiento estratégico, habilidades, efectos de estado, buffs, debuffs y una tienda con dos consumibles: Poción de curación y Antídoto.
 
  El propósito será presentar una experiencia jugable que integre narrativa, estrategia y progresión, demostrando el potencial del videojuego para continuar su desarrollo.
 

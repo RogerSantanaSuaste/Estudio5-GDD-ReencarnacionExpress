@@ -42,7 +42,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ### Valerian
 
-**Rol:** Guerrero miembro del equipo de héroes reencarnados.
+**Rol:** Caballero miembro del equipo de héroes reencarnados.
 
 **Función jugable:** Controlado durante combate por turnos por el jugador.
 
@@ -110,12 +110,15 @@ Inicia siendo extremadamente desconfiada del jugador y del caballero.
 Aprende a confiar en ella misma, en el jugador y en el caballero para finalmente poder trabajar en equipo y tener sinergía.
 
 **Habilidades:**
-Enmascarada:
+Noelle mantiene cuatro habilidades activas. En **La máscara rota** ocurre un intercambio de habilidades: el conjunto enmascarado se retira y entra el conjunto divino.
+
+Enmascarada, hasta completar el evento:
 - Golpe de Lucero: Ataque físico básico.
-- Impacto Quebrantador:  Ataque físico contundente, daña armadura del oponente y aturde.
+- Impacto Quebrantador: Ataque físico contundente, daña la armadura del oponente y aturde.
 - Resistencia Obstinada: Aumenta su defensa considerablemente.
 - Auxilio Improvisado: Cura a un aliado usando suministros convencionales.
-Sin máscara:
+
+Sin máscara, desde el intercambio y hasta el final de la sesión:
 - Impacto Consagrado: Ataque físico con energía sagrada imbuida, debilita a los oponentes.
 - Plegaria Focalizada: Cura a un aliado por medio de una plegaria divina.
 - Bendición Continua: Cura constantemente al equipo.
@@ -258,7 +261,7 @@ Resolución: Aprende a aceptar su nueva existencia sin renunciar a los recuerdos
 
 **Rol:** Antagonista principal, líder de las fuerzas del rey demonio.
 
-**Función jugable:** Ninguna. Funciona como jefe de nivel y enemigo final en la historia.
+**Función jugable:** Jefe final de la demo. Se enfrenta en el Trono Sellado después de completar C1 y C2. No es un personaje controlado por el jugador.
 
 **Función narrativa:** Jefe militar del rey demonio, encargado de liderar las fuerzas invasoras y mantener el control sobre los territorios conquistados. Su presencia representa la amenaza constante que enfrenta el grupo de héroes reencarnados. Jefe final del alcance de la demo.
 
@@ -284,7 +287,7 @@ Resolución: Aprende a aceptar su nueva existencia sin renunciar a los recuerdos
 - Su relación con sus subordinados es de respeto y autoridad, esperando lealtad y disciplina.
 
 **Arco del personaje:**
-Comienza como una figura mística para los héroes reencarnados, para finales de la demo en el Bosque Corrupto, se revela como antagonista tangible y el obstáculo más díficil que se enfrentará el jugador en la demo.
+Comienza como una figura mística para los héroes reencarnados. Al final de la demo, en el Trono Sellado de la Corrupción del Bosque, se revela como antagonista tangible y el obstáculo más difícil del recorrido.
 
 **Habilidades:**
 Por Definir.
@@ -301,9 +304,7 @@ Por Definir.
 
 ### Personajes secundarios
 
-## NPC
-
-Documenta qué NPC existen, qué hacen y cómo interactúan con el jugador.
+Los personajes secundarios y los NPC quedaron descartados como características del proyecto. No hay una lista pendiente para una versión posterior. La decisión está registrada en [[01 - Alcance]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

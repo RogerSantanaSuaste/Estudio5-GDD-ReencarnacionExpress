@@ -125,7 +125,7 @@ Combate por turnos, efectos de estado, inteligencia artificial, consumibles y tr
 - Un encuentro completado no puede recompensar nuevamente al jugador.
 - Si el jugador selecciona repetidamente el botón de iniciar combate, solo debe producirse una transición.
 - El evento de Noelle debe completarse antes de continuar con determinados encuentros de Bosque.
-- El acceso al jefe final permanece bloqueado mientras no esté disponible en la versión del juego.
+- El capitán es el jefe final de la demo. Su encuentro permanece bloqueado hasta completar C1 y C2.
 
 ### Mecánica 03: Exploración y progresión mediante el mapa
 
@@ -172,7 +172,7 @@ Combate por turnos, progresión de personajes, economía, consumibles y eventos 
 - Un encuentro completado no puede recompensar nuevamente al jugador.
 - Si el jugador selecciona repetidamente el botón de iniciar combate, solo debe producirse una transición.
 - El evento de Noelle debe completarse antes de continuar con determinados encuentros de Bosque.
-- El acceso al jefe final permanece bloqueado mientras no esté disponible en la versión del juego.
+- El capitán es el jefe final de la demo. Su encuentro permanece bloqueado hasta completar C1 y C2.
 
 ## Mecánicas secundarias
 
@@ -194,7 +194,7 @@ El jugador comienza una nueva partida con 50 Coronas, una poción y ningún ant�
 ### 3. Uso de consumibles
 
 Los objetos permiten recuperar puntos de vida o eliminar determinados efectos negativos.
-**Poción:** recupera el 30 % de la vida máxima de un aliado que siga con vida.
+**Poción:** recupera el 50 % de la vida máxima de un aliado que siga con vida.
 **Antídoto:** elimina efectos de sangrado, veneno y quemadura.
 Durante el combate, utilizar un consumible consume la acción del personaje correspondiente.
 Cada tipo de consumible tiene un límite de cinco unidades en el inventario.
@@ -202,7 +202,6 @@ Los consumibles no permiten resucitar personajes derrotados.
 
 ### 4. Recuperación después del combate
 
-Al obtener una victoria, los integrantes supervivientes recuperan una cantidad adicional de vida equivalente al 40 % de su HP máximo, sin superar su límite.
 Los personajes que terminaron derrotados regresan con el 40 % de su vida máxima.
 El equipo conserva su progresión y recupera su formación original para el siguiente encuentro.
 
@@ -210,7 +209,7 @@ El equipo conserva su progresión y recupera su formación original para el sigu
 
 Noelle comienza la aventura utilizando habilidades convencionales mientras oculta su verdadera identidad.
 Después de completar el primer encuentro de Bosque, el jugador puede acceder al evento narrativo **La máscara rota**.
-Al completar este evento, Noelle desbloquea cuatro habilidades divinas que sustituyen a sus habilidades anteriores.
+Al completar este evento, Noelle intercambia sus cuatro habilidades convencionales por cuatro habilidades divinas. Sigue teniendo cuatro habilidades activas y las anteriores dejan de estar disponibles.
 La transformación se mantiene durante el resto de la partida y no altera su nivel, experiencia ni atributos.
 El evento solo puede completarse una vez por sesión y es obligatorio para continuar avanzando en Bosque.
 

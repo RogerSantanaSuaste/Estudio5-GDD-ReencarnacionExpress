@@ -33,7 +33,7 @@ No será necesario tener experiencia avanzada en videojuegos RPG. El jugador deb
 | Resolución objetivo     | 1920 x 1080     |
 | Relación de aspecto     | 16:9            |
 | Rendimiento objetivo    | 60 FPS          |
-| Conexión requerida      | Si              |
+| Conexión requerida      | No              |
 
 ## Restricciones de plataforma
 
@@ -47,9 +47,9 @@ Los requisitos mínimos de procesador, memoria RAM, tarjeta gráfica y almacenam
 
 ## Sesión de juego
 
-**Duración esperada de una sesión:** 10 - 20 min
+**Duración esperada de una sesión:** 30 min – 1 h
 
-**Duración total estimada del juego:** 30 min - 1hr
+**Duración total estimada del juego:** 30 min – 1 h. La demo no tiene guardado permanente, así que la sesión y el recorrido completo son la misma partida: nueve encuentros, La máscara rota y el capitán.
 
 ## Modelo de distribución
 

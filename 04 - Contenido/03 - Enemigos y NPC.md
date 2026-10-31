@@ -14,7 +14,7 @@ En Corrupción, los protagonistas enfrentan criaturas corruptas que reflejan el 
 
 La historia todavía no establece la afiliación individual de todos los tipos de enemigos. Por ello, no se considera automáticamente que cada criatura encontrada sea un miembro directo de las fuerzas del Rey Demonio.
 
-El capitán de las fuerzas expedicionarias se contempla como antagonista final de la demo.
+El capitán de las fuerzas expedicionarias es el jefe final de la demo.
 
 # Capítulo 1: Llanuras Centrales
 
@@ -416,27 +416,9 @@ INICIO DEL TURNO ENEMIGO
            v
      Finalizar turno
 ```
-## Plantilla de NPC
+## NPC
 
-**Nombre:**
-
-**Función:**
-
-**Ubicación:**
-
-**Interacción:**
-
-**Diálogos:**
-
-**Condiciones:**
-
-**Recompensas / información:**
-
-## NPC narrativos futuros
-
-Los personajes secundarios que participarán en diálogos, misiones o acontecimientos de la historia todavía se encuentran en desarrollo.
-
-Cuando sus diseños y funciones sean aprobados, cada NPC deberá documentarse con su nombre, ubicación, propósito narrativo, condiciones de interacción, diálogos y posibles recompensas.
+Los NPC y las misiones secundarias quedaron descartados como características del proyecto. No se documentan fichas de NPC. La decisión está registrada en [[01 - Alcance]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

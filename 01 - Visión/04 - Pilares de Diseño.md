@@ -22,18 +22,18 @@ Presentar una historia donde los protagonistas tengan personalidades propias y l
 
 **¿Cómo se refleja en el juego?**
 - Escenas de diálogo tipo novela visual antes de los combates.
-- Interacciones entre los protagonistas y personajes del mundo.
-- Misiones que permiten conocer las historias y motivaciones de los personajes.
+- Interacciones entre los cuatro protagonistas. La demo no incluye NPC.
+- Misiones principales que presentan el contexto y las motivaciones del equipo.
 ## Pilar 3 — Progresión mediante misiones y crecimiento de personajes
 
 **Descripción:**
 Permitir que el jugador avance por la historia mediante un mapa interactivo, completando misiones y desbloqueando nuevos eventos, mientras fortalece a sus protagonistas mediante un sistema de niveles y experiencia.
 
 **¿Cómo se refleja en el juego?**
-- Selección de misiones desde un mapa de eventos.
-- Desbloqueo de nuevas misiones al completar objetivos principales.
-- Misiones secundarias ocultas que aparecen al cumplir determinadas condiciones.
-- Obtención de recompensas que contribuyen al progreso del equipo.
+- Selección de encuentros desde un mapa de eventos.
+- Desbloqueo de la siguiente región al completar los encuentros exigidos.
+- La máscara rota como único evento narrativo obligatorio: sustituye las cuatro habilidades de Noelle y abre B2.
+- Obtención de experiencia y Coronas al completar cada encuentro una sola vez.
 - Subida de nivel que aumenta las estadísticas de los protagonistas según su clase.
 
 ## Pilar 4 — Administración de recursos y preparación
@@ -43,7 +43,7 @@ Permitir que el jugador avance por la historia mediante un mapa interactivo, com
 Fomentar la toma de decisiones estratégicas fuera de los combates mediante la administración de recursos y la preparación del equipo para enfrentar diferentes desafíos.
 
 **¿Cómo se refleja en el juego?**
-- Tienda para adquirir pociones, vendas, antídotos y otros consumibles.
+- Tienda para adquirir la Poción de curación y el Antídoto.
 - Administración de objetos disponibles durante los enfrentamientos.
 - Uso estratégico de consumibles para recuperar salud o eliminar efectos negativos.
 - Preparación del equipo antes de enfrentar misiones de mayor dificultad.

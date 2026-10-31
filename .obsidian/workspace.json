@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
+                "file": "09 - Calidad/02 - Pruebas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Perspectivas y Cámaras"
+              "title": "02 - Pruebas"
             }
           },
           {
@@ -91,7 +91,8 @@
               "title": "01 - Géneros"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,33 +259,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "db77a8900579f994",
+  "active": "0618b60e6e5a3c68",
   "lastOpenFiles": [
-    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-    "03 - Historia y Mundo/02 - Mundo.md",
-    "03 - Historia y Mundo/01 - Premisa y Trama.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
-    "01 - Visión/02 - Visión del Juego.md",
-    "02 - Diseño/02 - Mecánicas.md",
+    "09 - Calidad/01 - Criterios de Calidad.md",
+    "08 - Producción/05 - Gestión de Cambios.md",
+    "08 - Producción/04 - Backlog del Proyecto.md",
+    "08 - Producción/03 - Roadmap.md",
+    "08 - Producción/01 - Alcance.md",
+    "08 - Producción/02 - Roles y Responsabilidades.md",
     "07 - Tecnología/01 - Arquitectura Técnica.md",
-    "04 - Contenido/05 - Misiones y Desafíos.md",
-    "04 - Contenido/04 - Objetos y Coleccionables.md",
-    "04 - Contenido/03 - Enemigos y NPC.md",
     "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
-    "07 - Tecnología/04 - Datos y Persistencia.md",
-    "07 - Tecnología/03 - Requisitos Técnicos.md",
+    "10 - Referencia/01 - Glosario.md",
+    "01 - Visión/01 - Ficha del Proyecto.md",
+    "01 - Visión/02 - Visión del Juego.md",
     "07 - Tecnología/02 - Motor y Herramientas.md",
-    "04 - Contenido/02 - Niveles.md",
-    "04 - Contenido/01 - Estructura del Contenido.md",
+    "06 - Experiencia/04 - Guardado y Configuración.md",
+    "09 - Calidad/04 - Criterios de Aceptación.md",
+    "05 - Arte y Audio/05 - Audio y Música.md",
+    "06 - Experiencia/02 - UI y Menús.md",
     "02 - Diseño/07 - Reglas y Estados del Juego.md",
     "02 - Diseño/06 - Economía y Recursos.md",
-    "02 - Diseño/05 - Progresión.md",
-    "02 - Diseño/04 - Controles.md",
-    "02 - Diseño/03 - Sistemas.md",
-    "02 - Diseño/01 - Jugabilidad.md",
-    "01 - Visión/04 - Pilares de Diseño.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
-    "01 - Visión/03 - Público y Plataforma.md",
-    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md"
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "04 - Contenido/02 - Niveles.md",
+    "02 - Diseño/02 - Mecánicas.md",
+    "04 - Contenido/03 - Enemigos y NPC.md",
+    "04 - Contenido/01 - Estructura del Contenido.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "07 - Tecnología/03 - Requisitos Técnicos.md"
   ]
 }

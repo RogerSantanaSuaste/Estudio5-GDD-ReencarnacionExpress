@@ -21,7 +21,6 @@ Define qué significa que una característica esté correctamente terminada.
 
 - [ ] Rendimiento aceptable.
 - [ ] Sin errores críticos.
-- [ ] Guardado estable.
 - [ ] No existen dependencias rotas.
 
 ## Definición de terminado
