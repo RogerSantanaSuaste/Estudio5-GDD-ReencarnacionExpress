@@ -8,12 +8,12 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 La demo recorre un solo mundo, Aethel, en tres capítulos, nueve encuentros, el evento obligatorio **La máscara rota** y el enfrentamiento contra el capitán de las fuerzas expedicionarias. El orden de trabajo sigue las dependencias de [[01 - Estructura del Contenido]]: Llanuras Centrales, Bosque Oscuro, Corrupción del Bosque y, al final, el Trono Sellado.
 
-Cada etapa indica a su encargado según [[02 - Roles y Responsabilidades]]. El estado del proyecto parte de la ficha: el concepto, el alcance inicial, la mecánica principal y un prototipo funcional ya existen. El corte vertical, la producción completa, las pruebas y la versión entregable siguen pendientes.
+Cada etapa indica a su encargado según [[02 - Roles y Responsabilidades]]. El estado del proyecto parte de la ficha: el concepto, el alcance inicial, la mecánica principal y el prototipo funcional ya existen, y el proyecto está en Producción. Al 2 de noviembre de 2026, el proyecto de Unity (rama `feature/sistema-combate`) ya implementa el menú, el mapa con los nueve encuentros y el Trono Sellado, el combate con IA, la tienda y el capitán con fases. Falta documentar al capitán en el GDD, integrar la rama a `develop`, probar el recorrido completo y preparar la entrega.
 
 ### Concepto
 
 **Objetivo:**
-Definir qué demo se va a construir y qué experiencia debe demostrar. El encargado de la etapa es Santana Suaste Roger Emmanuel. Esta etapa está cerrada.
+Definir qué demo se va a construir y qué experiencia debe demostrar. El encargado de la etapa es Santana Suaste Roger Emanuel. Esta etapa está cerrada.
 
 **Entregables:**
 
@@ -21,12 +21,12 @@ Definir qué demo se va a construir y qué experiencia debe demostrar. El encarg
 - Visión y pilares: cuatro protagonistas reencarnados, el jugador como deidad que los guía, combate táctico, mapa de eventos, progresión y administración de consumibles.
 - Premisa de la demo: detener la amenaza inmediata sobre las Llanuras Centrales al derrotar al capitán. La guerra contra el Rey Demonio continúa después de ese cierre.
 - Bucle principal: seleccionar una misión en el mapa, combatir, obtener experiencia y Coronas, preparar al equipo y desbloquear el siguiente tramo.
-- Criterio de éxito: una demo jugable que integre narrativa, estrategia y progresión, con mapa, cuatro protagonistas, combates regulares, jefe de zona, efectos de estado y tienda.
+- Criterio de éxito: una demo jugable que integre narrativa, estrategia y progresión, con mapa, cuatro protagonistas, combates regulares, jefe final, efectos de estado y tienda.
 
 ### Preproducción
 
 **Objetivo:**
-Convertir el prototipo de combate en un corte vertical del Capítulo 1 y dejar cerrado todo el diseño que la producción necesita para no detenerse. El encargado de la etapa es Herrera Pérez Ángel Daniel.
+Convertir el prototipo de combate en un corte vertical del Capítulo 1 y dejar cerrado todo el diseño que la producción necesita para no detenerse. El encargado de la etapa es Herrera Pérez Ángel Daniel. El corte vertical ya está implementado en Unity; queda abierta la documentación de la ficha del capitán en el GDD.
 
 **Entregables:**
 
@@ -34,7 +34,7 @@ Convertir el prototipo de combate en un corte vertical del Capítulo 1 y dejar c
 - Corte vertical del Capítulo 1, Llanuras Centrales: Campamento del Alba (P1 y P2), Ruinas de Liria (P3 y P4), los tres tipos de goblin, recompensas de 200 XP y 100 Coronas, tienda accesible desde el mapa y desbloqueo de Bosque Oscuro.
 - Reglas de sesión aplicables a toda la demo: sin guardado permanente, recompensas únicas por encuentro, derrota total de regreso al menú principal y pérdida del progreso de esa partida. Tras una victoria, los personajes derrotados regresan con el 40 % de su vida máxima y quienes siguen en pie conservan la vida del cierre del combate.
 - Economía cerrada para la demo: el jugador empieza con 50 Coronas y una Poción de curación; el Antídoto se compra; cada consumible admite hasta cinco unidades, a 35 y 20 Coronas. La poción restaura el 50 % de la vida máxima de un aliado vivo. El Antídoto solo quita sangrado, veneno y quemadura.
-- Ficha de combate del capitán, con el mismo nivel de detalle que los once enemigos ya documentados: rol, estadísticas, habilidades, inteligencia artificial y condición de victoria. Sin esta ficha no se produce el enfrentamiento final.
+- Ficha de combate del capitán, con el mismo nivel de detalle que los once enemigos ya documentados: rol, estadísticas, habilidades, inteligencia artificial y condición de victoria. El capitán ya está implementado en Unity (prefab, datos, fases de jefe y balance); falta pasar esos datos a [[03 - Enemigos y NPC]].
 - Dirección de arte y temas musicales por zona, suficientes para distinguir Llanuras, Bosque, Corrupción, combate, menú y derrota.
 
 ### Producción
@@ -71,7 +71,7 @@ Recorrer la demo de principio a fin y comprobar que la progresión, la economía
 ### Publicación / Entrega
 
 **Objetivo:**
-Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD describa esa misma versión. El encargado de la etapa es Santana Suaste Roger Emmanuel.
+Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD describa esa misma versión. El encargado de la etapa es Santana Suaste Roger Emanuel.
 
 **Entregables:**
 
@@ -89,11 +89,11 @@ Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD des
 | Concepto de la demo | Ficha, visión, pilares y premisa | El equipo puede explicar el bucle, la plataforma y el cierre de la demo sin recurrir a decisiones orales | Terminada |
 | Prototipo de combate | Encuentro jugable por turnos | Un combate se resuelve con velocidad, posiciones, habilidades, daño y una condición clara de victoria o derrota | Terminada |
 | Contenido de la demo | Estructura, niveles, enemigos, objetos y misiones | Quedan descritos un mundo, tres zonas, nueve encuentros, once enemigos, dos consumibles, el intercambio de habilidades de Noelle y el capitán como jefe final | Terminada |
-| Corte vertical | Capítulo 1 jugable de punta a punta | P1, P2, P3 y P4 se completan en una sesión, pagan 200 XP y 100 Coronas, permiten usar la tienda y desbloquean Bosque Oscuro | Pendiente |
-| Ficha del capitán | Diseño de combate del jefe | Rol, estadísticas, habilidades e inteligencia artificial quedan documentados al mismo nivel que el resto de enemigos | Pendiente |
-| Bosque Oscuro | Capítulo 2 integrado | B1, **La máscara rota**, B2 y B3 se juegan en ese orden; Noelle intercambia sus cuatro habilidades y Corrupción queda desbloqueada | Pendiente |
-| Corrupción del Bosque | Capítulo 3 integrado | C1 y C2 se vencen con los cuatro tipos de enemigos corruptos y habilitan el Trono Sellado | Pendiente |
-| Desenlace de la demo | Jefe, victoria y derrota | Derrotar al capitán purifica el bosque y muestra los créditos. La caída del equipo devuelve al menú y borra la sesión | Pendiente |
+| Corte vertical | Capítulo 1 jugable de punta a punta | P1, P2, P3 y P4 se completan en una sesión, pagan 200 XP y 100 Coronas, permiten usar la tienda y desbloquean Bosque Oscuro | En progreso: implementado en Unity, falta verificarlo con una partida |
+| Ficha del capitán | Diseño de combate del jefe | Rol, estadísticas, habilidades e inteligencia artificial quedan documentados al mismo nivel que el resto de enemigos | En progreso: implementado en Unity, falta documentarlo en el GDD |
+| Bosque Oscuro | Capítulo 2 integrado | B1, **La máscara rota**, B2 y B3 se juegan en ese orden; Noelle intercambia sus cuatro habilidades y Corrupción queda desbloqueada | En progreso: implementado en Unity, falta verificarlo |
+| Corrupción del Bosque | Capítulo 3 integrado | C1 y C2 se vencen con los cuatro tipos de enemigos corruptos y habilitan el Trono Sellado | En progreso: implementado en Unity, falta verificarlo |
+| Desenlace de la demo | Jefe, victoria y derrota | Derrotar al capitán purifica el bosque y muestra los créditos. La caída del equipo devuelve al menú y borra la sesión | En progreso: capitán y derrota implementados; falta confirmar la pantalla de créditos |
 | Pase de pruebas | Informe del recorrido completo | No quedan errores bloqueantes en progresión, economía, evento, jefe ni rendimiento acordado | Pendiente |
 | Entrega | Build de Windows y GDD de esa versión | Una persona ajena al desarrollo ejecuta la demo y completa el recorrido de Aethel con las instrucciones entregadas | Pendiente |
 

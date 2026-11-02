@@ -208,7 +208,7 @@ Permite iniciar combates, consultar el progreso, acceder a la tienda y activar e
 **Datos que necesita:**
 Identificador del encuentro, estado de desbloqueo, región, enemigos y recompensas.
 
-**Datos que genera:**z
+**Datos que genera:**
 Encuentro seleccionado y actualización de progreso.
 
 **Riesgos:**

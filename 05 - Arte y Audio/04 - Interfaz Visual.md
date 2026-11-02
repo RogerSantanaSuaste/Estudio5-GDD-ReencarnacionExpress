@@ -8,12 +8,11 @@ Documenta la información que el juego muestra al jugador y las reglas visuales 
 
 Elementos:
 
-- Vida
-- Energía
-- Munición
-- Objetivo
-- Mapa
-- Recursos
+- Vida (HP)
+- Efectos de estado y cooldowns
+- Orden de turnos y posiciones
+- Habilidades y objetos
+- Coronas e inventario
 - Indicadores contextuales
 
 ## Jerarquía visual
@@ -43,6 +42,10 @@ Documenta estados normales, advertencias, daño, éxito, error y bloqueo.
 - Configuración
 - Inventario
 - Mapa
+- Diálogo
+- Tienda
+- Evento La máscara rota
+- Combate
 - Victoria
 - Derrota
 

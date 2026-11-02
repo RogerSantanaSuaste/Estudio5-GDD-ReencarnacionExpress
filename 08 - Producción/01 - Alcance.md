@@ -15,7 +15,7 @@ El recorrido está fijado en [[01 - Estructura del Contenido]] y en [[03 - Siste
 - Mundo de Aethel y tres regiones jugables: Llanuras Centrales (Pradera), Bosque Oscuro y Corrupción del Bosque.
 - Nueve encuentros regulares: P1 a P4, B1 a B3 y C1 a C2. Cada encuentro completado paga experiencia y Coronas una sola vez.
 - Evento obligatorio **La máscara rota**, después de B1. Noelle intercambia sus cuatro habilidades enmascaradas por Impacto Consagrado, Plegaria Focalizada, Bendición Continua y Amparo Divino. Conserva nivel, experiencia y estadísticas. El intercambio abre B2.
-- El capitán de las fuerzas expedicionarias como jefe final, en el Trono Sellado, después de C1 y C2. La victoria purifica el bosque y muestra los créditos. La guerra contra el Rey Demonio continúa fuera de esta demo.
+- El capitán de las fuerzas expedicionarias como jefe final, en el Trono Sellado, después de C1 y C2. La victoria purifica el bosque y muestra los créditos. La guerra contra el Rey Demonio continúa fuera de esta demo. En el proyecto de Unity el capitán otorga 200 XP y 100 Coronas, tiene fases de jefe y es inmune al aturdimiento.
 - Cuatro protagonistas jugables: Valerian (caballero), Elaina (arquera), Noelle (clérigo) y Evanora (maga). La subida de nivel mejora las estadísticas según la clase.
 - Once tipos de enemigos normales, con combate por turnos, posiciones, habilidades, efectos de estado e inteligencia artificial.
 - Mapa de la sesión, escenas de diálogo del recorrido principal, tienda e inventario.

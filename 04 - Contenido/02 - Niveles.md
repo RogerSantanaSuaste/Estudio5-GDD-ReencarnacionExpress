@@ -234,9 +234,6 @@ Derrotar a todos los enemigos de C1 y C2.
 Esta región no tiene un evento narrativo propio. Su función es preparar el acceso al capitán, jefe final de la demo.
 
 **Mapa / diagrama:**
-## Flujo del nivel
-
-```
 ```text
 Corrupción desbloqueada
           |

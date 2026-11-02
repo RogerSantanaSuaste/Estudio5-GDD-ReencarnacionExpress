@@ -19,10 +19,7 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 ### Movimiento
 
 - **Idle**
-- Caminar -> No
-- Correr -> No
-- Saltar ->
-- Caer -> No
+- No hay animaciones de desplazamiento: el mapa es de eventos y el combate es por turnos.
 
 ### Interacción
 

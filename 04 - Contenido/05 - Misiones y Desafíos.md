@@ -14,7 +14,6 @@ Las misiones y desafíos convierten las mecánicas en objetivos concretos para e
 Superar los cuatro encuentros de Pradera para familiarizarse con las mecánicas del combate y desbloquear la región Bosque.
 
 **Contexto:**
-**Contexto:**
 
 Después de fallecer en un mismo accidente, Valerian, Elaina, Noelle y Evanora son reencarnados en el continente de Aethel. El jugador, quien actúa como una deidad, los guía y les concede poder para enfrentarse a las fuerzas del Rey Demonio.
 
@@ -61,7 +60,6 @@ Capítulo 1: Pradera, encuentros P1–P4.
 Superar los tres encuentros de Bosque y completar el evento obligatorio de Noelle para desbloquear la región Corrupción.
 
 **Contexto:**
-**Contexto:**
 Después de superar los desafíos de las Llanuras Centrales, los protagonistas avanzan hacia el Bosque Oscuro, situado al este de los territorios humanos.
 
 En este lugar se concentra un puesto de avanzada de las fuerzas expedicionarias del Rey Demonio. El equipo deberá superar los peligros del bosque para continuar su misión de detener la amenaza.
@@ -69,8 +67,6 @@ En este lugar se concentra un puesto de avanzada de las fuerzas expedicionarias 
 Durante esta etapa ocurre un acontecimiento importante para Noelle: La máscara rota, que representa su desarrollo personal y el despertar de sus habilidades divinas.
 
 Durante su recorrido, el grupo se enfrenta a lobos salvajes, bandidos, chamanes y guardianes forestales.
-
-En esta región también ocurre un acontecimiento importante para el desarrollo de Noelle: la ruptura de su máscara y el despertar de sus habilidades divinas.
 
 **Requisitos:**
 Haber completado los cuatro encuentros de Pradera.
@@ -184,7 +180,7 @@ Este acontecimiento marca un cambio en su personalidad y en sus habilidades de c
 - No haber completado previamente el evento.
 
 
-**Pasos:*
+**Pasos:**
 1. Completar B1 en el Claro del Susurro. 
 2. Seleccionar el Santuario Velado desde el mapa.
 3. Abrir el evento La máscara rota.

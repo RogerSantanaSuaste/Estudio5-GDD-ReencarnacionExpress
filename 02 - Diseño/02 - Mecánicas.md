@@ -6,37 +6,6 @@ Una mecánica es una regla o interacción mediante la cual el jugador puede actu
 
 Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
 
-## Plantilla de mecánica
-
-### Nombre de la mecánica
-
-**Propósito:**  
-¿Qué aporta a la experiencia?
-
-**Activación:**  
-¿Qué debe hacer el jugador?
-
-**Reglas:**  
-¿Qué puede y qué no puede ocurrir?
-
-**Entrada:**  
-¿Qué botón, gesto o acción la activa?
-
-**Estado inicial:**
-
-**Estado final:**
-
-**Recursos utilizados:**
-
-**Recompensa:**
-
-**Penalización:**
-
-**Interacciones con otras mecánicas:**
-
-**Casos límite:**  
-¿Qué ocurre en situaciones poco comunes?
-
 ## Mecánicas principales
 
 ### Mecánica 01: Combate táctico por turnos
@@ -121,11 +90,10 @@ Una habilidad utilizada en un momento inadecuado puede desperdiciar una oportuni
 Combate por turnos, efectos de estado, inteligencia artificial, consumibles y transformación de Noelle.
 
 **Casos límite:**  
-- Un encuentro bloqueado no puede iniciarse.
-- Un encuentro completado no puede recompensar nuevamente al jugador.
-- Si el jugador selecciona repetidamente el botón de iniciar combate, solo debe producirse una transición.
-- El evento de Noelle debe completarse antes de continuar con determinados encuentros de Bosque.
-- El capitán es el jefe final de la demo. Su encuentro permanece bloqueado hasta completar C1 y C2.
+- Una habilidad en cooldown o usada desde una posición no permitida aparece bloqueada y no puede ejecutarse.
+- Si no hay objetivos válidos para una habilidad, no puede seleccionarse.
+- Un efecto idéntico ya activo no se acumula de forma ilimitada.
+- Tras La máscara rota, las habilidades enmascaradas de Noelle dejan de estar disponibles de inmediato.
 
 ### Mecánica 03: Exploración y progresión mediante el mapa
 

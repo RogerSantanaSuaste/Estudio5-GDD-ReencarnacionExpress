@@ -10,13 +10,13 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | Reencarnación Express                                                                                                                        |
 | **Nombre clave**             | RE                                                                                                                                           |
-| **Versión del GDD**          | 0.1.0                                                                                                                                        |
+| **Versión del GDD**          | 0.1.2                                                                                                                                        |
 | **Estado del proyecto**      | Concepto / Preproducción / **Producción** / Pruebas / Publicado                                                                              |
-| **Equipo**                   | Santana Suaste Roger Emanuel<br>Concepción Jaimez Lizbeth<br>Reyes Chan Erick Gilberto<br>Herrera Perez Angel Daniel<br>Romano Chavez Steven |
+| **Equipo**                   | Santana Suaste Roger Emanuel<br>Concepción Jaimes Lizbeth<br>Reyes Chan Erick Gilberto<br>Herrera Pérez Ángel Daniel<br>Romano Chávez Steven |
 | **Responsable del proyecto** | Santana Suaste Roger Emanuel                                                                                                                 |
 | **Fecha de inicio**          | 2026-09-15                                                                                                                                   |
-| **Última actualización**     | 2026-10-2026                                                                                                                                 |
-| **Repositorio**              | WIP                                                                                                                                          |
+| **Última actualización**     | 2026-11-02                                                                                                                                 |
+| **Repositorio**              | github.com/Erick-Reyes-Doc/ReencarnacinExprs (privado)                                                                                       |
 
 ## Identidad del videojuego
 
@@ -37,7 +37,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 **Perspectiva:**  Top-Down (mapa de eventos) y lateral (combates).
 > Consulta [[04 - Perspectivas y Cámaras]].
 
-**Clasificaciones y etiquetas adicionales:**  Lineal, decisiones del jugador, inventario, jefes, misiones, combate, exploración.
+**Clasificaciones y etiquetas adicionales:**  Lineal, inventario, jefes, misiones, combate, mapa de eventos.
 > Consulta [[06 - Clasificaciones y Etiquetas]].
 
 **Tecnología principal:**  Unity 6, C#
@@ -45,10 +45,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Elevator Pitch
 
-> [!example] ¿Qué es?
-> Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
-
-**Respuesta:** RPG de Combate Por Turnos para PC, un jugador, con una narrativa lineal.
+RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas reencarnadas avanzan por un mapa de eventos con escenas de novela visual para detener a las fuerzas del Rey Demonio.
 
 ## Estado actual
 
@@ -56,8 +53,8 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 - [x] Alcance inicial definido
 - [x] Mecánica principal definida
 - [x] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
+- [x] Vertical slice (Capítulo 1 implementado en Unity; falta verificarlo con una partida completa)
+- [ ] Producción (en curso: los tres capítulos, el mapa, la tienda y el capitán están en la rama `feature/sistema-combate`)
 - [ ] Pruebas
 - [ ] Versión final
 

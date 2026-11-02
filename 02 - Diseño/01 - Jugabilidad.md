@@ -23,7 +23,7 @@ El ciclo principal consiste en seleccionar un encuentro, conocer su contexto nar
 | Cambiar posiciones       | Modificar la formación del equipo para aprovechar sus habilidades      | Obtener ventajas tácticas y habilitar acciones específicas.                   |
 | Utilizar habilidades     | Atacar, defender, curar o aplicar efectos de estado, buffs y debuffs.  | Modificar las condiciones del enfrentamiento.                                 |
 | Administrar recursos     | Comprar y utilizar la Poción de curación y el Antídoto.                | Recuperar un 50 % de la vida máxima o eliminar sangrado, veneno y quemadura.  |
-| Subir de nivel           | Acumular experiencia (XP) mediante la finalización de misiones.\|      | Mejorar automáticamente las estadísticas de los protagonistas según su clase. |
+| Subir de nivel           | Acumular experiencia (XP) mediante la finalización de misiones.      | Mejorar automáticamente las estadísticas de los protagonistas según su clase. |
 | Desbloquear eventos      | Completar los encuentros exigidos y, en Bosque, La máscara rota.       | Abrir la siguiente región, B2 o el Trono Sellado.                             |
 
 
@@ -56,12 +56,21 @@ La derrota ocurrirá cuando los cuatro protagonistas queden incapacitados durant
 
 Describe cómo alternan:
 
-- Exploración
-- Acción
-- Descanso
-- Desafío
-- Recompensa
-- Historia
+- Exploración: El jugador recorre el mapa de Aethel mediante la selección de localizaciones y misiones disponibles. No existe exploración libre; las zonas se desbloquean conforme avanza la historia.
+
+- Acción: Se desarrolla durante los combates por turnos, donde el jugador utiliza las habilidades de los cuatro protagonistas, administra posiciones y aprovecha los efectos de estado para derrotar a los enemigos.
+
+- Descanso: Después de cada combate, el jugador regresa al mapa, donde puede revisar el estado de su equipo, consultar el inventario y comprar consumibles en la tienda antes del siguiente encuentro.
+
+- Desafío: La dificultad aumenta progresivamente. En Pradera se introducen las mecánicas básicas; en Bosque aparecen enemigos con habilidades más estratégicas; y en Corrupción se requiere un mayor dominio de los estados, las curaciones y la protección.
+
+- Recompensa: Al ganar un combate, los protagonistas reciben experiencia para subir de nivel y Coronas para comprar consumibles. También se desbloquean nuevas misiones y regiones.
+
+- Historia: La narrativa acompaña el avance del jugador mediante los acontecimientos principales. Destaca el evento La máscara rota, donde Noelle despierta sus habilidades divinas, y el enfrentamiento contra el Capitán Expedicionario, que representa el cierre de la demo.
+
+El ritmo principal del videojuego sigue el ciclo:
+
+Mapa → Combate → Recompensa → Preparación → Nueva misión
 
 ## Principios de interacción
 

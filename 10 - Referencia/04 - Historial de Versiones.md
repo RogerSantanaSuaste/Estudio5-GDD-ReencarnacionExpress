@@ -8,8 +8,9 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 
 | Versión | Fecha | Cambios principales | Responsable |
 |---|---|---|---|
-| 0.1.0 | | Creación del documento | |
-| | | | |
+| 0.1.0 | 2026-09-15 | Creación del documento | |
+| 0.1.1 | 2026-10-30 | Alcance fijado en nueve encuentros y capitán; NPC y misiones secundarias descartados; La máscara rota como intercambio de habilidades | |
+| 0.1.2 | 2026-11-02 | Revisión de consistencia, sección Tecnología documentada desde el proyecto de Unity y estado actualizado a Producción | |
 
 ## Convención sugerida
 

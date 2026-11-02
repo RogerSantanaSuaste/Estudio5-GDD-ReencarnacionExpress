@@ -12,7 +12,7 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 | Herrera Pérez Ángel Daniel    | Narrativa     | Programación, QA                       |
 | Reyes Chan Erick Gilberto     | Programación  | Arte, QA, Diseño, Gestión              |
 | Romano Chávez Steven          | Audio         | QA, Diseño                             |
-| Santana Suaste Roger Emmanuel | Gestión       | Arte, Animación, Narrativa, QA, Diseño |
+| Santana Suaste Roger Emanuel | Gestión       | Arte, Animación, Narrativa, QA, Diseño |
 
 ## Áreas
 
@@ -35,7 +35,7 @@ Cada entregable importante debe tener una persona responsable de coordinarlo, au
 
 ### Preproducción
 
-**Encargado:** Herrera Perez Angel Daniel
+**Encargado:** Herrera Pérez Ángel Daniel
 
 ### Producción
 

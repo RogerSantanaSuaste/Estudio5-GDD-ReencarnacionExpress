@@ -24,7 +24,7 @@ Con el tiempo, la envidia humana y las guerras generaron un vacío. De ese vací
 El Rey Demonio ya demostró que puede romper el ancla mental de cualquier raza nativa. Si logra tocar los Relicarios de los elfos o los enanos, esas razas sufrirán el mismo destino. Ningún habitante de Aethel puede detenerlo, porque todos dependen del sistema que él sabe cómo destruir.
 
 ### Durante el juego
-Cuatro personas de otro mundo reencarnan en Aethel. Al no estar conectadas a los Relicarios ni a la magia nativa, sus mentes no pueden ser rotas de la misma forma. Reciben la misión de detener al Rey Demonio antes de que corrompa el resto de los Relicarios. La demo cubre el primer paso: derrotar al capitán de sus fuerzas expedicionarias y proteger las Llanuras Centrales.
+Cuatro personas de otro mundo reencarnan en Aethel. Al no estar ancladas a ningún Relicario, sus mentes no pueden ser rotas de la misma forma, aunque algunas, como Evanora, tengan afinidad con la magia y Elaina habite un cuerpo élfico. Reciben la misión de detener al Rey Demonio antes de que corrompa el resto de los Relicarios. La demo cubre el primer paso: derrotar al capitán de sus fuerzas expedicionarias y proteger las Llanuras Centrales.
 
 ### Después del juego
 (No definido en la demo.)
@@ -41,7 +41,7 @@ Cuatro personas de otro mundo reencarnan en Aethel. Al no estar conectadas a los
 | Facción            | Objetivo                                                                                                                               | Relación con el jugador |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | Humanos            | Defenderse de las legiones de fuerzas demoniacas que están atacando y destruyendo los asentamientos humanos de las Llanuras Centrales. |                         |
-| Fuerzas Demoniacas | Tomar control completo del mundo entero, conquistando cada región de este y corrompiendo los Reliquiarios.                             |                         |
+| Fuerzas Demoniacas | Tomar control completo del mundo entero, conquistando cada región de este y corrompiendo los Relicarios.                             |                         |
 
 ## Coherencia del mundo
 
