@@ -8,7 +8,7 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 **Edad aproximada:** 18 - 29 años
 
-**Experiencia esperada:**  Casual - Intermedia
+**Experiencia esperada:**  Casual - Intermedia. La dificultad sube de baja en Pradera a alta en Corrupción, con enemigos exigentes pero justos.
 
 **Intereses relevantes:**
 - Videojuegos RPG y JRPG de fantasía.

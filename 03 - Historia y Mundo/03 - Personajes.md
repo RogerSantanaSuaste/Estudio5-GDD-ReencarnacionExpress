@@ -232,7 +232,7 @@ Conflicto interno: Elaina enfrenta una crisis de identidad al encontrarse en un 
 
 Conflicto externo: Su desconocimiento del mundo y de las costumbres élficas dificulta su adaptación. Además, debe enfrentarse a los peligros de un entorno donde su inexperiencia puede poner en riesgo su vida y la de sus compañeros.
 
-**Relaciones:** Amiga de la arquera y la maga.
+**Relaciones:** Amiga de Noelle (clérigo) y Evanora (maga) en su vida anterior.
 
 **Arco del personaje:**
 Inicio: Elaina despierta en un mundo desconocido dentro de un cuerpo élfico. Se siente confundida por su transformación y desconoce las circunstancias que la llevaron hasta allí.

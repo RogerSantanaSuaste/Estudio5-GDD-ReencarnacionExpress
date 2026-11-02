@@ -35,15 +35,11 @@ Las fuerzas del Rey Demonio han logrado corromper parte del bosque, convirtiendo
 El acto finalizará con la derrota del capitán de las fuerzas expedicionarias, poniendo fin al terror que ha caído sobre las Llanuras Centrales.
 ## Eventos principales
 
-| Orden | Evento                              | Participación del jugador                                                                                                                             | Consecuencia                                               |
-| ----- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| 1     | Reencarnación de los protagonistas. | El jugador inicia la partida reencarnando a los protagonistas.                                                                                        | Comienza la historia del juego.                            |
-| 2     | Ruptura de la máscara de Noelle     | La máscara de Noelle se rompe. El jugador confirma el intercambio de sus cuatro habilidades enmascaradas por las cuatro divinas.                                             | Arco de personaje e intercambio de habilidades.            |
-| 3     |                                     |                                                                                                                                                       |                                                            |
-| 4     |                                     |                                                                                                                                                       |                                                            |
-| 5     |                                     |                                                                                                                                                       |                                                            |
-| 6     |                                     |                                                                                                                                                       |                                                            |
-| 7     |                                     |                                                                                                                                                       |                                                            |
+| Orden | Evento                              | Participación del jugador                                                                                                        | Consecuencia                                    |
+| ----- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| 1     | Reencarnación de los protagonistas. | El jugador inicia la partida reencarnando a los protagonistas.                                                                   | Comienza la historia del juego.                 |
+| 2     | Ruptura de la máscara de Noelle     | La máscara de Noelle se rompe. El jugador confirma el intercambio de sus cuatro habilidades enmascaradas por las cuatro divinas. | Arco de personaje e intercambio de habilidades. |
+
 
 ## Finales
 

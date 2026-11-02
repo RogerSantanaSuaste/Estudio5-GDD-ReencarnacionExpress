@@ -199,7 +199,7 @@ No aplica en exploración. Utiliza habilidades de ataque y apoyo desde las posic
 **Ataques y habilidades:**
 - **Descarga Natural:** ataque mágico básico a distancia.
 - **Curación Primitiva:** recupera 12 HP de un aliado. Cooldown de tres turnos.
-- **Maldición:** reduce la defensa del objetivo un 20 % durante dos turnos. Cooldown de tres turnos.
+- **Maldición:** aplica vulnerabilidad que reduce la defensa del objetivo un 20 % durante dos turnos. Cooldown de tres turnos.
     
 
 **Debilidades:**

@@ -22,9 +22,9 @@ Primero aprende la existencia de las mecánicas base.
 - Ataques y efectos de estado.
 - Limitación de ataques a posición del personaje y del enemigo.
 - Diferentes ataques por personaje.
-Posteriormente las usa en combate real, y al mismo tiempo obtiene experiencia la cual al subir de nivel aumenta las estadísticas base de los personajes, de igual forma obtiene objetos que aumentan aún más las estadísticas del personaje, o las cambian y dan nuevos movimientos de ataque.
-El jugador entonces aprende a usar los objetos que más se adaptan a su estilo de juego, y finalmente comienza a dominar las mecánicas de combate que previamente se le fueron enseñadas.
-El jugador deberá dominar las mecánicas para obtener los objetos y la experiencia necesaria para empoderar a su equipo y que estos sean capaces de matar al jefe.
+Posteriormente las usa en combate real, y al mismo tiempo obtiene experiencia, la cual al subir de nivel aumenta las estadísticas base de los personajes, y Coronas para comprar la Poción de curación y el Antídoto.
+El jugador entonces aprende a administrar esos consumibles según la situación, y finalmente comienza a dominar las mecánicas de combate que previamente se le enseñaron.
+El jugador deberá dominar las mecánicas, acumular la experiencia necesaria y administrar bien sus recursos para que el equipo sea capaz de derrotar al capitán.
 
 ## Progresión del personaje
 
@@ -51,7 +51,7 @@ Los cuatro protagonistas suben de nivel al obtener experiencia de misiones y com
 ### Maga
 - **Rol:** Daño alto y control.
 - **Crecimiento prioritario:** Daño (el más alto del equipo). Vida y Defensa crecen muy poco.
-- **Habilidades:** Los ataques de alto daño a un solo objetivo se vuelven más fuertes. Los ataques de área (que pueden afectar a varios o a todos los enemigos) mejoran en daño y en la potencia de los efectos de estado que aplican (incapacitación, reducción de daño o reducción de defensa enemiga).
+- **Habilidades:** Los ataques de alto daño a un solo objetivo se vuelven más fuertes. Los ataques de área (que pueden afectar a varios o a todos los enemigos) mejoran en daño y en la potencia de los efectos de estado que aplican (debilitamiento, vulnerabilidad o quemadura).
 - **Función en combate:** Alta vulnerabilidad. Cada ataque aplica un efecto de estado. Su valor está en eliminar amenazas rápidamente o en debilitar grupos enteros para que el resto del equipo pueda aprovecharlo.
 
 ### Notas

@@ -1,5 +1,3 @@
-**
-
 # Audio y Música
 
 ## Descripción de la sección
@@ -30,7 +28,7 @@ Tema de Combate: High-tempo, percusivo y urgente, guitarras con distorsión gene
 
   
 
-Música dinámica: La música será dinámica según lo que pase en pantalla, según los escenarios y eventos, además se prioriza los efectos especiales como al momento de obtener un objeto o descubrir algo.
+Música dinámica: La música será dinámica según lo que pase en pantalla, según los escenarios y eventos, además se prioriza los efectos especiales como al comprar un objeto o desbloquear una región.
 
 Tema Game over: Piano melancólico con violines exagerados entendiendo que todo terminó y no hay vuelta atrás.
 
@@ -39,7 +37,7 @@ Tema Game over: Piano melancólico con violines exagerados entendiendo que todo 
 | Evento                     | Sonido                                                                                                                                                                   | Propósito                                                                      |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | Conversación de personajes | Sintetizador grabe para voces hombre, sintesidaro medio / agudo para voz de mujer, ambos son notas aleatorizadas en el sintetizador.                                     | Dar a entender que los personajes están hablando para que no se escuche vacío. |
-| Ataque básico              | se hara un efecto diferente para cada arma.  <br>  <br>Puños: syntetyzador con sonido mas aeroso.  <br>  <br>Flecha: trompeta?<br><br>Mazo: tarola?<br><br>Magia: fuego? |                                                                                |
+| Ataque básico              | se hara un efecto diferente para cada arma.  <br>  <br>Espada: sintetizador con sonido más aireado.  <br>  <br>Flecha: trompeta?<br><br>Mazo: tarola?<br><br>Magia: fuego? |                                                                                |
 | Ataque crítico             |                                                                                                                                                                          |                                                                                |
 | Ataque Fallo               |                                                                                                                                                                          |                                                                                |
 | Curación                   |                                                                                                                                                                          |                                                                                |

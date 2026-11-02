@@ -6,13 +6,9 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 
 ## Métodos narrativos
 
-- **Diálogo**
-- **Cinemáticas**
-- **Texto ambiental**
-- **Objetos**
-- **Exploración**
+- **Diálogo** (escenas tipo novela visual)
+- Narración (introducción y cierres)
 - Audio
-- Narración
 
 ## Estructura de diálogo
 
