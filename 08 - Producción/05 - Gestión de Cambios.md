@@ -4,33 +4,20 @@
 
 El diseño de un videojuego cambia. Esta sección evita que las modificaciones importantes se pierdan o aparezcan sin evaluar sus consecuencias.
 
-## Solicitud de cambio
-
-**Fecha:**
-
-**Cambio propuesto:**
-
-**Motivo:**
-
-**Beneficio esperado:**
-
-**Costo estimado:**
-
-**Impacto en otros sistemas:**
-
-**Decisión:**
-
-**Responsable:**
-
 ## Registro
 
-Decisiones ya aplicadas al GDD. La plantilla de arriba queda libre para la siguiente solicitud.
+Decisiones ya aplicadas al GDD.
 
 | Fecha      | Cambio                                           | Motivo                                                                                                                                                                                                | Impacto                                                                                                                                                                                                                           | Estado   |
 | ---------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | 2026-10-30 | Alcance de la demo fijado en [[01 - Alcance]]    | Visión, Diseño, Historia y Contenido describían recorridos y reglas distintas: de cinco a siete combates frente a nueve, otra economía, otro uso de las pociones y otra consecuencia para la derrota. | La demo queda en tres regiones, nueve encuentros, **La máscara rota**, el capitán como jefe final, dos consumibles y una sesión sin guardado. Esas reglas se alinearon con [[03 - Sistemas]] y [[01 - Estructura del Contenido]]. | Aplicado |
 | 2026-10-30 | Misiones secundarias y NPC descartados           | Se habían contemplado como contenido posible. El equipo decidió que no forman parte del proyecto.                                                                                                     | No hay misiones secundarias, personajes secundarios ni fichas de NPC pendientes. El mapa y los diálogos cubren solo el recorrido principal.                                                                                       | Aplicado |
 | 2026-10-30 | La máscara rota es un intercambio de habilidades | Varias notas lo presentaban como un desbloqueo de poderes adicionales.                                                                                                                                | Noelle sustituye sus cuatro habilidades enmascaradas por las cuatro divinas. Conserva nivel, experiencia y estadísticas.                                                                                                          | Aplicado |
+| 2026-11-10 | Reliquias y tienda con venta añadidas al alcance | El juego incorpora 20 reliquias (dos casillas por héroe), recompensas, tienda de cuatro espacios y venta al 50 %; el alcance las excluía como «equipo». | Alcance, Economía, Objetos y Sistemas actualizados. | Aplicado |
+| 2026-11-10 | Héroes caídos en lugar de derrota individual | Los protagonistas no mueren: caen y esperan una curación. Sustituye la regla de revivir al 40 % tras la victoria. | Reglas, Economía, Mecánicas y Alcance actualizados. | Aplicado |
+| 2026-11-10 | Poción de curación al 30 % y levanta héroes caídos | Reemplaza el 50 % que no revivía; la Poción pasa a ser el único consumible que levanta a un héroe. | Economía, Objetos, Sistemas, Progresión y Roadmap actualizados. | Aplicado |
+| 2026-11-10 | Evento El informe del último vigía añadido a la progresión | Es un nodo obligatorio entre B3 y C1 que entrega el Broche del Vigía. | Niveles, Misiones, Estructura, Progresión y Mecánicas actualizados. | Aplicado |
+| 2026-11-10 | Estadísticas del GDD sustituidas por las del juego | Las fichas usaban vida, ataque y defensa de otra escala; el juego usa daño mínimo-máximo, protección, evasión y crítico. | Enemigos, Personajes y Progresión muestran los valores reales. | Aplicado |
 | 2026-11-02 | Estado del proyecto actualizado a Producción     | El Roadmap y la Ficha indicaban Preproducción, pero el proyecto de Unity ya implementa el recorrido completo, la tienda y el capitán. | Ficha, Roadmap y hitos reflejan el avance real. Pendiente documentar al capitán y probar el recorrido. | Aplicado |
 |            |                                                  |                                                                                                                                                                                                       |                                                                                                                                                                                                                                   |          |
 

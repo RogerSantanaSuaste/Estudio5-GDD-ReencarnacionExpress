@@ -43,7 +43,7 @@ Permitir que el jugador avance por la historia mediante un mapa interactivo, com
 Fomentar la toma de decisiones estratégicas fuera de los combates mediante la administración de recursos y la preparación del equipo para enfrentar diferentes desafíos.
 
 **¿Cómo se refleja en el juego?**
-- Tienda para adquirir la Poción de curación y el Antídoto.
+- Tienda para comprar y vender consumibles (Poción de curación y Antídoto) y reliquias.
 - Administración de objetos disponibles durante los enfrentamientos.
 - Uso estratégico de consumibles para recuperar salud o eliminar efectos negativos.
 - Preparación del equipo antes de enfrentar misiones de mayor dificultad.

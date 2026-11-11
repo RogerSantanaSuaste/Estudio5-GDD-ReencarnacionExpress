@@ -19,7 +19,14 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Interfaz de usuario              | Permitir la interacción con los sistemas            | Combate, mapa, inventario           |        |
 
 
-## Plantilla de sistema
+### Sistemas añadidos tras la versión inicial
+
+| Sistema | Propósito | Dependencias | Estado |
+| --- | --- | --- | --- |
+| Reliquias y equipamiento | Mejorar a los héroes con objetos equipables, obtenidos por recompensa, evento o tienda | Sesión, inventario, combate, economía | Implementado |
+| Tutorial interactivo | Enseñar tienda, venta, inventario y reliquias justo después del primer combate | Mapa, inventario, reliquias | Implementado |
+
+## Detalle de los sistemas
 
 ### Sistema 01: Sistema de combate
 
@@ -37,7 +44,7 @@ Gestionar los enfrentamientos entre los cuatro protagonistas y los enemigos medi
 **Procesamiento / reglas:**
 El sistema prepara las unidades correspondientes al encuentro y determina el orden de actuación mediante su velocidad. Durante cada turno permite ejecutar una acción válida, procesa el daño, las curaciones y los efectos aplicados, y verifica si se cumplieron las condiciones para finalizar la batalla.
 
-Cada equipo dispone de cuatro posiciones que afectan las acciones disponibles.
+Cada equipo dispone de cuatro posiciones que afectan las acciones disponibles. Los protagonistas no mueren: a 0 HP quedan caídos, sin turno ni objetivo, hasta que se les cura. Un enemigo grande (Guardián Corrupto) ocupa dos posiciones, no se mueve y nadie puede colocarse en la segunda.
 
 **Salidas:**
 - Actualización de vida y estados.
@@ -187,7 +194,7 @@ Organizar el recorrido del jugador y administrar el acceso a encuentros y evento
 El sistema consulta el progreso de la partida para determinar qué encuentros y localizaciones están disponibles.
 La demo cuenta con tres regiones principales: Pradera, Bosque y Corrupción.
 Pradera contiene cuatro combates; Bosque, tres; y Corrupción, dos. Los encuentros deben superarse siguiendo la progresión establecida.
-También existe el evento La máscara rota y el acceso al jefe final, el capitán, en el Trono Sellado.
+También existen los eventos La máscara rota (después de B1) y El informe del último vigía (después de B3, que abre C1) y el acceso al jefe final, el capitán, en el Trono Sellado.
 
 **Salidas:**
 - Desbloqueo de encuentros y regiones.
@@ -277,11 +284,13 @@ Coronas disponibles, objetos existentes, selección de compra y selección de co
 **Procesamiento / reglas:**
 El sistema valida el costo y la disponibilidad de los objetos.
 La moneda utilizada son las **Coronas (CR)**.
-Los consumibles disponibles en la beta son:
-- Poción de curación: 35 CR.
-- Antídoto: 20 CR.
+Los consumibles disponibles son:
+- Poción de curación: 35 CR (venta 18 CR).
+- Antídoto: 20 CR (venta 10 CR).
 
-Las pociones recuperan el 50 % del HP máximo de un aliado vivo. Los antídotos eliminan sangrado, veneno y quemadura.
+La tienda tiene cuatro pestañas (Todo, Reliquias, Consumibles y Vender). Las reliquias se compran en cuatro espacios que se renuevan al completar encuentros, y en la pestaña Vender se entregan consumibles y reliquias sin equipar por el 50 % de su precio.
+
+Las pociones recuperan el 30 % del HP máximo de un aliado y levantan a un héroe caído. Los antídotos eliminan sangrado, veneno y quemadura.
 El inventario permite almacenar un máximo de cinco unidades por tipo de consumible.
 
 **Salidas:**
@@ -314,7 +323,8 @@ Compras sin fondos suficientes, cantidades negativas, duplicación de objetos o 
 - Se respeta la capacidad máxima del inventario.
 - Los objetos aplican correctamente sus efectos.
 - El inventario se actualiza al comprar o consumir.
-- No se permite resucitar personajes mediante consumibles.
+- Solo la Poción de curación levanta a un héroe caído; el Antídoto no.
+- La venta paga el 50 % del precio y no se permite vender reliquias equipadas, exclusivas ni de evento.
     
 
 ---
@@ -374,7 +384,7 @@ Progreso de encuentros, selección de eventos y confirmaciones del jugador.
 
 **Procesamiento / reglas:**
 El sistema verifica si se cumplen las condiciones para activar un evento.
-Actualmente, el evento implementado es **La máscara rota**, disponible después de completar el primer combate de Bosque.
+Hay dos eventos. **La máscara rota** está disponible después de completar el primer combate de Bosque. **El informe del último vigía** (Valdoria) aparece después de B3: entrega el Broche del Vigía, revela al capitán y abre C1. Ninguno otorga experiencia ni Coronas.
 Al confirmarlo, Noelle intercambia sus cuatro habilidades convencionales por sus cuatro habilidades divinas. Las anteriores dejan de estar disponibles. El cambio permanece activo durante el resto de la sesión.
 
 **Salidas:**
@@ -504,6 +514,57 @@ Registros duplicados, datos incorrectos o diagnósticos que no reflejen correcta
 - Las recompensas registradas coinciden con las entregadas.
 - Las métricas no alteran el funcionamiento de los combates.
 
+### Sistema 11: Reliquias y equipamiento
+
+**Objetivo:**
+Dar variedad y decisiones de preparación a los héroes mediante objetos equipables con estadísticas y efectos especiales.
+
+**Entradas:**
+Reliquias poseídas, casillas del héroe, recompensas de combate y de eventos, productos de la tienda.
+
+**Procesamiento / reglas:**
+Cada héroe tiene dos casillas. Las bonificaciones y desventajas se recalculan siempre desde lo equipado. Solo se cambia equipo fuera de combate. Las exclusivas solo las usa su héroe y un héroe no lleva dos reliquias del mismo tipo. Las recompensas de combate se tiran una sola vez por misión, con probabilidad y rareza según la región, una garantía tras dos combates sin reliquia y una exclusiva asegurada en C2. Los efectos especiales se activan mediante ganchos del combate (daño recibido, curación, uso de consumibles, inicio de turno…).
+
+**Salidas:**
+Estadísticas efectivas, efectos en combate, inventario actualizado, Coronas por venta.
+
+**Estados posibles:**
+En inventario, equipada, en tienda, vendida.
+
+**Dependencias:**
+Sesión, combate, tienda, héroes.
+
+**Datos que necesita:**
+Catálogo de 20 reliquias (rareza, estadísticas, efecto, exclusividad, precio), inventario y equipamiento por héroe.
+
+**Riesgos:**
+Duplicar una unidad en dos héroes, efectos que se acumulen de más, vender una reliquia equipada o un tope de crítico mal aplicado.
+
+**Criterios de aceptación:**
+- Una unidad no puede estar en dos héroes ni repetirse en uno.
+- No se puede cambiar equipo durante un combate.
+- La bonificación de crítico de las reliquias no supera +10 puntos.
+- La vida máxima sigue al equipamiento sin curar al héroe.
+- La recompensa de un combate se entrega solo la primera vez que se gana.
+
+---
+
+### Sistema 12: Tutorial interactivo
+
+**Objetivo:**
+Enseñar a usar la tienda, la venta, el inventario y las reliquias con las ventanas reales del juego.
+
+**Procesamiento / reglas:**
+Se activa una sola vez, al llegar al mapa tras ganar el primer combate. Oscurece la pantalla y deja iluminada la zona a la que se refiere cada paso. En los pasos de explicación se avanza con ESPACIO; en los de acción, el paso termina cuando el jugador hace lo pedido (abrir la tienda, comprar, abrir la pestaña Vender, vender, abrir el inventario, abrir la ficha de un héroe y arrastrar una reliquia a una casilla). Entrega una reliquia de práctica y garantiza Coronas para poder comprar. ENTER lo salta.
+
+**Riesgos:**
+Bloquear al jugador si una zona no está visible; por eso, si la zona de un paso de acción no existe, el tutorial no bloquea los clics.
+
+**Criterios de aceptación:**
+- Aparece una sola vez por partida y solo tras ganar el primer combate.
+- Se puede saltar en cualquier momento.
+- Usa las mismas reglas de compra, venta y equipamiento que el juego normal.
+
 ## Relaciones entre sistemas
 
 1. El **sistema de sesión** funciona como administrador del progreso temporal, conservando la información necesaria para pasar entre el mapa y los combates.
@@ -514,7 +575,7 @@ Registros duplicados, datos incorrectos o diagnósticos que no reflejen correcta
 
 4. Al finalizar una victoria, el sistema de **progresión de personajes** procesa la experiencia, mientras que la **economía** actualiza las recompensas obtenidas.
 
-5. El **inventario** permite utilizar objetos durante el combate o adquirir nuevos consumibles desde el mapa.
+5. El **inventario** permite utilizar objetos durante el combate; desde el mapa se compran y venden consumibles y reliquias y se equipan estas últimas en la ficha de cada héroe.
 
 6. Los **eventos narrativos** interactúan con la progresión y las habilidades, como sucede con la transformación de Noelle.
 

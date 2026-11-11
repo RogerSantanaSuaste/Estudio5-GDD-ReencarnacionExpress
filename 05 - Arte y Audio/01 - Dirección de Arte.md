@@ -6,6 +6,10 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 
 ## Identidad visual
 
+![Fondo del menú principal|720](../Media/Arte/Fondos/MenuPrincipal.jpg)
+*Fondo del menú principal*
+
+
 **Estilo:** Anime con influencia de fantasía medieval. Formas limpias, proporciones ligeramente estilizadas y contornos definidos. No busca realismo.
 
 **Referencias:** RPGs de combate por turnos con estética anime (finales de los 90 y principios de los 2000), ilustración de fantasía medieval rústica.

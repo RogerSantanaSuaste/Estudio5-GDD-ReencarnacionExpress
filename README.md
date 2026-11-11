@@ -1,49 +1,30 @@
-## Autoría
+# Reencarnación Express — GDD 0.2.0
 
-**Ing. Luis Fernando Villafaña Rejón**
+Documento de diseño actualizado al **10 de noviembre de 2026** (proyecto de Unity, rama `feature/sistema-combate` @ `88ac6ff`). Esta revisión sincroniza el documento con el juego: cuatro héroes, once tipos de enemigos y un jefe final, nueve encuentros en tres regiones, dos eventos narrativos, 20 reliquias con tienda y venta, héroes caídos en lugar de derrotados, Poción de curación al 30 % que levanta héroes caídos, Guardián Corrupto de dos posiciones y tutoriales interactivos en el primer combate y en el mapa. También incorpora referencias visuales: capturas reales del juego y arte de los personajes, enemigos, reliquias, estados y fondos.
 
-Creación y desarrollo de esta guía integral de GDD en español para la documentación y desarrollo de proyectos de videojuegos.
+- [Índice](00%20-%20%C3%8Dndice.md).
+- [Avance jugable](00%20-%20Avance%20jugable.md).
+- [GDD completo con imágenes](00%20-%20GDD%20Completo%20%28Para%20Exportar%20PDF%29.md).
+- [Personajes y animación](05%20-%20Arte%20y%20Audio/02%20-%20Personajes%20y%20Animaci%C3%B3n.md).
+- [Enemigos y NPC](04%20-%20Contenido/03%20-%20Enemigos%20y%20NPC.md).
+- [Registro visual](05%20-%20Arte%20y%20Audio/06%20-%20Registro%20visual.md).
 
-# GDD de Videojuego — Plantilla Profesional para Obsidian
+## Contenido del repositorio
 
-Esta carpeta contiene una estructura de **Documento de Diseño de Videojuego (GDD)** completamente en español y preparada para trabajar en Obsidian.
+| Carpeta | Contenido |
+| --- | --- |
+| `01` a `10` | Secciones del GDD: visión, diseño, historia, contenido, arte y audio, experiencia, tecnología, producción, calidad y referencia |
+| `11 - Referencia de Diseño` | Biblioteca de géneros, plataformas y etiquetas de la plantilla |
+| `Media/` | Capturas del juego (`Avance_AAAA-MM-DD`) y copias reducidas del arte |
+| `Sprites/` | Imágenes originales de héroes, iconos y enemigos |
+| `snippets/` | Ajuste visual de casillas de verificación para Obsidian |
 
-## Características
+## Cómo abrirlo
 
-- Estructura profesional y modular.
-- Cada apartado explica qué debe documentarse.
-- Enlaces internos mediante `[[Wikilinks]]` de Obsidian.
-- Navegación de ida y vuelta entre secciones.
-- Campos preparados para completar.
-- Tablas, diagramas y bloques de información.
-- Separación entre diseño, contenido, arte, audio, UX, tecnología, producción y calidad.
-- Biblioteca integrada de géneros, subgéneros, plataformas, consolas, perspectivas, cámaras, modos de juego y etiquetas.
-- Registro de decisiones y versiones.
-- Orientado a proyectos académicos de desarrollo de videojuegos.
-
-## Cómo usarlo
-
-1. Copia o mueve esta carpeta dentro de tu bóveda de Obsidian.
-2. Abre `00 - Índice.md`.
-3. Activa el panel de navegación de Obsidian si deseas explorar los enlaces visualmente.
-4. Completa primero la sección **01 — Visión**.
-5. Utiliza [[00 - Biblioteca de Clasificación]] cuando necesites decidir género, subgénero, plataforma, cámara o modo de juego.
-6. Continúa con diseño y sistemas.
-7. Documenta después contenido, experiencia y tecnología.
-8. Utiliza producción y calidad para controlar el desarrollo.
-
-## Importante
-
-No existe un único formato universal de GDD utilizado por todos los estudios. Esta plantilla utiliza una estructura amplia basada en las áreas que normalmente necesitan coordinarse durante el diseño y desarrollo de un videojuego.
-
-El objetivo no es producir documentación por cantidad, sino conseguir que **el equipo pueda entender, implementar, probar y mantener las decisiones del juego**.
+Puede abrirse como bóveda de Obsidian o con un lector compatible con Markdown. Empieza por `00 - Índice.md`. **La referencia vigente son los archivos individuales**; el GDD completo es una copia para exportar a PDF.
 
 ## Ajuste visual de casillas
 
-La carpeta `snippets/` incluye `GDD-checkbox-fix.css`.  
-Si el tema de Obsidian superpone las casillas con el texto en **modo lectura**, activa este snippet desde:
+Si el tema de Obsidian superpone las casillas con el texto en **modo lectura**, activa el fragmento desde **Ajustes → Apariencia → Fragmentos de CSS → GDD-checkbox-fix**. Las casillas siguen usando la sintaxis nativa de tareas (`- [ ]` / `- [x]`).
 
-**Ajustes → Apariencia → Fragmentos de CSS → GDD-checkbox-fix**
-
-Las casillas siguen utilizando la sintaxis nativa de tareas de Obsidian (`- [ ]` / `- [x]`).
-
+Plantilla original: Ing. Luis Fernando Villafaña Rejón. Proyecto y contenidos: equipo de Reencarnación Express.

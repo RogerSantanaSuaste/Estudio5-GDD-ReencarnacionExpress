@@ -11,8 +11,10 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 - Carga
 - Mapa
 - Diálogo
-- Combate
-- Tienda
+- Combate (el primero incluye un tutorial interactivo)
+- Tienda (compra y venta)
+- Inventario y ficha de personaje (reliquias)
+- Tutorial del mapa
 - Pausa
 - Victoria de combate
 - Derrota
@@ -39,12 +41,27 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Pausa                    | Continuar                     | Estado anterior     | —                                |
 | Mapa                     | Completar demo                | Créditos            | —                                |
 
+### Transiciones adicionales
+
+| Estado origen | Evento | Estado destino | Condición |
+| --- | --- | --- | --- |
+| Victoria del primer combate | Confirmar recompensas | Mapa con tutorial interactivo | Solo la primera vez de la partida |
+| Tutorial del mapa | Completar o saltar con ENTER | Mapa | — |
+| Mapa | Botón Inventario o tarjeta de héroe | Inventario / ficha de personaje | — |
+| Mapa | Evento narrativo (La máscara rota, El informe del último vigía) | Diálogo | El evento está disponible |
+| Combate | Un protagonista llega a 0 HP | Héroe caído (sigue en el combate sin actuar) | — |
+
 ## Reglas globales
 
-1. Tras una victoria, los personajes derrotados regresan con el 40 % de su vida máxima. Quienes siguen en pie conservan la vida con la que cerraron el combate.
-2. La Poción de curación solo se usa en combate. Cuesta la acción del personaje y restaura el 50 % de la vida máxima de un aliado vivo. No revive.
+1. Los protagonistas no mueren: a 0 HP quedan caídos y siguen así tras la victoria hasta que se les cura. Quienes siguen en pie conservan la vida con la que cerraron el combate.
+2. La Poción de curación solo se usa en combate. Cuesta la acción del personaje, restaura el 30 % de la vida máxima de un aliado y levanta a un héroe caído.
 3. El juego se puede pausar desde el mapa, el diálogo y el combate.
 4. El inventario admite hasta cinco Pociones de curación y cinco Antídotos. El Antídoto elimina sangrado, veneno y quemadura.
+5. Subir de nivel restaura la vida al 100 % de los héroes que siguen en pie.
+6. Las Coronas y la reliquia de un combate solo se entregan la primera vez que se gana.
+7. Las reliquias solo se equipan o quitan fuera de combate. Cada héroe tiene dos casillas.
+8. La tienda se puede usar para vender consumibles y reliquias sin equipar por el 50 % de su precio.
+9. Un enemigo grande ocupa dos posiciones, no se mueve y nadie puede colocarse en la segunda.
 
 ## Casos especiales
 

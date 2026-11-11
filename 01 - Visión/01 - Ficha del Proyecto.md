@@ -10,12 +10,12 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | Reencarnación Express                                                                                                                        |
 | **Nombre clave**             | RE                                                                                                                                           |
-| **Versión del GDD**          | 0.1.2                                                                                                                                        |
+| **Versión del GDD**          | 0.2.0                                                                                                                                        |
 | **Estado del proyecto**      | Concepto / Preproducción / **Producción** / Pruebas / Publicado                                                                              |
 | **Equipo**                   | Santana Suaste Roger Emanuel<br>Concepción Jaimes Lizbeth<br>Reyes Chan Erick Gilberto<br>Herrera Pérez Ángel Daniel<br>Romano Chávez Steven |
 | **Responsable del proyecto** | Santana Suaste Roger Emanuel                                                                                                                 |
 | **Fecha de inicio**          | 2026-09-15                                                                                                                                   |
-| **Última actualización**     | 2026-11-02                                                                                                                                 |
+| **Última actualización**     | 2026-11-10                                                                                                                                 |
 | **Repositorio**              | github.com/Erick-Reyes-Doc/ReencarnacinExprs (privado)                                                                                       |
 
 ## Identidad del videojuego
@@ -66,7 +66,7 @@ RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas r
 
  La demo deberá incluir un mapa interactivo con misiones desbloqueables, escenas narrativas tipo novela visual y cuatro protagonistas jugables. El recorrido tiene nueve combates regulares —P1 a P4 en Llanuras Centrales, B1 a B3 en Bosque Oscuro y C1 a C2 en Corrupción del Bosque—, el evento obligatorio La máscara rota y el enfrentamiento contra el capitán de las fuerzas expedicionarias.
 
- Asimismo, deberá implementar un sistema de combate por turnos con posicionamiento estratégico, habilidades, efectos de estado, buffs, debuffs y una tienda con dos consumibles: Poción de curación y Antídoto.
+ Asimismo, deberá implementar un sistema de combate por turnos con posicionamiento estratégico, habilidades, efectos de estado, buffs, debuffs y una tienda con dos consumibles (Poción de curación y Antídoto) y un sistema de reliquias equipables que se compran, se venden y se obtienen como recompensa.
 
  El propósito será presentar una experiencia jugable que integre narrativa, estrategia y progresión, demostrando el potencial del videojuego para continuar su desarrollo.
 

@@ -24,6 +24,8 @@ Cada sección explica **qué información debe escribirse**, por qué es importa
 ## Acerca de esta guía
 
 - [[00 - Acerca de esta guía]]
+- [[00 - Avance jugable]]
+- [[00 - GDD Completo (Para Exportar PDF)]]
 
 ### 01 — Visión
 - [[01 - Ficha del Proyecto]]
@@ -59,6 +61,7 @@ Cada sección explica **qué información debe escribirse**, por qué es importa
 - [[03 - Entornos]]
 - [[04 - Interfaz Visual]]
 - [[05 - Audio y Música]]
+- [[06 - Registro visual]]
 
 ### 06 — Experiencia
 - [[01 - UX y Flujo del Jugador]]

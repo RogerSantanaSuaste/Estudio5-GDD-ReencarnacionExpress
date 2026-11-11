@@ -6,7 +6,7 @@ La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evol
 
 ## Bucle principal de juego
 
-El ciclo principal consiste en seleccionar un encuentro, conocer su contexto narrativo, combatir y obtener experiencia y Coronas. Con esos recursos el equipo sube de nivel, compra la Poción de curación o el Antídoto y desbloquea el siguiente tramo del recorrido.
+El ciclo principal consiste en seleccionar un encuentro, conocer su contexto narrativo, combatir y obtener experiencia y Coronas. Con esos recursos el equipo sube de nivel, compra consumibles y reliquias, equipa a sus héroes y desbloquea el siguiente tramo del recorrido.
 
 **Bucle del proyecto:** 
 
@@ -22,7 +22,7 @@ El ciclo principal consiste en seleccionar un encuentro, conocer su contexto nar
 | Combatir                 | Utilizar habilidades, posiciones y estrategias para derrotar enemigos. | Superar desafíos y obtener recompensas.                                       |
 | Cambiar posiciones       | Modificar la formación del equipo para aprovechar sus habilidades      | Obtener ventajas tácticas y habilitar acciones específicas.                   |
 | Utilizar habilidades     | Atacar, defender, curar o aplicar efectos de estado, buffs y debuffs.  | Modificar las condiciones del enfrentamiento.                                 |
-| Administrar recursos     | Comprar y utilizar la Poción de curación y el Antídoto.                | Recuperar un 50 % de la vida máxima o eliminar sangrado, veneno y quemadura.  |
+| Administrar recursos     | Comprar, vender y utilizar consumibles; equipar reliquias.                | Curar un 30 % de la vida máxima (y levantar a un héroe caído), eliminar sangrado, veneno y quemadura, o reforzar a un héroe con reliquias.  |
 | Subir de nivel           | Acumular experiencia (XP) mediante la finalización de misiones.      | Mejorar automáticamente las estadísticas de los protagonistas según su clase. |
 | Desbloquear eventos      | Completar los encuentros exigidos y, en Bosque, La máscara rota.       | Abrir la siguiente región, B2 o el Trono Sellado.                             |
 
@@ -39,14 +39,14 @@ Durante una sesión de juego, el jugador alternará entre el mapa, las escenas d
 ## Experiencia a largo plazo
 
 La motivación de la demo es conocer a los cuatro protagonistas, proteger las Llanuras Centrales y derrotar al capitán de las fuerzas expedicionarias. El Rey Demonio permanece como la amenaza posterior a ese cierre.
-El recorrido se sostiene con los nueve encuentros, La máscara rota y el crecimiento del equipo.
+El recorrido se sostiene con los nueve encuentros, los dos eventos narrativos, las reliquias y el crecimiento del equipo.
 
 ## Condición de victoria
 
 - **Durante los combates:** Derrotar a todos los enemigos o cumplir una condición especial del enfrentamiento.
 - **Durante las misiones:** Completar los objetivos establecidos para obtener recompensas y experiencia.
 - **Durante la progresión:** Superar las misiones principales para desbloquear nuevas ubicaciones y eventos.
-- **Durante la demo:** Completar los nueve encuentros y La máscara rota, y derrotar al capitán en el Trono Sellado.
+- **Durante la demo:** Completar los nueve encuentros y los dos eventos (La máscara rota y El informe del último vigía), y derrotar al capitán en el Trono Sellado.
 
 ## Condición de derrota
 

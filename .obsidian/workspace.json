@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Historia y Mundo/03 - Personajes.md",
+                "file": "04 - Contenido/04 - Objetos y Coleccionables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Personajes"
+              "title": "04 - Objetos y Coleccionables"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09 - Calidad/02 - Pruebas.md",
+                "file": "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Pruebas"
+              "title": "04 - Perspectivas y Cámaras"
             }
           },
           {
@@ -91,8 +91,7 @@
               "title": "01 - Géneros"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -250,42 +249,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
     }
   },
-  "active": "0618b60e6e5a3c68",
+  "active": "db77a8900579f994",
   "lastOpenFiles": [
+    "Sprites/Personajes/ValerianBase.png",
+    "Sprites/Personajes/NoelleSinBase.png",
+    "Sprites/Personajes/NoelleBase.png",
+    "Sprites/Personajes/EvanoraBase.png",
+    "Sprites/Personajes/ElainaBase.png",
+    "Sprites/Iconos/Valerian.png",
+    "Sprites/Iconos/NoelleSin.png",
+    "Sprites/Iconos/Noelle.png",
+    "Sprites/Iconos/Evanora.png",
+    "Sprites/Iconos/Elaina.png",
+    "Sprites/Enemigos/AcechadorOscuro.png",
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "00 - GDD Completo (Para Exportar PDF).md",
+    "00 - Avance jugable.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "00 - Acerca de esta guía.md",
+    "snippets/GDD-checkbox-fix.css",
+    "snippets",
+    "Sprites/Personajes",
+    "Sprites/Iconos",
+    "Sprites/Enemigos",
+    "Sprites",
+    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
+    "11 - Referencia de Diseño/05 - Modos de Juego.md",
+    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
+    "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
+    "11 - Referencia de Diseño/02 - Subgéneros y Combinaciones.md",
+    "11 - Referencia de Diseño/01 - Géneros.md",
+    "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
+    "10 - Referencia/04 - Historial de Versiones.md",
+    "10 - Referencia/03 - Registro de Decisiones.md",
+    "10 - Referencia/02 - Referencias e Inspiración.md",
+    "10 - Referencia/01 - Glosario.md",
+    "09 - Calidad/04 - Criterios de Aceptación.md",
+    "09 - Calidad/03 - Bugs y Seguimiento.md",
+    "09 - Calidad/02 - Pruebas.md",
     "09 - Calidad/01 - Criterios de Calidad.md",
     "08 - Producción/05 - Gestión de Cambios.md",
     "08 - Producción/04 - Backlog del Proyecto.md",
-    "08 - Producción/03 - Roadmap.md",
-    "08 - Producción/01 - Alcance.md",
-    "08 - Producción/02 - Roles y Responsabilidades.md",
-    "07 - Tecnología/01 - Arquitectura Técnica.md",
-    "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
-    "10 - Referencia/01 - Glosario.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
-    "01 - Visión/02 - Visión del Juego.md",
-    "07 - Tecnología/02 - Motor y Herramientas.md",
-    "06 - Experiencia/04 - Guardado y Configuración.md",
-    "09 - Calidad/04 - Criterios de Aceptación.md",
-    "05 - Arte y Audio/05 - Audio y Música.md",
-    "06 - Experiencia/02 - UI y Menús.md",
-    "02 - Diseño/07 - Reglas y Estados del Juego.md",
-    "02 - Diseño/06 - Economía y Recursos.md",
-    "04 - Contenido/04 - Objetos y Coleccionables.md",
-    "04 - Contenido/02 - Niveles.md",
-    "02 - Diseño/02 - Mecánicas.md",
-    "04 - Contenido/03 - Enemigos y NPC.md",
-    "04 - Contenido/01 - Estructura del Contenido.md",
-    "03 - Historia y Mundo/02 - Mundo.md",
-    "03 - Historia y Mundo/01 - Premisa y Trama.md",
-    "07 - Tecnología/03 - Requisitos Técnicos.md"
+    "Media/Arte/Fondos",
+    "Media/Arte/Estados",
+    "Media/Arte/Reliquias",
+    "Media/Arte/Enemigos"
   ]
 }

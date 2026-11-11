@@ -4,7 +4,7 @@
 
 Las misiones y desafíos convierten las mecánicas en objetivos concretos para el jugador.
 
-## Plantilla de misión
+## Detalle de las misiones
 
 ### Misión 01: Primeros pasos en Llanuras
 
@@ -227,11 +227,11 @@ Este enfrentamiento representa el último desafío de la demo. Aunque los protag
 La derrota del capitán no representa el fin del Rey Demonio, sino una victoria importante dentro de un conflicto mucho mayor.
 
 **Requisitos:**
-Haber completado los nueve encuentros normales de Pradera, Bosque y Corrupción, además del evento obligatorio La máscara rota.
+Haber completado los nueve encuentros normales de Pradera, Bosque y Corrupción, además de los eventos obligatorios La máscara rota y El informe del último vigía.
 
 **Pasos:**
 1. Completar los encuentros de Corrupción.
-2. Acceder al enfrentamiento final cuando se encuentre implementado.
+2. Acceder al Trono Sellado, que se desbloquea al completar C2.
 3. Enfrentar al capitán de las fuerzas expedicionarias.
 4. Derrotarlo para completar el objetivo principal de la demo.
 
@@ -242,12 +242,49 @@ Derrotar al capitán de las fuerzas expedicionarias del Rey Demonio.
 Que todos los protagonistas sean derrotados durante el enfrentamiento final.
 
 **Recompensa:**
+- 200 XP y 100 Coronas.
+- Una reliquia rara o exclusiva (la recompensa del jefe es la única con probabilidad del 100 %).
 - Victoria narrativa sobre las fuerzas expedicionarias.
 - Purificación del sector afectado del Bosque Oscuro.
 - Conclusión del recorrido principal de la demo.
 
 **Consecuencias:**
 Con la derrota del capitán, la corrupción del bosque comienza a desaparecer y las fuerzas expedicionarias supervivientes se retiran hacia el norte, buscando refugio en la región de la Forja de Combustión, controlada por el Rey Demonio.
+
+## Misión 06: El informe del último vigía
+
+![Ventana de misión de Ciudad de Valdoria para el evento|880](../Media/Avance_2026-11-10/Interfaz/Evento_Valdoria.jpg)
+*Ventana de misión de Ciudad de Valdoria para el evento*
+
+
+**Tipo:** Principal — evento narrativo obligatorio (ocurre entre B3 y C1, antes de la Misión 05).
+
+**Objetivo:**
+Conocer la identidad y la ubicación del responsable de los ataques para abrir el camino hacia la Corrupción del Bosque.
+
+**Contexto:**
+Los informes recuperados en el Refugio del Vigía llegan a Valdoria. Un oficial de la ciudad confirma que los ataques de la pradera y el bosque no son incidentes aislados: los dirige el Capitán de las Fuerzas Expedicionarias, un comandante del Rey Demonio, localizado por los exploradores en el Trono Sellado. Las Tierras Marchitas que lo rodean están infestadas de criaturas corrompidas, así que los héroes tendrán que atravesarlas.
+
+**Personajes relacionados:**
+Oficial de la ciudad, Elaina, Evanora, Noelle y Valerian.
+
+**Requisitos:**
+Haber completado B3. El evento se selecciona en el mapa (Valdoria) y no es un combate.
+
+**Condición de éxito:**
+Terminar la escena de diálogo.
+
+**Recompensa:**
+- Broche del Vigía (reliquia común que entrega el evento una sola vez).
+- Revelación del capitán y paso del Trono Sellado al estado de «jefe descubierto».
+- Desbloqueo de C1 y de la tercera región. No otorga experiencia ni Coronas.
+- La tienda de reliquias pasa a mostrar dos comunes y dos raras.
+
+**Consecuencias:**
+La narrativa pasa de una serie de ataques sin autor a una amenaza concreta, y el jugador ya sabe contra quién se prepara.
+
+**Nivel relacionado:**
+Capítulo 3: Corrupción del Bosque (precede a C1).
 
 Los protagonistas regresan a los territorios humanos como héroes después de proteger las Llanuras Centrales.
 

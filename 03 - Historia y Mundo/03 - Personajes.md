@@ -1,43 +1,5 @@
 # Personajes
 
-## Descripción de la sección
-
-Cada personaje importante debe tener una función clara dentro de la historia y/o la jugabilidad.
-
-## Plantilla de personaje
-
-### Nombre
-
-**Rol:**
-
-**Función jugable:**
-
-**Función narrativa:**
-
-**Descripción física:**
-
-**Personalidad:**
-
-**Motivaciones:**
-
-**Objetivos:**
-
-**Conflicto:**
-
-**Relaciones:**
-
-**Arco del personaje:**
-
-**Habilidades:**
-
-**Debilidades:**
-
-**Frases o tono de diálogo:**
-
-**Referencias visuales:**
-
-## Personajes
-
 ### Protagonista(s)
 
 ### Valerian
@@ -61,19 +23,18 @@ Jubilarse de verdad. Su objetivo no es destronar reyes ni salvar continentes, si
 Cambiar su personalidad cerrada para permitirle liderar al resto de los miembros del equipo.
 **Relaciones:**
 Un completo desconocido, mientras que los otros miembros del equipo fueron amistades en su anterior vida, el es completamente ajeno.
-**Arco del personaje:**
-
 **Habilidades:**
-- Corte Preciso: Golpe físico con su espada.
-- Herida Profunda: Realiza un golpe preciso con su espada, causando una laceración que desencadena un fuerte sangrado en el oponente.
-- Guardia de Trinchera: Reduce el daño recibido y protege a un aliado.
-- Golpe Bajo: Un golpe particularmente sucio y debilitante al oponente.
+- **Corte del Bastión:** golpe básico de su espada (100 % del daño). Se usa desde P1–P2 y alcanza P1–P2. Sin recarga.
+- **Embate de Escudo:** golpe de escudo (90 % del daño) con 30 % de probabilidad de aturdir un turno; avanza una posición si puede. Recarga: 2 turnos.
+- **Guardia de Trinchera:** protege a un aliado durante 2 turnos: Valerian gana +15 % de protección e intercepta el 50 % del daño directo dirigido a ese aliado. Recarga: 2 turnos.
+- **Herida Profunda:** golpe (85 % del daño) que provoca Sangrado de 2 de daño durante 2 turnos. Recarga: 1 turno.
 **Debilidades:**
 No tiene ninguna clase de habilidad o resistencia mágica. Es un hombre mortal con una armadura y una espada.
-**Frases o tono de diálogo:**
-
 **Referencias visuales:**
-****
+
+![Imagen base de Valerian|220](../Media/Arte/Personajes/ValerianBase.png)
+*Imagen base de Valerian.*
+
 ### Noelle
 
 **Rol:** Clérigo miembro del equipo de los héroes reencarnados.
@@ -135,11 +96,10 @@ Enmascarada:
 - "Toma esto bestia inmunda."
 - "¡Quiten me estos monstruos de encima!"
 - "¡Eso duele!"
-Sin máscara:
-- ""
 **Referencias visuales:**
 
-****
+![Imagen base de Noelle|220](../Media/Arte/Personajes/NoelleBase.png)
+*Imagen base de Noelle.*
 
 ### Evanora
 
@@ -170,20 +130,20 @@ Porta un atuendo heterogéneo: la túnica azul clásica de una academia mágica,
 
 **Habilidades:** Dominio de las artes arcanas por naturaleza, tiene una conexión sobrenatural con el mundo arcano y las extrañas energías del mundo.
 Utiliza esta conexión para conjurar poderosos hechizos para arrasar con los enemigos más fuertes.
-- Orbe Arcano: Un ataque de energía mágica pura, cualquier creatura sin conexión arcana recibe daño moderado que desencadena debilidad debido a la radiación arcana.
-- Llamarada: Energía mágica convertida en fuego sobrenatural, capaz de arder con la suficiente fuerza como para derretir metal y cremar la piel.
-- Sello de Ruptura: Un hechizo particularmente malicioso, ataca directamente el alma de los oponentes, causando daño moderado a la manifestación física de este y adicionalmente aplicando una debilitación considerable.
-- Golpe de Meteorito: Una conjuración poderosa pero extremadamente agotadora, conjura un meteorito sobre los oponentes, el cual es posteriormente lanzado usando fuerza arcana, provocando una explosión capaz de mermar incluso a los oponentes más duros.
+- **Orbe Arcano:** ataque de energía mágica pura (100 % del daño). Solo desde la retaguardia (P3–P4); alcanza las cuatro posiciones enemigas. Sin recarga.
+- **Llamarada:** energía mágica convertida en fuego sobrenatural (85 % del daño) que aplica Quemadura de 2 de daño durante 2 turnos. Alcanza las posiciones enemigas P3–P4. Recarga: 1 turno.
+- **Ruptura Ígnea:** golpe arcano (100 % del daño); contra un enemigo con Quemadura causa 150 % y consume la Quemadura. Alcanza P3–P4. Recarga: 2 turnos.
+- **Golpe de Meteorito:** conjuración poderosa y agotadora que impacta a **todos** los enemigos (100 % a cada uno) y puede aplicar Quemadura (50 % de probabilidad). Solo puede usarse desde la ronda 3. Recarga: 3 turnos.
 
 **Debilidades:**
 Su amnesia la hace un personaje inconstante y dispuesta a cambios.
 Su cuerpo es débil y frágil, presentando debilidad ante prácticamente cualquier daño y físico.
 
-**Frases o tono de diálogo:**
-
 **Referencias visuales:**
 
-****
+![Imagen base de Evanora|220](../Media/Arte/Personajes/EvanoraBase.png)
+*Imagen base de Evanora.*
+
 ### Elaina
 
 **Rol:** 
@@ -244,16 +204,18 @@ Clímax: Elaina debe enfrentarse a una situación que pone a prueba su identidad
 Resolución: Aprende a aceptar su nueva existencia sin renunciar a los recuerdos y experiencias que formaron su identidad humana. Su transformación deja de representar únicamente una pérdida y se convierte en parte de su crecimiento personal.
 
 **Habilidades:**
-- Ataque básico: Hace una ataque normal con arco
-- Marca: Puede marcar a un enemigo provocando que reciba más daño  
-- Tiro Evasivo: Ejecuta un disparo directo a media distancia mientras realiza un rápido despliegue de maniobra hacia atrás. Le permite causar daño al objetivo y cambiar de posición en la formación durante el mismo turno para mantener la distancia de seguridad. 
-- Tiro Perforante:Concentra una ráfaga de viento en la punta de la flecha para realizar un disparo de alta potencia. El proyectil impulsado por ráfagas cortantes atraviesa las defensas básicas del enemigo, ignorando parte de su armadura o protección.
+- **Disparo Certero:** disparo básico (100 % del daño) que ignora el 50 % de la evasión del objetivo. Se usa desde P2, P3 o P4 y alcanza las cuatro posiciones enemigas. Sin recarga.
+- **Flecha Perforante:** disparo de alta potencia (110 % del daño) impulsado por el viento que ignora el 50 % de la protección del objetivo. Recarga: 2 turnos.
+- **Marca del Cazador:** marca a un enemigo durante 3 turnos; su siguiente ataque directo recibido causa ×2 de daño (la marca se consume aunque el ataque falle). Recarga: 2 turnos.
+- **Tiro Evasivo:** disparo (80 % del daño) mientras retrocede una posición y gana +15 % de evasión hasta su siguiente turno. Se usa desde P2 o P3. Recarga: 1 turno.
 
 **Debilidades:**
 - Al ser reencarnada en un cuerpo élfico, Elaina carece de la fuerza física y resistencia que poseía en su forma humana. Esto la hace más vulnerable a ataques físicos y le dificulta realizar tareas que requieren fuerza bruta.
-**Frases o tono de diálogo:**
-
+-
 **Referencias visuales:**
+
+![Imagen base de Elaina|220](../Media/Arte/Personajes/ElainaBase.png)
+*Imagen base de Elaina.*
 
 ### Antagonista
 
@@ -290,18 +252,24 @@ Resolución: Aprende a aceptar su nueva existencia sin renunciar a los recuerdos
 Comienza como una figura mística para los héroes reencarnados. Al final de la demo, en el Trono Sellado de la Corrupción del Bosque, se revela como antagonista tangible y el obstáculo más difícil del recorrido.
 
 **Habilidades:**
-Por Definir.
+Seis habilidades repartidas en dos fases (ver [[03 - Enemigos y NPC]]):
+- **Sablazo de Campaña:** ataque físico básico (100 % del daño).
+- **Interrogatorio Implacable:** golpe (80 % del daño) que reduce el daño del objetivo un 15 % durante 2 turnos. Recarga: 2.
+- **Objetivo Prioritario:** golpe (70 % del daño) que marca a un protagonista: el siguiente ataque directo del Capitán contra él causa +35 % de daño. Recarga: 3.
+- **Disciplina de Hierro:** gana +15 % de protección durante 2 turnos. Recarga: 3.
+- **Fuego de Supresión:** ataque de área anunciado que golpea al siguiente turno a la primera línea (P1–P2) o a la retaguardia (P3–P4). Recarga: 4.
+- **Última Orden** (solo en «Última resistencia», al bajar del 50 % de vida): ataque inmediato a todos los protagonistas (60 % del daño) que reduce su daño un 10 % durante 1 turno. Recarga: 4.
+
+Estadísticas: 120 HP, daño 5–8, protección 10 %, evasión 5 %, velocidad 6, crítico 8 %. Es inmune al aturdimiento y lo acompaña un Corrupto Errante.
 
 **Debilidades:**
-Por Definir.
+Su ataque más peligroso se anuncia un turno antes, por lo que se puede esquivar recolocando a los héroes. Al caer, el enemigo restante huye del campo.
 
 **Frases o tono de diálogo:**
 - "Tú dios no es más que un mito, y yo soy la prueba de ello."
 - "No hay lugar para la misericordia en la guerra, solo para la victoria."
 - "La muerte es lo único que los espera."
 - "Jamás pondrás un dedo sobre mi señor, y si lo haces, pagarás con tu vida."
-**Referencias visuales:**
-
 ### Personajes secundarios
 
 Los personajes secundarios y los NPC quedaron descartados como características del proyecto. No hay una lista pendiente para una versión posterior. La decisión está registrada en [[01 - Alcance]].
