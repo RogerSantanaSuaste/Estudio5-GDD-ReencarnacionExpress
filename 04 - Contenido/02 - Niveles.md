@@ -4,7 +4,7 @@
 
 Cada nivel debe documentar su propósito jugable, estructura, dificultad, contenido y condiciones de entrada/salida.
 
-## Plantilla de nivel
+## Detalle de los niveles
 
 ### Capítulo 1: Llanuras Centrales
 
@@ -50,7 +50,7 @@ Estos enemigos aparecen en diferentes combinaciones durante los cuatro encuentro
 - 100 Coronas en total.
 - Experiencia para mejorar los atributos de los protagonistas.
 - Desbloqueo de la región Bosque.
-- Recuperación de vida después de cada victoria.
+- Una reliquia aleatoria con un 65 % de probabilidad por combate (solo comunes).
 
 **Puntos de guardado:**
 No existen puntos de guardado. El progreso se conserva temporalmente durante la sesión activa, pero se pierde al abandonar la partida o sufrir una derrota total.
@@ -85,7 +85,6 @@ Bosque desbloqueado
 
 ### Capítulo 2: Bosque Oscuro
 
-**Objetivo principal:**
 **Contexto narrativo:**
 Tras superar los peligros de las Llanuras Centrales, los protagonistas se adentran en el Bosque Oscuro, situado al este de la región humana.
 
@@ -132,7 +131,7 @@ La región también presenta un obstáculo de progresión: el jugador debe compl
 - 120 Coronas en total. 
 - Intercambio de habilidades de Noelle mediante el evento La máscara rota.
 - Desbloqueo de Corrupción.
-- Recuperación de vida después de cada victoria.
+- Una reliquia aleatoria con un 80 % de probabilidad por combate (comunes o raras).
 El evento de Noelle no entrega experiencia ni Coronas adicionales.
 
 **Puntos de guardado:**
@@ -171,7 +170,6 @@ Corrupción desbloqueada
 
 ### Capítulo 3: Corrupción del Bosque
 
-**Objetivo principal:**
 **Contexto narrativo:**
 El capítulo transcurre en una sección del Bosque Oscuro que ha sido corrompida por la influencia de las fuerzas del Rey Demonio.
 
@@ -219,22 +217,25 @@ Las diferentes combinaciones enemigas buscan obligar al jugador a administrar su
 - 120 Coronas en total.
 - Experiencia y progresión adicional para los protagonistas.
 - Cumplimiento de los requisitos para acceder al capitán, jefe final de la demo.
-- Recuperación de vida después de cada victoria.
+- Una reliquia aleatoria con un 90 % de probabilidad por combate (más probable que sea rara).
 
 **Puntos de guardado:**
 No existen puntos de guardado. Si el equipo completo es derrotado, termina la sesión y el jugador debe comenzar una nueva partida.
 
 **Condición de entrada:**
-Haber completado los tres encuentros de Bosque y el evento La máscara rota.
+Haber completado los tres encuentros de Bosque y los eventos La máscara rota y El informe del último vigía (Valdoria).
 
 **Condición de salida:**
 Derrotar a todos los enemigos de C1 y C2.
 
 **Eventos narrativos:**
-Esta región no tiene un evento narrativo propio. Su función es preparar el acceso al capitán, jefe final de la demo.
+Esta región no tiene un evento narrativo propio: el informe del último vigía, en Valdoria, la precede y revela dónde está el capitán. Su función es preparar el acceso al capitán, jefe final de la demo.
 
 **Mapa / diagrama:**
 ```text
+Informe de Valdoria (evento)
+          |
+          v
 Corrupción desbloqueada
           |
           v
@@ -248,6 +249,23 @@ Corrupción desbloqueada
 ```
 
 
+
+### Referencias visuales
+
+![P1 Un mal día para cobrar (Pradera)|880](../Media/Avance_2026-11-10/Combate/Pradera_P1.jpg)
+*P1 Un mal día para cobrar (Pradera)*
+
+![P4 Secretos bajo las ruinas (Pradera)|880](../Media/Avance_2026-11-10/Combate/Pradera_P4.jpg)
+*P4 Secretos bajo las ruinas (Pradera)*
+
+![B1 Huellas en la espesura (Bosque)|880](../Media/Avance_2026-11-10/Combate/Bosque_B1.jpg)
+*B1 Huellas en la espesura (Bosque)*
+
+![B3 La última vigilia (Bosque)|880](../Media/Avance_2026-11-10/Combate/Bosque_B3.jpg)
+*B3 La última vigilia (Bosque)*
+
+![Jefe final, La última orden: el Capitán aún usa unidades provisionales|880](../Media/Avance_2026-11-10/Combate/Jefe_Final.jpg)
+*Jefe final, La última orden: el Capitán aún usa unidades provisionales*
 
 ## Criterios de calidad
 

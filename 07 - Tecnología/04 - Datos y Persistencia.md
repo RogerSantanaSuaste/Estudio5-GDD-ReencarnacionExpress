@@ -8,7 +8,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 La demo no tiene guardado permanente. Estos datos permanecen en memoria mientras la sesión está activa y se descartan si el equipo es derrotado o si el jugador abandona la partida:
 
-- Progreso de los nueve encuentros y de La máscara rota.
+- Progreso de los nueve encuentros, de La máscara rota y de El informe del último vigía; héroes caídos; reliquias poseídas y equipadas; existencias de la tienda.
 - Inventario, Coronas y consumibles.
 - Niveles, experiencia, vida y estadísticas.
 - Regiones desbloqueadas y habilidades actuales de Noelle.
@@ -19,18 +19,20 @@ Datos de contenido (fijos, definidos antes de jugar):
 
 | Entidad | Campos principales |
 |---|---|
-| Protagonista | Nombre, clase, crecimiento de estadísticas por nivel, habilidades (cuatro activas; Noelle tiene además el conjunto divino) |
-| Enemigo | Nombre, HP, ATK, DEF, SPD, habilidades, cooldowns |
-| Habilidad | Efecto, poder, posiciones del usuario, posiciones alcanzables, cooldown, estado aplicado, duración |
-| Encuentro | Identificador (P1 a C2, capitán), región, enemigos, XP, Coronas, requisitos de desbloqueo |
-| Consumible | Nombre, efecto, precio, límite por inventario |
+| Protagonista | Nombre, clase, estadísticas base (vida, daño mínimo y máximo, protección, evasión, velocidad, crítico), crecimiento por nivel (vida por nivel y niveles en los que sube el daño) y habilidades (cuatro activas; Noelle tiene además el conjunto divino) |
+| Enemigo | Nombre, vida, daño mínimo y máximo, protección, evasión, velocidad, crítico, jefe, ocupa dos posiciones, tamaño de la barra de vida, recorte del retrato, desplazamiento tras una unidad grande y habilidades |
+| Habilidad | Tipo (ataque, curación, apoyo), objetivo, porcentaje de daño, daño base, posiciones del usuario y alcanzables, penetración, estados (potencia, duración, probabilidad), curación, movimiento, recarga y si se prepara |
+| Encuentro | Identificador (P1 a C2, capitán), título, región, fondo, enemigos y posiciones, XP, Coronas, huida de los secuaces al caer el jefe |
+| Reliquia | Identificador, nombre, descripción, icono, rareza, bonificaciones, desventajas, efecto especial, héroe exclusivo, disponible en tienda, precio, propiedad única, solo evento |
+| Diálogo | Líneas con hablante, texto, luz y acción (por ejemplo, la máscara que se agrieta) |
+| Consumible | Nombre, efecto, precio de compra y de venta, límite por inventario, existencias de la tienda |
 
 Datos de la sesión (cambian al jugar):
 
 | Entidad | Campos principales |
 |---|---|
-| Sesión | Coronas, consumibles, existencias de la tienda, encuentros completados, estado de La máscara rota |
-| Estado del protagonista | Id, nivel, XP, HP actual y máximo, transformado (sí/no), estado curable |
+| Sesión | Coronas, consumibles, existencias de la tienda, encuentros y eventos completados, reliquias poseídas y equipadas, contador de combates sin reliquia, avisos de tutorial pendientes |
+| Estado del protagonista | Id, nivel, XP, HP actual y máximo, caído (HP = 0), transformado (sí/no), estado curable |
 
 Relaciones: la sesión contiene el estado de los cuatro protagonistas y la lista de encuentros completados. Cada encuentro referencia a sus enemigos, y cada enemigo y protagonista a sus habilidades.
 

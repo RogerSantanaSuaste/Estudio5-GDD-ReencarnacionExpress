@@ -21,7 +21,9 @@ El jugador selecciona un encuentro disponible en el mapa del mundo y presiona el
 - El jugador controla un equipo de cuatro protagonistas: Valerian, Elaina, Noelle y Evanora.
 - El orden de actuación depende del atributo de velocidad de cada unidad.
 - Cada personaje puede realizar una acción por turno, como utilizar una habilidad o consumir un objeto.
-- El combate termina cuando todos los enemigos son derrotados o cuando ningún integrante del equipo del jugador puede continuar luchando.
+- El combate termina cuando todos los enemigos son derrotados o cuando los cuatro protagonistas están caídos.
+- Un protagonista que llega a 0 HP no muere: queda caído y fuera de la acción hasta que se le cura.
+- Los enemigos grandes (hoy el Guardián Corrupto) ocupan dos posiciones y no se mueven.
 
 **Entrada:**  
 Mouse: seleccionar habilidades, objetivos y acciones mediante los botones de la interfaz
@@ -47,7 +49,7 @@ Se relaciona directamente con el sistema de habilidades, las posiciones de comba
 **Casos límite:**  
 - Si un enemigo es derrotado antes de actuar, pierde su turno.
 - Si una unidad no tiene objetivos válidos para una habilidad, no puede ejecutarla sobre un objetivo fuera de alcance.
-- Si un personaje es derrotado, deja de actuar mientras permanezca fuera de combate.
+- Si un protagonista llega a 0 HP, queda caído: no actúa ni puede ser objetivo de los enemigos hasta que reciba una Poción de curación o una curación de Noelle.
 - Si todos los enemigos son derrotados, el combate termina y no deben generarse recompensas duplicadas.
 
 ### Mecánica 02: Sistema de habilidades y posiciones
@@ -111,7 +113,7 @@ El jugador accede al mapa al comenzar una nueva partida o después de completar 
 - Completar los encuentros requeridos permite desbloquear nuevas localizaciones.
 - Algunos lugares contienen eventos especiales en lugar de combates.
 - Los encuentros completados permanecen registrados durante la sesión y no pueden otorgar recompensas nuevamente.
-- El mapa permite acceder a la tienda y consultar el inventario.
+- El mapa permite acceder a la tienda (comprar y vender), al inventario y a la ficha de cada héroe, donde se equipan las reliquias. Tras ganar el primer combate, un tutorial interactivo enseña estas opciones.
 - El progreso de la partida se mantiene durante la sesión de juego.
 
 **Entrada:**  
@@ -140,6 +142,7 @@ Combate por turnos, progresión de personajes, economía, consumibles y eventos 
 - Un encuentro completado no puede recompensar nuevamente al jugador.
 - Si el jugador selecciona repetidamente el botón de iniciar combate, solo debe producirse una transición.
 - El evento de Noelle debe completarse antes de continuar con determinados encuentros de Bosque.
+- El informe del último vigía (Valdoria) debe completarse después de B3 para abrir C1.
 - El capitán es el jefe final de la demo. Su encuentro permanece bloqueado hasta completar C1 y C2.
 
 ## Mecánicas secundarias
@@ -153,7 +156,7 @@ Esta mecánica permite que el equipo aumente sus capacidades conforme se enfrent
 ### 2. Sistema de economía y tienda
 
 El jugador obtiene una moneda llamada **Coronas (CR)** al completar encuentros.
-Las Coronas pueden utilizarse en la tienda del mapa para adquirir objetos consumibles.
+Las Coronas pueden utilizarse en la tienda del mapa para comprar consumibles y reliquias. También se obtienen vendiendo consumibles y reliquias sin equipar por el 50 % de su precio.
 Los precios establecidos son:
 - Poción de curación: 35 CR.
 - Antídoto: 20 CR.
@@ -162,16 +165,15 @@ El jugador comienza una nueva partida con 50 Coronas, una poción y ningún ant�
 ### 3. Uso de consumibles
 
 Los objetos permiten recuperar puntos de vida o eliminar determinados efectos negativos.
-**Poción:** recupera el 50 % de la vida máxima de un aliado que siga con vida.
+**Poción:** recupera el 30 % de la vida máxima de un aliado y levanta a un héroe caído.
 **Antídoto:** elimina efectos de sangrado, veneno y quemadura.
 Durante el combate, utilizar un consumible consume la acción del personaje correspondiente.
 Cada tipo de consumible tiene un límite de cinco unidades en el inventario.
-Los consumibles no permiten resucitar personajes derrotados.
+Solo la Poción de curación levanta a un héroe caído; el Antídoto no actúa sobre ellos.
 
-### 4. Recuperación después del combate
+### 4. Héroes caídos y recuperación
 
-Los personajes que terminaron derrotados regresan con el 40 % de su vida máxima.
-El equipo conserva su progresión y recupera su formación original para el siguiente encuentro.
+Los protagonistas no mueren. Al llegar a 0 HP caen al suelo, se atenúan y pasan a una casilla libre de la retaguardia; no actúan ni pueden ser objetivo. Tras la victoria siguen caídos hasta que se les cura con una Poción de curación o con una curación de Noelle; quienes terminaron en pie conservan exactamente su vida. Subir de nivel restaura la vida al 100 % de los héroes que no están caídos. El equipo conserva su progresión para el siguiente encuentro.
 
 ### 5. Transformación de Noelle
 
@@ -199,7 +201,7 @@ La versión beta no incluye un sistema de guardado permanente.
 
 Algunas localizaciones del mapa contienen eventos especiales que afectan la historia o el desarrollo de los protagonistas.
 Estos eventos pueden desbloquear nuevas capacidades o modificar la progresión.
-El evento **La máscara rota** es el primero de este tipo implementado en la demo.
+Hay dos en la demo: **La máscara rota** (después de B1) y **El informe del último vigía**, en Valdoria (después de B3), que entrega el Broche del Vigía, revela al capitán y abre C1.
 No todos los eventos necesitan otorgar recompensas económicas o experiencia.
 
 ### 9. Efectos de estado
@@ -216,5 +218,17 @@ Al seleccionar una localización, aparece un panel contextual con información s
 Los estados visuales permiten identificar lugares disponibles, completados, bloqueados o relacionados con eventos especiales.
 Esta mecánica complementa la exploración y facilita la navegación por el mundo del juego.
 
+
+### 11. Reliquias
+
+Cada héroe tiene dos casillas de reliquia que se llenan desde el inventario en su ficha (solo fuera de combate). Las reliquias dan bonificaciones y casi siempre una desventaja, y muchas añaden un efecto especial: por ejemplo, el Colmillo de Lobo hace más daño a enemigos con Sangrado, Veneno o Quemadura, y el Ídolo del Último Aliento evita una derrota inmediata una vez por combate. Se obtienen como recompensa de la primera victoria de cada combate, en los eventos o en la tienda, y se pueden vender. Algunos enemigos también portan una durante el combate. El catálogo completo está en [[04 - Objetos y Coleccionables]].
+
+### 12. Enemigos grandes
+
+Un enemigo grande ocupa dos posiciones de la formación, al estilo de los jefes de *Darkest Dungeon*. Hoy solo es grande el Guardián Corrupto: se dibuja centrado entre sus dos posiciones, no se mueve, nadie puede ocupar su segunda posición y las habilidades de área lo alcanzan una sola vez.
+
+### 13. Tutoriales interactivos
+
+El primer combate incluye un tutorial guiado de combate. Al ganarlo, el mapa lanza un segundo tutorial que oscurece la pantalla y resalta cada zona: el jugador abre la tienda, compra, vende, abre el inventario y equipa una reliquia en la ficha de un héroe (el Altar le entrega una reliquia de práctica). Se puede saltar en cualquier momento con ENTER y solo aparece una vez por partida.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

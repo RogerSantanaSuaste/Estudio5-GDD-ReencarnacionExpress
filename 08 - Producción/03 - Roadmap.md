@@ -33,7 +33,7 @@ Convertir el prototipo de combate en un corte vertical del Capítulo 1 y dejar c
 - Prototipo funcional del combate por turnos, con orden por velocidad, posiciones, habilidades, daño, defensa y fin del encuentro. Este entregable ya existe y sirve de base al corte vertical.
 - Corte vertical del Capítulo 1, Llanuras Centrales: Campamento del Alba (P1 y P2), Ruinas de Liria (P3 y P4), los tres tipos de goblin, recompensas de 200 XP y 100 Coronas, tienda accesible desde el mapa y desbloqueo de Bosque Oscuro.
 - Reglas de sesión aplicables a toda la demo: sin guardado permanente, recompensas únicas por encuentro, derrota total de regreso al menú principal y pérdida del progreso de esa partida. Tras una victoria, los personajes derrotados regresan con el 40 % de su vida máxima y quienes siguen en pie conservan la vida del cierre del combate.
-- Economía cerrada para la demo: el jugador empieza con 50 Coronas y una Poción de curación; el Antídoto se compra; cada consumible admite hasta cinco unidades, a 35 y 20 Coronas. La poción restaura el 50 % de la vida máxima de un aliado vivo. El Antídoto solo quita sangrado, veneno y quemadura.
+- Economía cerrada para la demo: el jugador empieza con 50 Coronas y una Poción de curación; el Antídoto se compra; cada consumible admite hasta cinco unidades, a 35 y 20 Coronas. La poción restaura el 30 % de la vida máxima de un aliado y levanta a un héroe caído. El Antídoto solo quita sangrado, veneno y quemadura. Consumibles y reliquias sin equipar se venden por el 50 % de su precio.
 - Ficha de combate del capitán, con el mismo nivel de detalle que los once enemigos ya documentados: rol, estadísticas, habilidades, inteligencia artificial y condición de victoria. El capitán ya está implementado en Unity (prefab, datos, fases de jefe y balance); falta pasar esos datos a [[03 - Enemigos y NPC]].
 - Dirección de arte y temas musicales por zona, suficientes para distinguir Llanuras, Bosque, Corrupción, combate, menú y derrota.
 
@@ -50,7 +50,7 @@ Construir el recorrido completo de la demo en el orden en que el jugador lo desb
 - Capítulo 3, Corrupción del Bosque. Tierras Marchitas contiene C1 y C2, con corrupto errante, acechador oscuro, hechicero corrupto y guardián corrupto. Las recompensas del capítulo son 300 XP y 120 Coronas. Completar ambos encuentros habilita al capitán.
 - Jefe y desenlace en el Trono Sellado. La victoria purifica el sector corrompido del bosque, las fuerzas supervivientes se retiran hacia la Forja de Combustión y los protagonistas regresan como héroes del primer tramo. La derrota total corta el vínculo del jugador con Aethel y devuelve al menú principal.
 - Escenas narrativas del recorrido principal: introducción de la reencarnación, **La máscara rota** y los cierres de victoria y derrota. El texto de cada misión principal acompaña a su encuentro. El proyecto no incluye NPC ni misiones secundarias.
-- Tienda del mapa, inventario y uso de la Poción de curación y del Antídoto durante el turno de un protagonista.
+- Tienda del mapa (compra y venta), inventario, reliquias equipables y uso de la Poción de curación y del Antídoto durante el turno de un protagonista.
 - Pase visual y sonoro de las tres zonas, de los once enemigos, de los cuatro protagonistas, del capitán y de la interfaz de mapa, combate y tienda. El idioma de la demo es español.
 
 ### Pruebas
@@ -63,7 +63,7 @@ Recorrer la demo de principio a fin y comprobar que la progresión, la economía
 - Partida completa sin interrupciones: menú, P1 a P4, B1, **La máscara rota**, B2, B3, C1, C2 y capitán.
 - Prueba de la puerta narrativa: B2 permanece cerrado hasta confirmar **Romper la máscara**. La opción **Volver** deja el evento pendiente. La transformación de Noelle se conserva el resto de la sesión y no cambia su nivel ni sus estadísticas.
 - Prueba de recompensas: 200 XP y 100 Coronas en Llanuras, 300 XP y 120 Coronas en Bosque, 300 XP y 120 Coronas en Corrupción. Un encuentro ya completado no vuelve a pagar. El evento de Noelle no entrega experiencia ni Coronas.
-- Prueba de economía: con 50 Coronas iniciales y ninguna compra, el recorrido de los nueve encuentros termina en 390 Coronas. La tienda rechaza compras sin fondos y respeta el tope de cinco unidades por consumible.
+- Prueba de economía: con 50 Coronas iniciales y ninguna compra, el recorrido de los nueve encuentros termina en 390 Coronas (490 con el jefe final). La tienda rechaza compras sin fondos y respeta el tope de cinco unidades por consumible.
 - Prueba de derrota: si los cuatro protagonistas caen, la sesión termina y una partida nueva empieza otra vez en Llanuras Centrales, con Noelle enmascarada.
 - Revisión de dificultad por capítulo: Llanuras en dificultad baja a media, Bosque en media-alta a alta y Corrupción en dificultad alta. Los encuentros deben poder resolverse dentro de los rangos de rondas documentados en [[02 - Niveles]].
 - Informe de bloqueantes, balance y rendimiento en Windows a 1920×1080, con el objetivo de 60 FPS en equipos de gama baja y media. Los requisitos mínimos de hardware se anotan a partir de estas pruebas.
@@ -88,7 +88,7 @@ Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD des
 |---|---|---|---|
 | Concepto de la demo | Ficha, visión, pilares y premisa | El equipo puede explicar el bucle, la plataforma y el cierre de la demo sin recurrir a decisiones orales | Terminada |
 | Prototipo de combate | Encuentro jugable por turnos | Un combate se resuelve con velocidad, posiciones, habilidades, daño y una condición clara de victoria o derrota | Terminada |
-| Contenido de la demo | Estructura, niveles, enemigos, objetos y misiones | Quedan descritos un mundo, tres zonas, nueve encuentros, once enemigos, dos consumibles, el intercambio de habilidades de Noelle y el capitán como jefe final | Terminada |
+| Contenido de la demo | Estructura, niveles, enemigos, objetos y misiones | Quedan descritos un mundo, tres zonas, nueve encuentros, once enemigos, dos consumibles, 20 reliquias, el intercambio de habilidades de Noelle y el capitán como jefe final | Terminada |
 | Corte vertical | Capítulo 1 jugable de punta a punta | P1, P2, P3 y P4 se completan en una sesión, pagan 200 XP y 100 Coronas, permiten usar la tienda y desbloquean Bosque Oscuro | En progreso: implementado en Unity, falta verificarlo con una partida |
 | Ficha del capitán | Diseño de combate del jefe | Rol, estadísticas, habilidades e inteligencia artificial quedan documentados al mismo nivel que el resto de enemigos | En progreso: implementado en Unity, falta documentarlo en el GDD |
 | Bosque Oscuro | Capítulo 2 integrado | B1, **La máscara rota**, B2 y B3 se juegan en ese orden; Noelle intercambia sus cuatro habilidades y Corrupción queda desbloqueada | En progreso: implementado en Unity, falta verificarlo |

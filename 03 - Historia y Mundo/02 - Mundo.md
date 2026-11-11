@@ -12,8 +12,6 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 **Contexto:** El mundo se encuentra bajo ataque de un poderoso Rey Demonio.
 
-**Reglas especiales del mundo:** 
-
 ## Historia del mundo
 
 ### Antes del juego

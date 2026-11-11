@@ -22,44 +22,71 @@ Primero aprende la existencia de las mecánicas base.
 - Ataques y efectos de estado.
 - Limitación de ataques a posición del personaje y del enemigo.
 - Diferentes ataques por personaje.
-Posteriormente las usa en combate real, y al mismo tiempo obtiene experiencia, la cual al subir de nivel aumenta las estadísticas base de los personajes, y Coronas para comprar la Poción de curación y el Antídoto.
+Posteriormente las usa en combate real, y al mismo tiempo obtiene experiencia, la cual al subir de nivel aumenta las estadísticas base de los personajes, y Coronas para comprar consumibles y reliquias.
 El jugador entonces aprende a administrar esos consumibles según la situación, y finalmente comienza a dominar las mecánicas de combate que previamente se le enseñaron.
 El jugador deberá dominar las mecánicas, acumular la experiencia necesaria y administrar bien sus recursos para que el equipo sea capaz de derrotar al capitán.
 
 ## Progresión del personaje
 
-Los cuatro protagonistas suben de nivel al obtener experiencia de misiones y combates. Al subir de nivel aumentan sus estadísticas base de forma automática según su rol. En la demo no hay reasignación de puntos ni árboles de habilidades. El crecimiento es fijo y refuerza la función de cada personaje dentro del equipo.
+Los cuatro protagonistas suben de nivel al obtener experiencia. **Cada combate entrega su experiencia completa a los cuatro héroes**, incluso a los que están caídos, y el máximo es el **nivel 10**. Al subir de nivel aumentan sus estadísticas de forma automática según su rol y **recuperan el 100 % de su vida** (un héroe caído no se levanta por subir de nivel). En la demo no hay reasignación de puntos ni árboles de habilidades.
 
-### Caballero
+### Estadísticas iniciales y crecimiento
+
+| Héroe | Vida | Daño | Protección | Evasión | Velocidad | Crítico | Vida por nivel |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Valerian (caballero) | 35 | 4–6 | 15 % | 3 % | 4 | 4 % | +2 |
+| Elaina (arquera) | 26 | 4–7 | 0 % | 10 % | 7 | 8 % | +1 |
+| Noelle (clériga) | 28 | 2–4 | 10 % | 5 % | 5 | 5 % | +2 |
+| Evanora (maga) | 18 | 5–8 | 0 % | 5 % | 6 | 8 % | +1 |
+
+La fórmula es la misma para todos: el daño mínimo y máximo suben **+1 en cada uno de los niveles 2 a 6**; la velocidad, la protección, la evasión y el crítico no cambian con el nivel (solo con las reliquias). El crítico multiplica el daño por 1,5.
+
+### Curva de experiencia
+
+La experiencia necesaria para pasar del nivel N al siguiente es **100 + 50 × (N − 1)**: 100, 150, 200, 250, 300, 350, 400, 450 y 500 puntos. Los encuentros pagan 50 XP en Pradera, 100 en Bosque, 150 en Corrupción y 200 el capitán (los eventos no pagan), así que la demo entera suma 1000 XP por héroe:
+
+| Tras completar | XP acumulada | Nivel |
+| --- | --- | --- |
+| P2 | 100 | 2 |
+| P4 | 200 | 2 |
+| B1 | 300 | 3 |
+| B3 | 500 | 4 |
+| C1 | 650 | 4 |
+| C2 | 800 | 5 |
+| Capitán | 1000 | 6 |
+
+El equipo llega al capitán en nivel 5 (Valerian 43 HP, Noelle 36, Elaina 30, Evanora 22 sin reliquias).
+
+### Valerian (caballero)
 - **Rol:** Tanque y daño sostenido.
-- **Crecimiento prioritario:** Vida y Defensa (las más altas del equipo). Daño y Agilidad crecen de forma moderada.
-- **Habilidades:** Sus ataques con armas cortantes aumentan de poder con el nivel. El efecto de estado Sangrado gana duración o daño por turno conforme avanza la demo.
+- **Crecimiento:** +2 de vida por nivel (el más alto junto con Noelle) y la mayor vida y protección base del equipo. Su velocidad es la más baja.
+- **Habilidades:** Corte del Bastión, Embate de Escudo, Guardia de Trinchera y Herida Profunda. No cambian con el nivel; mejoran su vida y su daño.
 - **Función en combate:** Absorbe golpes para proteger al resto del equipo. Su daño no es el más alto por golpe, pero se acumula gracias al Sangrado y a su capacidad de mantenerse en posiciones adelantadas.
 
-### Arquera
+### Elaina (arquera)
 - **Rol:** Utilidad y daño a objetivos prioritarios.
-- **Crecimiento prioritario:** Agilidad (la más alta) y Daño. Defensa y Vida crecen poco.
-- **Habilidades:** La habilidad de marcar enemigos aumenta el daño que estos reciben. Mantiene la capacidad de golpear cualquier posición (las 4) durante toda la demo.
+- **Crecimiento:** +1 de vida por nivel. Parte con la velocidad y la evasión más altas (y 8 % de crítico).
+- **Habilidades:** Disparo Certero, Flecha Perforante, Marca del Cazador y Tiro Evasivo. Las usa desde P2, P3 o P4 y alcanzan las cuatro posiciones enemigas durante toda la demo.
 - **Función en combate:** Es vulnerable a ataques pesados, pero su agilidad le permite reducir o ignorar el impacto de ataques ligeros. Su valor está en marcar objetivos clave y eliminar enemigos específicos sin depender de la posición.
 
-### Clérigo
+### Noelle (clériga)
 - **Rol:** Soporte.
-- **Crecimiento prioritario:** Vida y Defensa intermedias (menores que el Caballero, mayores que Arquera y Maga). Daño y Agilidad moderados.
-- **Habilidades:** Antes del intercambio usa el conjunto enmascarado, que incluye el aturdimiento de Impacto Quebrantador. Después de La máscara rota usa solo el conjunto divino. En ambos casos, curación y apoyo ganan potencia al subir de nivel.
+- **Crecimiento:** +2 de vida por nivel; vida y protección intermedias (por debajo de Valerian, por encima de Elaina y Evanora) y el daño más bajo del equipo.
+- **Habilidades:** Antes del intercambio usa el conjunto enmascarado, que incluye el aturdimiento de Impacto Quebrantador. Después de La máscara rota usa solo el conjunto divino. Sus curaciones son un porcentaje de la vida máxima del aliado (25 % y 40 %), así que mejoran con el nivel y las reliquias de quien las recibe.
 - **Función en combate:** Reduce la dependencia de pociones de vida. Sus curaciones y buffs permiten que el equipo aguante enfrentamientos más largos o de mayor dificultad. El aturdimiento puede interrumpir el ritmo del enemigo.
 
-### Maga
+### Evanora (maga)
 - **Rol:** Daño alto y control.
-- **Crecimiento prioritario:** Daño (el más alto del equipo). Vida y Defensa crecen muy poco.
-- **Habilidades:** Los ataques de alto daño a un solo objetivo se vuelven más fuertes. Los ataques de área (que pueden afectar a varios o a todos los enemigos) mejoran en daño y en la potencia de los efectos de estado que aplican (debilitamiento, vulnerabilidad o quemadura).
+- **Crecimiento:** +1 de vida por nivel; la menor vida del equipo (18) y el mayor daño base (5–8).
+- **Habilidades:** Orbe Arcano, Llamarada, Ruptura Ígnea y Golpe de Meteorito (de área, desde la ronda 3). Las usa desde P3 y P4 y giran en torno a la Quemadura.
 - **Función en combate:** Alta vulnerabilidad. Cada ataque aplica un efecto de estado. Su valor está en eliminar amenazas rápidamente o en debilitar grupos enteros para que el resto del equipo pueda aprovecharlo.
 
 ### Notas
 - El crecimiento de estadísticas es automático y diferente por clase.
-- Los efectos de estado (Sangrado, Marca, Aturdimiento y los de la Maga) escalan con el nivel del personaje para mantenerse relevantes en las zonas posteriores.
+- Los efectos de estado de los héroes no escalan con el nivel; lo que crece es la vida y el daño. El daño de Sangrado, Quemadura y Veneno depende de la habilidad (valor fijo o porcentaje del daño del golpe).
 - Subir de nivel no enseña habilidades nuevas. El avance de estadísticas y de efectos se siente en los combates posteriores.
 - El único intercambio de habilidades de la demo es La máscara rota. Noelle sustituye Golpe de Lucero, Impacto Quebrantador, Resistencia Obstinada y Auxilio Improvisado por Impacto Consagrado, Plegaria Focalizada, Bendición Continua y Amparo Divino. Conserva nivel, experiencia y atributos.
-- Los consumibles de la demo son la Poción de curación y el Antídoto. La base del crecimiento sigue siendo el nivel y la clase.
+- Los consumibles de la demo son la Poción de curación y el Antídoto, y el equipo adicional son las reliquias (dos casillas por héroe, ver [[04 - Objetos y Coleccionables]]). La base del crecimiento sigue siendo el nivel y la clase.
 
 ## Desbloqueos
 
@@ -67,7 +94,8 @@ Los cuatro protagonistas suben de nivel al obtener experiencia de misiones y com
 | ---------- | --------- | ------ |
 | Bosque Oscuro | Completar P1, P2, P3 y P4 | Abre la segunda región. |
 | La máscara rota | Completar B1 | Sustituye las habilidades de Noelle y abre B2. No otorga XP ni Coronas. |
-| Corrupción del Bosque | Completar B1, La máscara rota, B2 y B3 | Abre la tercera región. |
+| El informe del último vigía | Completar B3 | Entrega el Broche del Vigía, revela al capitán y abre C1. No otorga XP ni Coronas. |
+| Corrupción del Bosque | Completar El informe del último vigía | Abre la tercera región (C1 y C2). |
 | Trono Sellado | Completar C1 y C2 | Abre el enfrentamiento contra el capitán. |
 
 ## Curva de dificultad
@@ -77,7 +105,7 @@ Describe cómo aumenta el desafío y qué nuevos elementos aparecen.
 El jugador es introducido al mundo del juego y se le enseña las mecánicas principales, de esta forma el jugador aprende a utilizar al equipo de héroes.
 - Sección 1: Pradera
 El jugador pone en práctica el combate en los cuatro encuentros de Pradera. Al ganarlos obtiene experiencia y Coronas, y puede comprar consumibles en la tienda del mapa.
-Los enemigos son más débiles que el jugador (50% más débiles), el jugador deberá de poder avanzar a la siguiente zona utilizando ataques normales sin demasiada estrategia.
+Los enemigos son claramente más débiles que el equipo (12 a 22 HP frente a 18 a 35), el jugador deberá de poder avanzar a la siguiente zona utilizando ataques normales sin demasiada estrategia.
 - Sección 2: Bosque
 El jugador deberá de haber aprendido las bases del juego y debe de poner en práctica estrategia.
 Los enemigos en esta sección serán un cambio en dificultad significativo, los enemigos tendrán estadísticas similares a las del jugador en cuanto a salud y daño. Por lo que, el jugador deberá usar estrategias efectivas para derrotar a los enemigos con ventaja.
@@ -98,7 +126,10 @@ El jugador deberá aprender a usar estas diferencias a su beneficio, empleando e
 
 Aprendizaje 3:
 Consumibles y La máscara rota.
-La Poción de curación restaura el 50 % de la vida máxima de un aliado vivo y cuesta la acción del turno. El Antídoto elimina sangrado, veneno y quemadura. Ninguno revive personajes.
+La Poción de curación restaura el 30 % de la vida máxima de un aliado, levanta a un héroe caído y cuesta la acción del turno. El Antídoto elimina sangrado, veneno y quemadura y no actúa sobre héroes caídos.
 Después de B1, el jugador confirma La máscara rota. Noelle pasa a combatir con sus cuatro habilidades divinas durante el resto de la sesión.
+
+Aprendizaje 4:
+Tienda, venta y reliquias. Justo después de ganar el primer combate, un tutorial interactivo en el mapa guía al jugador para abrir la tienda, comprar, vender, consultar el inventario y equipar una reliquia en la ficha de un héroe. Desde ahí el jugador decide cómo repartir sus Coronas entre consumibles y reliquias y qué reliquia lleva cada héroe.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →

@@ -19,13 +19,10 @@ Completa:
 
 - **Quiero que el jugador se sienta:** Parte de una aventura de fantasía llena de misterios, desafíos y momentos tanto cómicos como trágicos, desarrollando una conexión con los protagonistas y experimentando satisfacción al superar los obstáculos y observar el crecimiento de su equipo.
 - **Quiero que el jugador piense:** De manera estratégica durante los enfrentamientos, analizando las posiciones de sus personajes y enemigos, aprovechando las habilidades disponibles, los efectos de estado, buffs y debuffs, así como las ventajas o desventajas que puedan presentarse durante el combate.
-- **Quiero que el jugador haga:** Seleccione los encuentros del recorrido desde un mapa interactivo, complete La máscara rota, vea las escenas de diálogo de las misiones principales y participe en combates tácticos por turnos. También deberá administrar Coronas, la Poción de curación y el Antídoto, preparar al equipo y obtener experiencia para mejorar sus estadísticas.
+- **Quiero que el jugador haga:** Seleccione los encuentros del recorrido desde un mapa interactivo, complete La máscara rota y El informe del último vigía, vea las escenas de diálogo de las misiones principales y participe en combates tácticos por turnos. También deberá administrar Coronas, consumibles y reliquias, preparar al equipo y obtener experiencia para mejorar sus estadísticas.
 - **Quiero que el jugador recuerde:** A los cuatro protagonistas por sus personalidades, historias e interacciones, así como los acontecimientos que experimentaron durante la aventura. Además, que recuerde el estilo visual, los combates desafiantes, la música y los momentos narrativos más importantes del videojuego.
 
 ## Fantasía del jugador
-
-> [!question] Pregunta clave
-> ¿Qué fantasía estamos permitiendo cumplir al jugador?
 
 Asumir el papel de estratega al dirigir a un equipo de cuatro personajes con diferentes funciones de combate: maga, arquera, clérigo y caballero. Deberá aprovechar sus habilidades, administrar recursos, modificar sus posiciones y adaptarse a las condiciones de cada enfrentamiento para conseguir la victoria.
 
@@ -65,8 +62,8 @@ Finalmente, el sistema de combate permitirá desarrollar estrategias a partir de
 - **No es un videojuego de mundo abierto:** La exploración se realizará principalmente mediante un mapa de eventos, donde el jugador seleccionará misiones disponibles y desbloqueará nuevas ubicaciones conforme avance en la historia.
 - **No es un videojuego de combate en tiempo real:** Los enfrentamientos se desarrollarán por turnos, priorizando la planificación, el posicionamiento y la selección estratégica de habilidades.
 - **No es un videojuego multijugador:** La experiencia estará diseñada exclusivamente para un jugador, quien controlará a los cuatro protagonistas durante los enfrentamientos.
-- **No es un videojuego centrado en la exploración libre:** El avance sigue tres regiones, nueve encuentros, el evento La máscara rota y el capitán, en el orden de [[01 - Estructura del Contenido]].
+- **No es un videojuego centrado en la exploración libre:** El avance sigue tres regiones, nueve encuentros, los eventos La máscara rota y El informe del último vigía y el capitán, en el orden de [[01 - Estructura del Contenido]].
 - **No es una novela visual tradicional:** Aunque utilizará escenas de diálogo para desarrollar la historia, la jugabilidad principal estará enfocada en los combates tácticos, la progresión de misiones y la administración de recursos.
-- **No busca implementar todas las mecánicas de un RPG complejo desde su primera versión:** La demo presenta el combate por turnos, el mapa, las escenas narrativas, nueve combates regulares, La máscara rota, el capitán, los efectos de estado y una tienda con Poción de curación y Antídoto.
+- **No busca implementar todas las mecánicas de un RPG complejo desde su primera versión:** La demo presenta el combate por turnos, el mapa, las escenas narrativas, nueve combates regulares, los dos eventos narrativos, el capitán, los efectos de estado, una tienda con compra y venta, dos consumibles y reliquias equipables.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Ficha del Proyecto]] · [[03 - Público y Plataforma]] →

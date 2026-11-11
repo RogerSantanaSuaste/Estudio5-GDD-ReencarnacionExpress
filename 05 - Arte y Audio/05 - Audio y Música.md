@@ -69,4 +69,4 @@ Comportamiento ante eventos: si hay un FX como de ataque, de adquirir un objeto,
 
 
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[01 - UX y Flujo del Jugador]] →
+> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[06 - Registro visual]] →
