@@ -1,9 +1,5 @@
 # Estructura del Contenido
 
-## Descripción de la sección
-
-Organiza el contenido del videojuego en unidades manejables: mundos, capítulos, zonas, niveles, misiones y desafíos.
-
 ## Estructura
 
 ```Reencarnación Express

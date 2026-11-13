@@ -1,9 +1,5 @@
 # Entornos
 
-## Descripción de la sección
-
-Define la estética y necesidades visuales de escenarios, fondos, objetos y elementos ambientales.
-
 ## Zonas
 
 | Zona            | Estilo                                                                                                                                                                                                       | Elementos                                                            | Función |

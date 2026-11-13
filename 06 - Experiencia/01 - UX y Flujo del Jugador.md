@@ -1,9 +1,5 @@
 # UX y Flujo del Jugador
 
-## Descripción de la sección
-
-UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente resulta la interacción con el videojuego. Esta sección documenta el recorrido real de una partida, lo que aprende el jugador y cómo responde el juego a cada acción.
-
 ## Flujo principal
 
 ```text
@@ -11,10 +7,10 @@ Menú principal → Nueva partida → Introducción cinematográfica (se puede o
    → Diálogo del Altar de los Invocados → Primer combate (P1) con tutorial guiado
    → Victoria → Mapa con tutorial interactivo (tienda, venta, inventario, reliquias)
    → P2 → P3 → P4 → B1 → La máscara rota → B2 → B3 → El informe del último vigía
-   → C1 → C2 → Trono Sellado (capitán) → Victoria final
+   → C1 → C2 → Trono Sellado (capitán) → Victoria final → Epílogo → Créditos → Menú principal
 ```
 
-Pausa disponible en el mapa, el diálogo y el combate (tecla Esc). Una derrota total lleva a la pantalla de Derrota y de ahí al menú principal. La pantalla de créditos está prevista pero todavía no está implementada: tras vencer al capitán el jugador vuelve al mapa con el recorrido completo (Jefe 1/1).
+Pausa disponible en el mapa, el diálogo y el combate (tecla Esc). Una derrota total lleva a la pantalla de Derrota y de ahí al menú principal. Al vencer al capitán, el botón Continuar de la pantalla de Victoria lleva a un epílogo en el Trono Sellado (diálogo de los cuatro héroes sobre el desenlace, que se puede omitir) y de ahí a los créditos; al terminar o saltarlos (ESPACIO, ENTER, ESC o clic) la partida se cierra y se vuelve al menú principal.
 
 ## Primeros minutos
 

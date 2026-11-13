@@ -1,9 +1,5 @@
 # Visión del Juego
 
-## Descripción de la sección
-
-Aquí se define la **idea central** del videojuego. Esta sección funciona como brújula: cuando aparezca una nueva idea, el equipo puede comprobar si realmente pertenece al juego.
-
 ## Concepto central
 
 **El videojuego trata sobre:**

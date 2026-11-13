@@ -1,9 +1,5 @@
 # Premisa y Trama
 
-## Descripción de la sección
-
-Aquí se documenta la narrativa que sostiene la experiencia. La historia debe explicar qué sucede, por qué sucede y cómo participa el jugador.
-
 ## Premisa
 
 Resume el conflicto principal en pocas líneas.
@@ -43,12 +39,6 @@ El acto finalizará con la derrota del capitán de las fuerzas expedicionarias, 
 
 ## Finales
 
-Documenta los finales posibles y las condiciones que los provocan.
-
-> [!warning] Spoilers
-> Si el documento será compartido con estudiantes o colaboradores, considera separar información sensible de la documentación general.
-
-Estos finales se refieren al final de la historia en el alcance de la demo.
 ### Derrota
 Si durante el gameplay, los protagonistas pierden todos sus puntos de salud, entonces se ejecutará el Final "**Derrota**".
 En este final, los protagonistas son derrotados y pierden la vida en combate, con los protagonistas caídos, el jugador pierde su último enlace a el mundo, y su poder, por lo que el jugador deja de ser una entidad divina.

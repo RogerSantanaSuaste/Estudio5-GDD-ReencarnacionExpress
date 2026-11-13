@@ -1,9 +1,5 @@
 # Sistemas del Juego
 
-## Descripción de la sección
-
-Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate, inventario, IA, diálogo, progresión, economía, misiones, etc.
-
 ## Inventario de sistemas
 
 | Sistema                          | Propósito                                           | Dependencias                        | Estado |

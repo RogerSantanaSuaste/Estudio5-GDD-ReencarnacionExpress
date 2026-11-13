@@ -1,9 +1,5 @@
 # Gestión de Cambios
 
-## Descripción de la sección
-
-El diseño de un videojuego cambia. Esta sección evita que las modificaciones importantes se pierdan o aparezcan sin evaluar sus consecuencias.
-
 ## Registro
 
 Decisiones ya aplicadas al GDD.

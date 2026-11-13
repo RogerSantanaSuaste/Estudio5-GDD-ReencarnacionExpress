@@ -1,13 +1,10 @@
 # Diálogos y Narrativa
 
-## Descripción de la sección
-
-Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
-
 ## Métodos narrativos
 
 - **Diálogo** (escenas tipo novela visual): retratos de los personajes, placa de nombre y cuadro de texto con efecto de escritura y sonido. Se avanza con ESPACIO.
 - **Narración** (introducción): once escenas ilustradas con voz en off de un narrador y de Dios, subtítulos etiquetados y efectos de sonido.
+- **Epílogo** (tras vencer al capitán): diálogo breve en el Trono Sellado con narración, donde los héroes constatan que la corrupción se desvanece, que las fuerzas enemigas huyen a la Forja de Combustión y que la guerra contra el Rey Demonio continúa; no muestra al capitán ni su derrota.
 - **Texto de tutorial:** líneas sin personaje en el mismo cuadro de diálogo y tarjetas guiadas durante los tutoriales.
 - **Audio:** diez locuciones, ocho efectos de la introducción, música de menú y de la introducción, y pistas narrativas ligadas a Valdoria, al primer encuentro y al Santuario Velado.
 

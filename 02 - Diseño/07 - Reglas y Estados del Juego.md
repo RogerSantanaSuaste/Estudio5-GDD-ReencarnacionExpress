@@ -1,9 +1,5 @@
 # Reglas y Estados del Juego
 
-## Descripción de la sección
-
-Define las reglas globales y los estados que puede atravesar el videojuego.
-
 ## Estados principales
 
 - Menú principal
@@ -19,6 +15,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 - Victoria de combate
 - Derrota
 - Game Over
+- Epílogo
 - Créditos
 
 ## Transiciones
@@ -33,13 +30,15 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Diálogo                  | Termina escena                | Mapa                | La misión no tiene combate       |
 | Combate                  | Todos los enemigos derrotados | Victoria de combate | —                                |
 | Combate                  | Los 4 protagonistas caen      | Derrota             | —                                |
-| Victoria de combate      | Confirmar recompensas         | Mapa                | —                                |
+| Victoria de combate      | Confirmar recompensas         | Mapa                | Cualquier combate salvo el del capitán |
+| Victoria de combate      | Confirmar recompensas         | Epílogo             | Combate contra el capitán        |
+| Epílogo                  | Termina o se omite el diálogo | Créditos            | —                                |
 | Derrota                  | Salir al menú                 | Menú principal      | —                                |
 | Mapa                     | Interactuar con tienda        | Tienda              | —                                |
 | Tienda                   | Salir                         | Mapa                | —                                |
 | Mapa / Diálogo / Combate | Pausar                        | Pausa               | —                                |
 | Pausa                    | Continuar                     | Estado anterior     | —                                |
-| Mapa                     | Completar demo                | Créditos            | —                                |
+| Créditos                 | Terminan o se omiten          | Menú principal      | La sesión se cierra              |
 
 ### Transiciones adicionales
 
@@ -53,7 +52,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 
 ## Reglas globales
 
-1. Los protagonistas no mueren: a 0 HP quedan caídos y siguen así tras la victoria hasta que se les cura. Quienes siguen en pie conservan la vida con la que cerraron el combate.
+1. Los protagonistas no mueren: a 0 HP quedan caídos y, si el equipo gana, reviven al terminar el combate con el 30 % de su vida máxima. Quienes siguen en pie conservan la vida con la que cerraron el combate.
 2. La Poción de curación solo se usa en combate. Cuesta la acción del personaje, restaura el 30 % de la vida máxima de un aliado y levanta a un héroe caído.
 3. El juego se puede pausar desde el mapa, el diálogo y el combate.
 4. El inventario admite hasta cinco Pociones de curación y cinco Antídotos. El Antídoto elimina sangrado, veneno y quemadura.

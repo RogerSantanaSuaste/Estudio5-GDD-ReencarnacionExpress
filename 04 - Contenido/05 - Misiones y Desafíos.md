@@ -1,8 +1,5 @@
 # Misiones y Desafíos
 
-## Descripción de la sección
-
-Las misiones y desafíos convierten las mecánicas en objetivos concretos para el jugador.
 
 ## Detalle de las misiones
 
@@ -302,8 +299,5 @@ Enfrentamiento final de la demo, posterior a Corrupción.
 Según la historia de la demo, cuando los cuatro protagonistas pierden la vida en combate, el jugador pierde su último vínculo con el mundo de Aethel y deja de actuar como una entidad divina.
 
 En términos jugables, esta consecuencia se representa mediante el final de la sesión y el regreso al menú principal. Una nueva partida reinicia el recorrido desde Pradera.
-
-
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →

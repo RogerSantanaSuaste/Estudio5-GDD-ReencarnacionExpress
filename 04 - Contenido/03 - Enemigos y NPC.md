@@ -1,9 +1,5 @@
 # Enemigos y NPC
 
-## Descripción de la sección
-
-Fichas de combate de los once enemigos normales y del jefe final, con los valores reales del juego. Las cifras proceden de los datos de Unity (`ScriptableObjects/Enemies` y `Abilities/Enemies`) y se actualizan junto con ellos.
-
 ## Cómo leer las estadísticas
 
 - **Vida (HP):** puntos de vida. Un enemigo que llega a 0 es derrotado y desaparece del campo con un efecto de calavera.
@@ -425,7 +421,7 @@ Evaluar amenazas → Revisar protección activa → Seleccionar ataque o defensa
 Jefe táctico que marca objetivos, debilita al equipo y prepara ataques de área.
 
 **Comportamiento:**
-Opera en dos fases. En **Comandante calculador** (100 % de vida) alterna golpes, debilitamientos y marcas. Al bajar al 50 % de vida entra en **Última resistencia**: anuncia el cambio con un aviso en pantalla, desbloquea *Última Orden* y su IA prioriza el ataque, los objetivos marcados y los ataques preparados en lugar de reforzarse. Lo acompaña un Corrupto Errante en E2. Si el Capitán cae, el enemigo restante huye del campo y el combate termina en victoria sin recompensas adicionales.
+Opera en dos fases. En **Comandante calculador** (100 % de vida) alterna golpes, debilitamientos y marcas. Al bajar al 50 % de vida entra en **Última resistencia**: anuncia el cambio con un aviso en pantalla, desbloquea *Última Orden* y su IA prioriza el ataque, los objetivos marcados y los ataques preparados en lugar de reforzarse. Ocupa dos casillas (E3 y E4) y lo acompañan dos Corruptos Errantes en E1 y E2. Si el Capitán cae, los enemigos restantes huyen del campo y el combate termina en victoria sin recompensas adicionales.
 
 **Vida:** 120 HP.
 **Daño:** 5–8 por golpe.
@@ -487,7 +483,7 @@ Para variar los combates normales, al cargar un encuentro cada enemigo tiene un 
 | B3 | La última vigilia | Guardián forestal | Bandido | Bandido | Chamán | 100 | 40 |
 | C1 | El aliento del Ocaso | Corrupto errante | Corrupto errante | Acechador | Hechicero | 150 | 60 |
 | C2 | Donde muere la luz | Guardián corrupto (E1+E2) | — | Acechador | Hechicero | 150 | 60 |
-| BOSS | Trono Sellado | Capitán | Corrupto errante | — | — | 200 | 100 |
+| BOSS | Trono Sellado | Corrupto errante | Corrupto errante | Capitán (E3+E4) | — | 200 | 100 |
 
 ![Encuentro de Pradera con goblins: formación, orden de turno y paneles de información|880](../Media/Avance_2026-11-10/Combate/Pradera_Orden_Turno.jpg)
 *Encuentro de Pradera con goblins: formación, orden de turno y paneles de información*
@@ -538,9 +534,5 @@ INICIO DEL TURNO ENEMIGO
            v
      Finalizar turno
 ```
-## NPC
-
-Los NPC y las misiones secundarias quedaron descartados como características del proyecto. No se documentan fichas de NPC. La decisión está registrada en [[01 - Alcance]].
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

@@ -1,9 +1,5 @@
 # Historial de Versiones
 
-## Descripción de la sección
-
-Registra los cambios importantes realizados al GDD. Esto permite conocer cómo evolucionó el diseño y cuándo se modificó una decisión.
-
 ## Formato
 
 | Versión | Fecha | Cambios principales | Responsable |
@@ -19,7 +15,5 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 - **MAJOR:** cambios estructurales importantes.
 - **MINOR:** nuevas secciones o características relevantes.
 - **PATCH:** correcciones, aclaraciones y pequeños ajustes.
-
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Registro de Decisiones]] · [[00 - Índice]] →

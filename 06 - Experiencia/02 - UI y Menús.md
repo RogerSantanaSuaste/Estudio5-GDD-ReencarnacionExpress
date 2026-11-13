@@ -1,9 +1,5 @@
 # UI y Menús
 
-## Descripción de la sección
-
-Define la estructura funcional de las interfaces y menús. Resolución de referencia: 1920 × 1080 (escalado por altura). Tipografía: Merriweather (regular y negrita).
-
 ## Mapa de navegación
 
 ```text
@@ -23,6 +19,7 @@ Mapa
 └── Pausa (Regresar · Ayuda · Opciones · Menú principal)
 
 Combate → Victoria → Mapa
+Combate (capitán) → Victoria → Epílogo → Créditos → Menú principal
 Combate → Derrota → Menú principal
 ```
 
@@ -144,7 +141,9 @@ Combate → Derrota → Menú principal
 
 **Elementos:** título enmarcado, fila por héroe con nivel, barra de experiencia y XP ganada, mejoras de estadísticas al subir de nivel (discretas), Coronas y reliquia obtenida con recuadro de descripción.
 
-**Transiciones:** Continuar lleva al mapa (con tutorial la primera vez).
+**Sonido:** al subir de nivel un héroe suena un efecto único (una sola vez aunque suban varios a la vez); la pantalla no lleva otra música ni efectos.
+
+**Transiciones:** Continuar lleva al mapa (con tutorial la primera vez). Tras vencer al capitán lleva al epílogo y a los créditos.
 
 ### Derrota
 
@@ -158,6 +157,29 @@ Combate → Derrota → Menú principal
 
 **Transiciones:** vuelve al menú principal y descarta la partida.
 
+### Epílogo
+
+![Epílogo en el Trono Sellado tras vencer al capitán|880](../Media/Avance_2026-11-13/Interfaz/Epilogo_Trono_Sellado.jpg)
+*Epílogo en el Trono Sellado tras vencer al capitán: los cuatro héroes, la línea de narración y el cuadro de diálogo*
+
+
+**Propósito:** cerrar la historia de la demo sin mostrar la derrota del capitán.
+
+**Elementos:** fondo del Trono Sellado, retratos de los cuatro héroes, cuadro de texto con efecto de escritura, narración en cursiva y botón para omitir el diálogo.
+
+**Transiciones:** al terminar o al omitir lleva a los créditos.
+
+### Créditos
+
+![Pantalla de créditos con el logo, el cierre de la demo y el equipo|880](../Media/Avance_2026-11-13/Interfaz/Creditos.jpg)
+*Pantalla de créditos: logo, «Fin de la demo», frase de cierre y equipo de desarrollo sobre fondo oscuro*
+
+
+**Propósito:** cerrar la demo y devolver al jugador al menú.
+
+**Elementos:** logo del juego, texto que sube despacio (fin de la demo, equipo de desarrollo, estudio y agradecimiento) y música del menú.
+
+**Transiciones:** al terminar o al pulsar ESPACIO, ENTER, ESC o clic, funde a negro, cierra la sesión y vuelve al menú principal.
 ### Pausa
 
 ![Menú de pausa en el mapa|880](../Media/Avance_2026-11-10/Interfaz/Pausa_Mapa.jpg)

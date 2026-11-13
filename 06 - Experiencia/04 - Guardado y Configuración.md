@@ -1,9 +1,5 @@
 # Guardado y Configuración
 
-## Descripción de la sección
-
-Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
-
 ## Guardado
 
 **Tipo:** No hay.

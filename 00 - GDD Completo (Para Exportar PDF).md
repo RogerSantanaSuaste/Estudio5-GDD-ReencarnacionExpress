@@ -59,10 +59,6 @@ Menú principal → Nueva partida → introducción cinematográfica → primer 
 
 # Ficha del Proyecto
 
-## Descripción de la sección
-
-Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
-
 ## Información general
 
 | Campo                        | Información                                                                                                                                  |
@@ -80,31 +76,18 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Identidad del videojuego
 
 **Género principal:**  Rol (RPG)
-> Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
 
-**Subgéneros:** Aventura, JRPG, Estrategia por turnos.
-> Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
-
-**Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
+**Subgéneros:** Aventura, Estrategia por turnos.
 
 **Plataforma objetivo:**  PC (Windows).
-> Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
 **Modo de juego:**  Un Jugador
-> Consulta [[05 - Modos de Juego]].
 
 **Perspectiva:**  Top-Down (mapa de eventos) y lateral (combates).
-> Consulta [[04 - Perspectivas y Cámaras]].
 
 **Clasificaciones y etiquetas adicionales:**  Lineal, inventario, jefes, misiones, combate, mapa de eventos.
-> Consulta [[06 - Clasificaciones y Etiquetas]].
 
 **Tecnología principal:**  Unity 6, C#
-> Motor, lenguaje y herramientas principales.
-
-## Elevator Pitch
-
-RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas reencarnadas avanzan por un mapa de eventos con escenas de novela visual para detener a las fuerzas del Rey Demonio.
 
 ## Estado actual
 
@@ -113,8 +96,8 @@ RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas r
 - [x] Mecánica principal definida
 - [x] Prototipo funcional
 - [x] Vertical slice (Capítulo 1 implementado en Unity; falta verificarlo con una partida completa)
-- [ ] Producción (en curso: los tres capítulos, el mapa, la tienda y el capitán están en la rama `feature/sistema-combate`)
-- [ ] Pruebas
+- [x] Producción (en curso: los tres capítulos, el mapa, la tienda y el capitán están en la rama `feature/sistema-combate`)
+- [x] Pruebas
 - [ ] Versión final
 
 ## Criterio de éxito del proyecto
@@ -132,10 +115,6 @@ RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas r
 ---
 
 # Visión del Juego
-
-## Descripción de la sección
-
-Aquí se define la **idea central** del videojuego. Esta sección funciona como brújula: cuando aparezca una nueva idea, el equipo puede comprobar si realmente pertenece al juego.
 
 ## Concepto central
 
@@ -202,11 +181,6 @@ Finalmente, el sistema de combate permitirá desarrollar estrategias a partir de
 ---
 
 # Público y Plataforma
-
-## Descripción de la sección
-
-Define para quién se diseña el videojuego y dónde se jugará. Las decisiones de diseño, interfaz, controles y rendimiento dependen de estas variables.
-
 ## Público objetivo
 
 **Edad aproximada:** 18 - 29 años
@@ -270,10 +244,6 @@ Los requisitos mínimos de procesador, memoria RAM, tarjeta gráfica y almacenam
 
 # Pilares de Diseño
 
-## Descripción de la sección
-
-Los pilares son los principios que deben mantenerse durante todo el desarrollo. Cuando dos ideas entren en conflicto, los pilares ayudan a decidir cuál encaja mejor con la identidad del juego.
-
 ## Pilar 1 — Combate táctico y estratégico
 
 **Descripción:**
@@ -328,27 +298,12 @@ Crear una identidad artística fantasía medieval, utilizando elementos visuales
 - Ambientaciones que reflejan la fantasía, el misterio y los conflictos del mundo.
 - Música que acompaña los momentos narrativos y los enfrentamientos.
 - Interfaces visuales coherentes entre el mapa, las escenas de novela visual y los combates.
-## Reglas de decisión
-
-Antes de incorporar una característica importante, preguntar:
-
-- ¿Refuerza uno de nuestros pilares?
-- ¿Mejora la experiencia principal?
-- ¿Justifica el costo de desarrollo?
-- ¿Complica innecesariamente otro sistema?
-
-> [!warning] Evitar
-> Convertir los pilares en frases genéricas como “que sea divertido”. Deben describir decisiones concretas de diseño.
 
 ---
 
 # Sección 02 - Diseño
 
 # Jugabilidad
-
-## Descripción de la sección
-
-La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
 
 ## Bucle principal de juego
 
@@ -438,12 +393,6 @@ Mapa → Combate → Recompensa → Preparación → Nueva misión
 ---
 
 # Mecánicas
-
-## Descripción de la sección
-
-Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
-
-Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
 
 ## Mecánicas principales
 
@@ -612,7 +561,7 @@ Solo la Poción de curación levanta a un héroe caído; el Antídoto no actúa 
 
 ### 4. Héroes caídos y recuperación
 
-Los protagonistas no mueren. Al llegar a 0 HP caen al suelo, se atenúan y pasan a una casilla libre de la retaguardia; no actúan ni pueden ser objetivo. Tras la victoria siguen caídos hasta que se les cura con una Poción de curación o con una curación de Noelle; quienes terminaron en pie conservan exactamente su vida. Subir de nivel restaura la vida al 100 % de los héroes que no están caídos. El equipo conserva su progresión para el siguiente encuentro.
+Los protagonistas no mueren. Al llegar a 0 HP caen al suelo, se atenúan y pasan a una casilla libre de la retaguardia; no actúan ni pueden ser objetivo. Tras la victoria se levantan con el 30 % de su vida máxima; quienes terminaron en pie conservan exactamente su vida. Durante el combate solo los levanta una Poción de curación o una curación de Noelle. Subir de nivel restaura la vida al 100 % de los héroes que no están caídos. El equipo conserva su progresión para el siguiente encuentro.
 
 ### 5. Transformación de Noelle
 
@@ -673,10 +622,6 @@ El primer combate incluye un tutorial guiado de combate. Al ganarlo, el mapa lan
 ---
 
 # Sistemas del Juego
-
-## Descripción de la sección
-
-Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate, inventario, IA, diálogo, progresión, economía, misiones, etc.
 
 ## Inventario de sistemas
 
@@ -1257,10 +1202,6 @@ Bloquear al jugador si una zona no está visible; por eso, si la zona de un paso
 
 # Controles
 
-## Descripción de la sección
-
-Define la relación entre las acciones del jugador y las entradas físicas del dispositivo.
-
 ## Mapa de controles
 
 | Acción                       | Teclado | Mouse                                            | Control | Táctil |
@@ -1342,10 +1283,6 @@ En la versión beta de Reencarnación Express, no se contempla la reasignación 
 ---
 
 # Progresión
-
-## Descripción de la sección
-
-Explica cómo cambia la experiencia desde el inicio hasta el final. La progresión puede afectar al personaje, al mundo, a las habilidades, al contenido o al conocimiento del jugador.
 
 ## Progresión general
 
@@ -1526,7 +1463,7 @@ La venta paga el 50 % del precio de compra, redondeado, con un mínimo de 1 CR. 
   - Cuesta la acción del personaje que lo utiliza.
   - Elimina sangrado, veneno y quemadura del aliado elegido.
   - No elimina debilitamiento, vulnerabilidad ni otros efectos, no recupera vida y no actúa sobre héroes caídos.
-- **Héroes caídos:** los protagonistas no mueren. Al llegar a 0 HP quedan caídos y siguen así al terminar el combate hasta que se les cura con una Poción de curación o con una curación de Noelle. Los que siguen en pie conservan la vida con la que cerraron el combate. Subir de nivel restaura la vida al 100 %, salvo que el héroe esté caído.
+- **Héroes caídos:** los protagonistas no mueren. Al llegar a 0 HP quedan caídos y, si el equipo gana, reviven al terminar el combate con el 30 % de su vida máxima; durante el combate solo los levanta una Poción de curación o una curación de Noelle. Los que siguen en pie conservan la vida con la que cerraron el combate. Subir de nivel restaura la vida al 100 %, salvo que el héroe esté caído.
 - **Recompensas únicas:** las Coronas y la reliquia aleatoria de un combate se entregan solo la primera vez que se gana. Los eventos narrativos no dan Coronas ni experiencia.
 - **Tienda de consumibles:** la Poción de curación tiene existencias ilimitadas; el Antídoto, tres por partida sin reposición. No se puede comprar con el inventario lleno (cinco unidades).
 - **Tienda de reliquias:** cuatro espacios, una unidad por espacio; se renueva al completar por primera vez cualquier encuentro. Detalle en [[04 - Objetos y Coleccionables]].
@@ -1549,10 +1486,6 @@ La venta paga el 50 % del precio de compra, redondeado, con un mínimo de 1 CR. 
 
 # Reglas y Estados del Juego
 
-## Descripción de la sección
-
-Define las reglas globales y los estados que puede atravesar el videojuego.
-
 ## Estados principales
 
 - Menú principal
@@ -1568,6 +1501,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 - Victoria de combate
 - Derrota
 - Game Over
+- Epílogo
 - Créditos
 
 ## Transiciones
@@ -1582,13 +1516,15 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Diálogo                  | Termina escena                | Mapa                | La misión no tiene combate       |
 | Combate                  | Todos los enemigos derrotados | Victoria de combate | —                                |
 | Combate                  | Los 4 protagonistas caen      | Derrota             | —                                |
-| Victoria de combate      | Confirmar recompensas         | Mapa                | —                                |
+| Victoria de combate      | Confirmar recompensas         | Mapa                | Cualquier combate salvo el del capitán |
+| Victoria de combate      | Confirmar recompensas         | Epílogo             | Combate contra el capitán        |
+| Epílogo                  | Termina o se omite el diálogo | Créditos            | —                                |
 | Derrota                  | Salir al menú                 | Menú principal      | —                                |
 | Mapa                     | Interactuar con tienda        | Tienda              | —                                |
 | Tienda                   | Salir                         | Mapa                | —                                |
 | Mapa / Diálogo / Combate | Pausar                        | Pausa               | —                                |
 | Pausa                    | Continuar                     | Estado anterior     | —                                |
-| Mapa                     | Completar demo                | Créditos            | —                                |
+| Créditos                 | Terminan o se omiten          | Menú principal      | La sesión se cierra              |
 
 ### Transiciones adicionales
 
@@ -1602,7 +1538,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 
 ## Reglas globales
 
-1. Los protagonistas no mueren: a 0 HP quedan caídos y siguen así tras la victoria hasta que se les cura. Quienes siguen en pie conservan la vida con la que cerraron el combate.
+1. Los protagonistas no mueren: a 0 HP quedan caídos y, si el equipo gana, reviven al terminar el combate con el 30 % de su vida máxima. Quienes siguen en pie conservan la vida con la que cerraron el combate.
 2. La Poción de curación solo se usa en combate. Cuesta la acción del personaje, restaura el 30 % de la vida máxima de un aliado y levanta a un héroe caído.
 3. El juego se puede pausar desde el mapa, el diálogo y el combate.
 4. El inventario admite hasta cinco Pociones de curación y cinco Antídotos. El Antídoto elimina sangrado, veneno y quemadura.
@@ -1623,10 +1559,6 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 # Sección 03 - Historia y Mundo
 
 # Premisa y Trama
-
-## Descripción de la sección
-
-Aquí se documenta la narrativa que sostiene la experiencia. La historia debe explicar qué sucede, por qué sucede y cómo participa el jugador.
 
 ## Premisa
 
@@ -1667,12 +1599,6 @@ El acto finalizará con la derrota del capitán de las fuerzas expedicionarias, 
 
 ## Finales
 
-Documenta los finales posibles y las condiciones que los provocan.
-
-> [!warning] Spoilers
-> Si el documento será compartido con estudiantes o colaboradores, considera separar información sensible de la documentación general.
-
-Estos finales se refieren al final de la historia en el alcance de la demo.
 ### Derrota
 Si durante el gameplay, los protagonistas pierden todos sus puntos de salud, entonces se ejecutará el Final "**Derrota**".
 En este final, los protagonistas son derrotados y pierden la vida en combate, con los protagonistas caídos, el jugador pierde su último enlace a el mundo, y su poder, por lo que el jugador deja de ser una entidad divina.
@@ -1686,10 +1612,6 @@ Los personajes regresan a los territorios humanos como héroes de leyenda, pero 
 ---
 
 # Mundo
-
-## Descripción de la sección
-
-Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, historia, tecnología, conflictos y elementos que hacen coherente el mundo.
 
 ## Concepto del mundo
 
@@ -1868,7 +1790,7 @@ Porta un atuendo heterogéneo: la túnica azul clásica de una academia mágica,
 Utiliza esta conexión para conjurar poderosos hechizos para arrasar con los enemigos más fuertes.
 - **Orbe Arcano:** ataque de energía mágica pura (100 % del daño). Solo desde la retaguardia (P3–P4); alcanza las cuatro posiciones enemigas. Sin recarga.
 - **Llamarada:** energía mágica convertida en fuego sobrenatural (85 % del daño) que aplica Quemadura de 2 de daño durante 2 turnos. Alcanza las posiciones enemigas P3–P4. Recarga: 1 turno.
-- **Ruptura Ígnea:** golpe arcano (100 % del daño); contra un enemigo con Quemadura causa 150 % y consume la Quemadura. Alcanza P3–P4. Recarga: 2 turnos.
+- **Ruptura Ígnea:** golpe arcano (100 % del daño); contra un enemigo con Quemadura causa 150 % y consume la Quemadura. Se usa desde P3–P4 y alcanza P1–P4. Recarga: 2 turnos.
 - **Golpe de Meteorito:** conjuración poderosa y agotadora que impacta a **todos** los enemigos (100 % a cada uno) y puede aplicar Quemadura (50 % de probabilidad). Solo puede usarse desde la ronda 3. Recarga: 3 turnos.
 
 **Debilidades:**
@@ -2014,14 +1936,11 @@ Los personajes secundarios y los NPC quedaron descartados como características 
 
 # Diálogos y Narrativa
 
-## Descripción de la sección
-
-Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
-
 ## Métodos narrativos
 
 - **Diálogo** (escenas tipo novela visual): retratos de los personajes, placa de nombre y cuadro de texto con efecto de escritura y sonido. Se avanza con ESPACIO.
 - **Narración** (introducción): once escenas ilustradas con voz en off de un narrador y de Dios, subtítulos etiquetados y efectos de sonido.
+- **Epílogo** (tras vencer al capitán): diálogo breve en el Trono Sellado con narración, donde los héroes constatan que la corrupción se desvanece, que las fuerzas enemigas huyen a la Forja de Combustión y que la guerra contra el Rey Demonio continúa; no muestra al capitán ni su derrota.
 - **Texto de tutorial:** líneas sin personaje en el mismo cuadro de diálogo y tarjetas guiadas durante los tutoriales.
 - **Audio:** diez locuciones, ocho efectos de la introducción, música de menú y de la introducción, y pistas narrativas ligadas a Valdoria, al primer encuentro y al Santuario Velado.
 
@@ -2106,10 +2025,6 @@ Idiomas previstos: **Español**. Los textos están en los datos de diálogo y en
 # Sección 04 - Contenido
 
 # Estructura del Contenido
-
-## Descripción de la sección
-
-Organiza el contenido del videojuego en unidades manejables: mundos, capítulos, zonas, niveles, misiones y desafíos.
 
 ## Estructura
 
@@ -2201,11 +2116,6 @@ Los encuentros ya completados no pueden volver a generar recompensas.
 ---
 
 # Niveles
-
-## Descripción de la sección
-
-Cada nivel debe documentar su propósito jugable, estructura, dificultad, contenido y condiciones de entrada/salida.
-
 ## Detalle de los niveles
 
 ### Capítulo 1: Llanuras Centrales
@@ -2252,7 +2162,7 @@ Estos enemigos aparecen en diferentes combinaciones durante los cuatro encuentro
 - 100 Coronas en total.
 - Experiencia para mejorar los atributos de los protagonistas.
 - Desbloqueo de la región Bosque.
-- Una reliquia aleatoria con un 65 % de probabilidad por combate (solo comunes).
+- Una reliquia aleatoria con un 75 % de probabilidad por combate (comunes, con alguna rara).
 
 **Puntos de guardado:**
 No existen puntos de guardado. El progreso se conserva temporalmente durante la sesión activa, pero se pierde al abandonar la partida o sufrir una derrota total.
@@ -2333,7 +2243,7 @@ La región también presenta un obstáculo de progresión: el jugador debe compl
 - 120 Coronas en total. 
 - Intercambio de habilidades de Noelle mediante el evento La máscara rota.
 - Desbloqueo de Corrupción.
-- Una reliquia aleatoria con un 80 % de probabilidad por combate (comunes o raras).
+- Una reliquia aleatoria con un 90 % de probabilidad por combate (comunes o raras).
 El evento de Noelle no entrega experiencia ni Coronas adicionales.
 
 **Puntos de guardado:**
@@ -2419,7 +2329,7 @@ Las diferentes combinaciones enemigas buscan obligar al jugador a administrar su
 - 120 Coronas en total.
 - Experiencia y progresión adicional para los protagonistas.
 - Cumplimiento de los requisitos para acceder al capitán, jefe final de la demo.
-- Una reliquia aleatoria con un 90 % de probabilidad por combate (más probable que sea rara).
+- Una reliquia aleatoria con un 100 % de probabilidad por combate (más probable que sea rara).
 
 **Puntos de guardado:**
 No existen puntos de guardado. Si el equipo completo es derrotado, termina la sesión y el jugador debe comenzar una nueva partida.
@@ -2466,8 +2376,8 @@ Corrupción desbloqueada
 ![B3 La última vigilia (Bosque)|880](Media/Avance_2026-11-10/Combate/Bosque_B3.jpg)
 *B3 La última vigilia (Bosque)*
 
-![Jefe final, La última orden: el Capitán aún usa unidades provisionales|880](Media/Avance_2026-11-10/Combate/Jefe_Final.jpg)
-*Jefe final, La última orden: el Capitán aún usa unidades provisionales*
+![Jefe final, La última orden: el Capitán con su arte definitivo y dos Corruptos errantes ante el Trono Sellado|880](Media/Avance_2026-11-13/Combate/Jefe_Final_Capitan.jpg)
+*Jefe final, La última orden: el Capitán con su arte definitivo y dos Corruptos errantes ante el Trono Sellado*
 
 ## Criterios de calidad
 
@@ -2480,10 +2390,6 @@ Corrupción desbloqueada
 ---
 
 # Enemigos y NPC
-
-## Descripción de la sección
-
-Fichas de combate de los once enemigos normales y del jefe final, con los valores reales del juego. Las cifras proceden de los datos de Unity (`ScriptableObjects/Enemies` y `Abilities/Enemies`) y se actualizan junto con ellos.
 
 ## Cómo leer las estadísticas
 
@@ -2906,7 +2812,7 @@ Evaluar amenazas → Revisar protección activa → Seleccionar ataque o defensa
 Jefe táctico que marca objetivos, debilita al equipo y prepara ataques de área.
 
 **Comportamiento:**
-Opera en dos fases. En **Comandante calculador** (100 % de vida) alterna golpes, debilitamientos y marcas. Al bajar al 50 % de vida entra en **Última resistencia**: anuncia el cambio con un aviso en pantalla, desbloquea *Última Orden* y su IA prioriza el ataque, los objetivos marcados y los ataques preparados en lugar de reforzarse. Lo acompaña un Corrupto Errante en E2. Si el Capitán cae, el enemigo restante huye del campo y el combate termina en victoria sin recompensas adicionales.
+Opera en dos fases. En **Comandante calculador** (100 % de vida) alterna golpes, debilitamientos y marcas. Al bajar al 50 % de vida entra en **Última resistencia**: anuncia el cambio con un aviso en pantalla, desbloquea *Última Orden* y su IA prioriza el ataque, los objetivos marcados y los ataques preparados en lugar de reforzarse. Ocupa dos casillas (E3 y E4) y lo acompañan dos Corruptos Errantes en E1 y E2. Si el Capitán cae, los enemigos restantes huyen del campo y el combate termina en victoria sin recompensas adicionales.
 
 **Vida:** 120 HP.
 **Daño:** 5–8 por golpe.
@@ -2968,7 +2874,7 @@ Para variar los combates normales, al cargar un encuentro cada enemigo tiene un 
 | B3 | La última vigilia | Guardián forestal | Bandido | Bandido | Chamán | 100 | 40 |
 | C1 | El aliento del Ocaso | Corrupto errante | Corrupto errante | Acechador | Hechicero | 150 | 60 |
 | C2 | Donde muere la luz | Guardián corrupto (E1+E2) | — | Acechador | Hechicero | 150 | 60 |
-| BOSS | Trono Sellado | Capitán | Corrupto errante | — | — | 200 | 100 |
+| BOSS | Trono Sellado | Corrupto errante | Corrupto errante | Capitán (E3+E4) | — | 200 | 100 |
 
 ![Encuentro de Pradera con goblins: formación, orden de turno y paneles de información|880](Media/Avance_2026-11-10/Combate/Pradera_Orden_Turno.jpg)
 *Encuentro de Pradera con goblins: formación, orden de turno y paneles de información*
@@ -3019,17 +2925,10 @@ INICIO DEL TURNO ENEMIGO
            v
      Finalizar turno
 ```
-## NPC
-
-Los NPC y las misiones secundarias quedaron descartados como características del proyecto. No se documentan fichas de NPC. La decisión está registrada en [[01 - Alcance]].
 
 ---
 
 # Objetos y Coleccionables
-
-## Descripción de la sección
-
-Define los objetos que el jugador puede recoger, utilizar, equipar, comprar o vender: dos consumibles, un catálogo de 20 reliquias y la moneda del juego (Coronas). Las cifras proceden de los datos reales de Unity (`ConsumableService`, `RelicData`, `RelicShopStock`, `RelicRewards`).
 
 ## Objeto 01: Poción de curación
 
@@ -3122,7 +3021,7 @@ Objetos antiguos que se equipan en la ficha de un personaje. Cada una suma bonif
 - Cambiar la vida máxima mediante una reliquia no cura: la vida actual solo se recorta si supera el nuevo máximo.
 
 **Cómo se obtienen:**
-- **Recompensa de combate (primera victoria de cada encuentro):** una sola tirada por misión. Probabilidad de reliquia: Pradera 65 %, Bosque 80 %, Corrupción 90 %, Jefe 100 %. Rareza: Pradera solo comunes; Bosque 60 % comunes y 40 % raras; Corrupción 30 % y 70 %; el jefe da una rara o una exclusiva disponible. Desde B2 hay un 20 % de que la recompensa sea una exclusiva no poseída; en C2 se garantiza una exclusiva si aún no se consiguió ninguna. Tras dos combates seguidos sin reliquia, el tercero entrega una.
+- **Recompensa de combate (primera victoria de cada encuentro):** una sola tirada por misión. Probabilidad de reliquia: Pradera 75 %, Bosque 90 %, Corrupción 100 %, Jefe 100 %. Rareza: Pradera 75 % comunes y 25 % raras; Bosque 45 % comunes y 55 % raras; Corrupción 20 % y 80 %; el jefe da una rara o una exclusiva disponible. Desde B1 hay un 40 % de que la recompensa sea una exclusiva no poseída; en C2 se garantiza una exclusiva si aún no se consiguió ninguna. Tras dos combates seguidos sin reliquia, el tercero entrega una.
 - **Eventos:** «La máscara rota» entrega el Fragmento de la Máscara (Noelle) y «El informe del último vigía» entrega el Broche del Vigía.
 - **Tienda:** cuatro espacios, una unidad por espacio (ver Recurso 02).
 
@@ -3143,7 +3042,7 @@ Compra: 45–115 CR según la reliquia. Venta: el 50 % del precio de compra (mí
 | **Espejo del Dolor Universal** | Rara | −4 Vida | Cuando recibes daño directo, tu siguiente ataque directo acertado inflige +4 de daño. Máximo una vez por ronda; el bono desaparece si no atacas en tu siguiente turno. | Cualquiera | Recompensa de combate |
 | **Espina del Juramento** | Rara | −3 Vida | La primera vez que recibes daño directo en cada ronda, el atacante sufre Sangrado de 1 de daño durante 2 turnos. | Cualquiera | Recompensa de combate |
 | **Ídolo del Último Aliento Universal** | Rara | −5 Vida | La primera vez que un ataque directo debería derrotarte, sobrevives con 1 HP y después sufres Debilitamiento (−20 % de Ataque) durante 1 turno. Una vez por combate. No protege contra el daño periódico. | Cualquiera | Recompensa de combate |
-| **Reloj de Arena Roto Universal** | Rara | −1 % Protección | La primera habilidad que uses en cada combate con enfriamiento de 2 turnos o más reduce su enfriamiento en 1. | Cualquiera | Tienda (110 CR) o recompensa |
+| **Reloj de Arena Roto Universal** | Rara | −1 % Protección | La primera vez en cada combate que usas tu habilidad de mayor enfriamiento (mínimo 2 turnos), su enfriamiento se reduce en 1. | Cualquiera | Tienda (110 CR) o recompensa |
 | **Sello del Desollador Universal** | Rara | −1 Velocidad | Al acertar un ataque directo contra un enemigo que sufre Sangrado, recuperas 3 HP. Una vez por turno. | Cualquiera | Tienda (115 CR) o recompensa |
 | **Cadena del Bastión** | Épica | −3 Vida | Cuando protege a un aliado con Guardia de Trinchera, otro aliado recibe 10 % de Protección durante 1 turno. Una vez por ronda. | Valerian | Recompensa de combate (exclusiva) |
 | **Corazón de Carbón** | Épica | −5 Vida | Cuando Evanora acierta un ataque directo contra un enemigo que ya tiene Quemadura, consume uno de sus pulsos pendientes y lo aplica de inmediato con +2 de daño. Una vez por turno; ese pulso no vuelve a ocurrir. | Evanora | Recompensa de combate (exclusiva) |
@@ -3253,9 +3152,6 @@ Los protagonistas no mueren. Al llegar a 0 HP **caen**: el sprite se tumba, se a
 
 # Misiones y Desafíos
 
-## Descripción de la sección
-
-Las misiones y desafíos convierten las mecánicas en objetivos concretos para el jugador.
 
 ## Detalle de las misiones
 
@@ -3562,10 +3458,6 @@ En términos jugables, esta consecuencia se representa mediante el final de la s
 
 # Dirección de Arte
 
-## Descripción de la sección
-
-Define la identidad visual del videojuego y las reglas que deben seguir los recursos gráficos.
-
 ## Identidad visual
 
 ![Fondo del menú principal|720](Media/Arte/Fondos/MenuPrincipal.jpg)
@@ -3622,18 +3514,9 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 4. La corrupción debe tener un lenguaje visual propio y reconocible en todos los elementos que afecte.
 5. Evitar saturación excesiva de efectos visuales que dificulten seguir el combate.
 
-## Referencias
-
-(Añadir enlaces o imágenes dentro de la carpeta del proyecto.)
-
 ---
 
 # Personajes y Animación
-
-## Descripción de la sección
-
-Documenta cómo deben verse y comportarse visualmente los personajes y qué hay hecho hoy.
-
 ## Requisitos por personaje
 
 | Personaje | Sprite de combate | Retrato e icono | Animaciones | VFX | Estado |
@@ -3712,10 +3595,6 @@ Transición de inicio de combate con espadas cruzadas, texto flotante (daño, cu
 
 # Entornos
 
-## Descripción de la sección
-
-Define la estética y necesidades visuales de escenarios, fondos, objetos y elementos ambientales.
-
 ## Zonas
 
 | Zona            | Estilo                                                                                                                                                                                                       | Elementos                                                            | Función |
@@ -3774,10 +3653,6 @@ Protagonistas:
 ---
 
 # Interfaz Visual
-
-## Descripción de la sección
-
-Documenta la información que el juego muestra al jugador y las reglas visuales de la interfaz. Todas las pantallas se diseñan sobre un lienzo de 1920 × 1080 con escalado por altura.
 
 ## HUD
 
@@ -3872,11 +3747,6 @@ El detalle funcional de cada una está en [[02 - UI y Menús]].
 ---
 
 # Audio y Música
-
-## Descripción de la sección
-
-Define la identidad sonora y cómo el audio comunica información al jugador.
-
 ## Música
 
 Estilo: El estilo musical varía mucho según el entorno y momento, a veces puede ser algo Luffy, a veces puede ser más ambiental y en ocasiones puede ser tipo opera, blues, jazz y rock, a veces suele ser una fusión de varios géneros para lograr tramitar más sobre el entorno.
@@ -3905,26 +3775,30 @@ Música dinámica: La música será dinámica según lo que pase en pantalla, se
 
 Tema Game over: Piano melancólico con violines exagerados entendiendo que todo terminó y no hay vuelta atrás.
 
+Pistas implementadas en la demo: tema del menú, tema del mapa (entra con fundido), tema de combate y música de la introducción. Los créditos reutilizan el tema del menú. Los temas por región descritos arriba siguen siendo la intención de diseño.
+
 ## Efectos de sonido
 
-| Evento                     | Sonido                                                                                                                                                                   | Propósito                                                                      |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| Conversación de personajes | Sintetizador grabe para voces hombre, sintesidaro medio / agudo para voz de mujer, ambos son notas aleatorizadas en el sintetizador.                                     | Dar a entender que los personajes están hablando para que no se escuche vacío. |
-| Ataque básico              | se hara un efecto diferente para cada arma.  <br>  <br>Espada: sintetizador con sonido más aireado.  <br>  <br>Flecha: trompeta?<br><br>Mazo: tarola?<br><br>Magia: fuego? |                                                                                |
-| Ataque crítico             |                                                                                                                                                                          |                                                                                |
-| Ataque Fallo               |                                                                                                                                                                          |                                                                                |
-| Curación                   |                                                                                                                                                                          |                                                                                |
-| Estado alterado            |                                                                                                                                                                          |                                                                                |
-| Objeto adquirido           |                                                                                                                                                                          |                                                                                |
-| Sonido al comprar          |                                                                                                                                                                          |                                                                                |
-| Selección de opciones.     |                                                                                                                                                                          |                                                                                |
-| Pausar juego               |                                                                                                                                                                          |                                                                                |
+Estado en la demo: todos los efectos de la tabla están implementados en Unity. Se crearon a partir de descripciones (generación con IA) y se ajustaron a mano a la animación: cada sonido de golpe se adelanta lo necesario para coincidir con el impacto visual.
 
-
-
+| Evento                     | Sonido                                                                                                                                                                                                                  | Propósito                                                                      |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Conversación de personajes | Cuatro voces sintéticas muy breves; cada pocas letras suena una al azar (sin repetir la anterior) mientras el texto se escribe, con volumen bajo.                                                                        | Dar a entender que los personajes hablan sin voces grabadas.                   |
+| Botones y menús            | Un sonido de cursor al entrar en un botón y otro de clic al pulsar (también en Volver y en la X de Opciones); Nueva partida tiene su propio sonido. Suenan igual en introducción, mapa, tienda, combate, habilidades y reliquias de la ficha. En el mapa no suena el cursor sobre lugares bloqueados o ya completados. | Respuesta inmediata a cada interacción; el mapa solo suena donde hay misión.   |
+| Inicio de combate          | Choque de espadas.                                                                                                                                                                                                      | Marcar la entrada al combate.                                                  |
+| Selección de habilidad     | Sonido grave de selección inspirado en Darkest Dungeon, a volumen muy bajo.                                                                                                                                             | Confirmar la habilidad elegida.                                                |
+| Ataque y habilidades       | Efecto propio para cada una de las 20 habilidades de los cuatro héroes y para todas las de los enemigos (incluido el capitán), con un adelanto por habilidad para coincidir con el golpe. Suenan de fondo, por debajo de la música. | Que cada ataque se identifique por el oído.                                    |
+| Capitán (jefe)             | Sonidos propios de cada habilidad, de la entrada a fase 2, del aura de fase 2 (bucle suave) y de su derrota.                                                                                                             | Dar peso al jefe y señalar el cambio de fase.                                  |
+| Curación                   | Un único sonido de curación compartido por las pociones, las habilidades de curación de los héroes (Auxilio improvisado, Plegaria focalizada, Bendición continua) y la del chamán enemigo.                                  | Reconocer cualquier curación al instante.                                      |
+| Refuerzo                   | Sonido de mejora al recibir un beneficio de estado.                                                                                                                                                                      | Señalar que una unidad se fortalece.                                           |
+| Cofre y tienda             | Efecto corto (0,4 s) de apertura, el mismo para ambos.                                                                                                                                                                   | Confirmar que se abre el panel.                                                |
+| Comprar y vender           | Monedas que se gastan al comprar y monedas que se reciben al vender.                                                                                                                                                      | Dar sensación de intercambio.                                                  |
+| Subida de nivel            | Efecto ascendente en la pantalla de Victoria cuando una barra se llena y el héroe sube de nivel.                                                                                                                         | Celebrar el progreso.                                                          |
+| Equipar reliquia           | Deslizamiento metálico de anillo con un brillo mágico suave, al soltar la reliquia en una casilla válida.                                                                                                                | Confirmar el equipamiento.                                                     |
+| Ataque crítico, fallo, estado alterado, objeto adquirido, pausa | Sin sonido propio todavía (se apoyan en el texto flotante y en los sonidos de interfaz).                                                                                                                    | Pendiente de diseño.                                                           |
 ## Audio espacial
 
-No se utilizara audio espacial, se utilizara audio plano plano típico de juegos JRPG 2D.
+No se utilizara audio espacial, se utilizara audio plano plano típico de juegos RPG 2D.
 
 
 ## Voz
@@ -3936,17 +3810,13 @@ Idiomas: El videojuego estará principalmente en Español, para la demo no habr�
 
 ## Mezcla
 
-Prioridades y volumen relativo: En la prioridad del volumen se maneja de la siguiente forma, Conversaciones, FX, música, de esta forma la música solo rellena y ayuda a complementar y dar el enfoque del sentimiento o sensación que perciben los personajes en ese momento.
+Prioridades y volumen relativo: la música de mapa y combate suena al mismo nivel que la del menú (ajustable en Opciones); los efectos de habilidad quedan de fondo, por debajo de la música; los sonidos de interfaz (cursor y clic) son moderados y las voces de escritura son las más bajas. En la introducción, la música y los ambientes bajan mientras habla el narrador.
 
-Comportamiento ante eventos: si hay un FX como de ataque, de adquirir un objeto, la música baja un poco su volumen para darle prioridad y atención al evento que ocurre, un ataque, un evento, o diálogos.
+Comportamiento ante eventos: no hay reducción automática de la música ante los efectos de combate; la jerarquía se consigue con los volúmenes fijos de cada grupo. La música del mapa y del combate entra con un fundido para no empezar de golpe.
 
 ---
 
 # Registro visual
-
-## Descripción de la sección
-
-Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en qué condiciones, para poder repetirla o sustituirla cuando el juego cambie. Todas las imágenes están en la carpeta `Media/` del repositorio.
 
 ## Estructura de la carpeta Media
 
@@ -3955,6 +3825,10 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 | `Media/Avance_2026-11-10/Interfaz` | Capturas del mapa, la tienda, la ficha de héroe, el tutorial, la victoria y la derrota |
 | `Media/Avance_2026-11-10/Combate` | Capturas de combates de las tres regiones jugables |
 | `Media/Avance_2026-11-10/Enemigos` | Hoja de retratos de los enemigos |
+| `Media/Avance_2026-11-13/Interfaz` | Capturas del epílogo y de los créditos |
+| `Media/Avance_2026-11-13/Combate` | Captura del combate contra el capitán con su arte definitivo |
+| `Media/Audio/Musica` | Pistas de música del juego en MP3, por carpetas (Menu, Mapa, Combate, Introduccion, Narrativas) |
+| `Media/Audio/Efectos` | Efectos de sonido en MP3, por categorías (Habilidades, Enemigos, Interfaz, Dialogos, Combate, Eventos, Introduccion, Victoria) |
 | `Media/Arte/Personajes` | Imágenes base de los héroes (copias reducidas) |
 | `Media/Arte/Iconos` | Iconos oficiales de los héroes |
 | `Media/Arte/Enemigos` | Los once sprites de enemigos |
@@ -3965,7 +3839,7 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 
 ## Condiciones de captura
 
-- **Origen de las capturas:** ventana Game del editor de Unity 6 en modo Play, con la versión del proyecto del 2026-11-10. No son maquetas ni arte conceptual: muestran el juego tal como se ejecuta.
+- **Origen de las capturas:** ventana Game del editor de Unity 6 en modo Play, con la versión del proyecto del 2026-11-10 (las capturas de epílogo, créditos y jefe final son del 2026-11-13). No son maquetas ni arte conceptual: muestran el juego tal como se ejecuta.
 - **Relación de aspecto:** 16:9. Las copias del repositorio se reducen a 1600 px de ancho como máximo y se guardan en JPEG para mantener el repositorio ligero.
 - **Arte original:** los sprites y fondos se guardan reducidos (PNG con transparencia hasta 512–600 px; fondos en JPEG de 1200 px). Los originales están en `Assets/Sprites/` del proyecto de Unity y no se duplican aquí.
 
@@ -3983,11 +3857,13 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 | `Interfaz/Reliquias_Hoja.jpg` | Hoja de iconos de reliquias | Referencia |
 | `Interfaz/Menu_Principal.jpg`, `Introduccion_Cinematica_1.jpg`, `Introduccion_Dialogo.jpg`, `Dialogo_Santuario.jpg` | Menú principal, introducción y diálogos | [[02 - UI y Menús]] |
 | `Interfaz/Pausa_Mapa.jpg`, `Ayuda_Mapa.jpg`, `Combate/Pausa_Combate.jpg` | Pausa y ayuda | [[02 - UI y Menús]] |
-| `Combate/Pradera_P1.jpg`, `Pradera_P4.jpg`, `Bosque_B1.jpg`, `Bosque_B3.jpg`, `Jefe_Final.jpg` | Combates de Pradera, Bosque y jefe final (con unidades provisionales) | [[02 - Niveles]] |
+| `Combate/Pradera_P1.jpg`, `Pradera_P4.jpg`, `Bosque_B1.jpg`, `Bosque_B3.jpg`, `Jefe_Final.jpg` | Combates de Pradera, Bosque y una primera captura del jefe final (sustituida por `Jefe_Final_Capitan.jpg`) | [[02 - Niveles]] |
 | `Combate/Heroes_Combate.jpg` | Los cuatro héroes en C1 | [[02 - Personajes y Animación]], [[04 - Interfaz Visual]] |
 | `Combate/Corrupcion_C1.jpg`, `Corrupcion_C2_Guardian.jpg` | Combates de Corrupción; el segundo con el Guardián Corrupto de dos posiciones | [[03 - Enemigos y NPC]] |
 | `Combate/Pradera_Orden_Turno.jpg`, `Bosque_B2_Barras.jpg` | Combates de Pradera y Bosque | [[03 - Enemigos y NPC]] |
 | `Enemigos/Retratos_Enemigos.jpg` | Retratos de los enemigos en el orden de turno | [[03 - Enemigos y NPC]] |
+| `Avance_2026-11-13/Combate/Jefe_Final_Capitan.jpg` | Combate final «La última orden»: el capitán con su arte definitivo y dos Corruptos errantes | [[02 - Niveles]] |
+| `Avance_2026-11-13/Interfaz/Epilogo_Trono_Sellado.jpg`, `Creditos.jpg` | Epílogo en el Trono Sellado y pantalla de créditos | [[02 - UI y Menús]] |
 
 ## Cómo actualizar
 
@@ -4001,17 +3877,12 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 - Capturas de los combates P2, P3, B2, C1 y C2 con el arte actual, y del evento del Santuario.
 - Capturas del tutorial de combate.
 - Animaciones en GIF: el proyecto ya contiene fotogramas de animación de Valerian (reposo, ataques, defensa y heridas) que aún no se han convertido a GIF.
-- Arte del Capitán de las Fuerzas Expedicionarias.
 
 ---
 
 # Sección 06 - Experiencia
 
 # UX y Flujo del Jugador
-
-## Descripción de la sección
-
-UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente resulta la interacción con el videojuego. Esta sección documenta el recorrido real de una partida, lo que aprende el jugador y cómo responde el juego a cada acción.
 
 ## Flujo principal
 
@@ -4020,10 +3891,10 @@ Menú principal → Nueva partida → Introducción cinematográfica (se puede o
    → Diálogo del Altar de los Invocados → Primer combate (P1) con tutorial guiado
    → Victoria → Mapa con tutorial interactivo (tienda, venta, inventario, reliquias)
    → P2 → P3 → P4 → B1 → La máscara rota → B2 → B3 → El informe del último vigía
-   → C1 → C2 → Trono Sellado (capitán) → Victoria final
+   → C1 → C2 → Trono Sellado (capitán) → Victoria final → Epílogo → Créditos → Menú principal
 ```
 
-Pausa disponible en el mapa, el diálogo y el combate (tecla Esc). Una derrota total lleva a la pantalla de Derrota y de ahí al menú principal. La pantalla de créditos está prevista pero todavía no está implementada: tras vencer al capitán el jugador vuelve al mapa con el recorrido completo (Jefe 1/1).
+Pausa disponible en el mapa, el diálogo y el combate (tecla Esc). Una derrota total lleva a la pantalla de Derrota y de ahí al menú principal. Al vencer al capitán, el botón Continuar de la pantalla de Victoria lleva a un epílogo en el Trono Sellado (diálogo de los cuatro héroes sobre el desenlace, que se puede omitir) y de ahí a los créditos; al terminar o saltarlos (ESPACIO, ENTER, ESC o clic) la partida se cierra y se vuelve al menú principal.
 
 ## Primeros minutos
 
@@ -4083,10 +3954,6 @@ Para cada acción importante: **Entrada → Respuesta visual → Respuesta sonor
 
 # UI y Menús
 
-## Descripción de la sección
-
-Define la estructura funcional de las interfaces y menús. Resolución de referencia: 1920 × 1080 (escalado por altura). Tipografía: Merriweather (regular y negrita).
-
 ## Mapa de navegación
 
 ```text
@@ -4106,6 +3973,7 @@ Mapa
 └── Pausa (Regresar · Ayuda · Opciones · Menú principal)
 
 Combate → Victoria → Mapa
+Combate (capitán) → Victoria → Epílogo → Créditos → Menú principal
 Combate → Derrota → Menú principal
 ```
 
@@ -4227,7 +4095,9 @@ Combate → Derrota → Menú principal
 
 **Elementos:** título enmarcado, fila por héroe con nivel, barra de experiencia y XP ganada, mejoras de estadísticas al subir de nivel (discretas), Coronas y reliquia obtenida con recuadro de descripción.
 
-**Transiciones:** Continuar lleva al mapa (con tutorial la primera vez).
+**Sonido:** al subir de nivel un héroe suena un efecto único (una sola vez aunque suban varios a la vez); la pantalla no lleva otra música ni efectos.
+
+**Transiciones:** Continuar lleva al mapa (con tutorial la primera vez). Tras vencer al capitán lleva al epílogo y a los créditos.
 
 ### Derrota
 
@@ -4241,6 +4111,29 @@ Combate → Derrota → Menú principal
 
 **Transiciones:** vuelve al menú principal y descarta la partida.
 
+### Epílogo
+
+![Epílogo en el Trono Sellado tras vencer al capitán|880](Media/Avance_2026-11-13/Interfaz/Epilogo_Trono_Sellado.jpg)
+*Epílogo en el Trono Sellado tras vencer al capitán: los cuatro héroes, la línea de narración y el cuadro de diálogo*
+
+
+**Propósito:** cerrar la historia de la demo sin mostrar la derrota del capitán.
+
+**Elementos:** fondo del Trono Sellado, retratos de los cuatro héroes, cuadro de texto con efecto de escritura, narración en cursiva y botón para omitir el diálogo.
+
+**Transiciones:** al terminar o al omitir lleva a los créditos.
+
+### Créditos
+
+![Pantalla de créditos con el logo, el cierre de la demo y el equipo|880](Media/Avance_2026-11-13/Interfaz/Creditos.jpg)
+*Pantalla de créditos: logo, «Fin de la demo», frase de cierre y equipo de desarrollo sobre fondo oscuro*
+
+
+**Propósito:** cerrar la demo y devolver al jugador al menú.
+
+**Elementos:** logo del juego, texto que sube despacio (fin de la demo, equipo de desarrollo, estudio y agradecimiento) y música del menú.
+
+**Transiciones:** al terminar o al pulsar ESPACIO, ENTER, ESC o clic, funde a negro, cierra la sesión y vuelve al menú principal.
 ### Pausa
 
 ![Menú de pausa en el mapa|880](Media/Avance_2026-11-10/Interfaz/Pausa_Mapa.jpg)
@@ -4266,10 +4159,6 @@ Combate → Derrota → Menú principal
 ---
 
 # Accesibilidad
-
-## Descripción de la sección
-
-La accesibilidad busca que el mayor número posible de jugadores pueda comprender y utilizar el videojuego. Esta sección distingue lo que la demo ya cumple, lo que cubre parcialmente y lo que queda fuera de su alcance.
 
 ## Opciones previstas
 
@@ -4299,10 +4188,6 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 ---
 
 # Guardado y Configuración
-
-## Descripción de la sección
-
-Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
@@ -4339,11 +4224,6 @@ Al iniciar una **Nueva partida** se reinician niveles, experiencia, vida, Corona
 # Sección 07 - Tecnología
 
 # Arquitectura Técnica
-
-## Descripción de la sección
-
-Explica cómo está construido técnicamente el videojuego y cómo se comunican sus componentes.
-
 
 ## Arquitectura
 
@@ -4410,10 +4290,6 @@ Escenas incluidas en la build: `Menu`, `IntroCinematic`, `Map` y `CombateIntegra
 
 # Motor y Herramientas
 
-## Descripción de la sección
-
-Documenta las herramientas utilizadas para crear el videojuego y por qué fueron seleccionadas.
-
 ## Motor
 
 **Motor:** Unity 6
@@ -4479,13 +4355,6 @@ No hay servicios externos ni conexión a internet ([[03 - Público y Plataforma]
 
 # Requisitos Técnicos
 
-## Descripción de la sección
-
-Define las condiciones técnicas necesarias para ejecutar y desarrollar el videojuego.
-
-> [!info] Pendiente de pruebas
-> Los requisitos mínimos de CPU, GPU, RAM y almacenamiento se determinarán durante las pruebas de rendimiento de la demo ([[03 - Roadmap]], etapa de Pruebas). Hasta entonces se dejan como "Por determinar".
-
 ## Requisitos mínimos
 
 **Sistema operativo:** Windows (PC).
@@ -4537,10 +4406,6 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 # Datos y Persistencia
 
-## Descripción de la sección
-
-Define qué información necesita conservar el juego y cómo se estructura.
-
 ## Datos de la sesión
 
 La demo no tiene guardado permanente. Estos datos permanecen en memoria mientras la sesión está activa y se descartan si el equipo es derrotado o si el jugador abandona la partida:
@@ -4591,10 +4456,6 @@ No aplica. Al no existir archivos de guardado, un cambio en la estructura de dat
 
 # Seguridad y Riesgos Técnicos
 
-## Descripción de la sección
-
-Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o abuso de sistemas.
-
 ## Riesgos
 
 | Riesgo | Probabilidad | Impacto | Mitigación |
@@ -4632,10 +4493,6 @@ No aplica. El juego es de un jugador y no requiere conexión.
 
 # Alcance
 
-## Descripción de la sección
-
-Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
-
 ## Alcance de la versión objetivo
 
 La versión objetivo es una demo de un jugador para PC (Windows), hecha en Unity 6 y C#. Se juega con teclado y ratón, en español, a 1920×1080, y no requiere conexión. Una partida dura entre 30 minutos y 1 hora: no hay guardado permanente, así que la sesión y el recorrido completo son la misma partida.
@@ -4648,7 +4505,7 @@ El recorrido está fijado en [[01 - Estructura del Contenido]] y en [[03 - Siste
 - Nueve encuentros regulares: P1 a P4, B1 a B3 y C1 a C2. Cada encuentro completado paga experiencia y Coronas una sola vez.
 - Evento obligatorio **La máscara rota**, después de B1. Noelle intercambia sus cuatro habilidades enmascaradas por Impacto Consagrado, Plegaria Focalizada, Bendición Continua y Amparo Divino. Conserva nivel, experiencia y estadísticas. El intercambio abre B2.
 - Evento obligatorio **El informe del último vigía** (Valdoria), después de B3: entrega el Broche del Vigía, revela al capitán y abre C1. No da experiencia ni Coronas.
-- El capitán de las fuerzas expedicionarias como jefe final, en el Trono Sellado, después de C1 y C2. La victoria purifica el bosque y muestra los créditos. La guerra contra el Rey Demonio continúa fuera de esta demo. En el proyecto de Unity el capitán otorga 200 XP y 100 Coronas, tiene fases de jefe y es inmune al aturdimiento.
+- El capitán de las fuerzas expedicionarias como jefe final, en el Trono Sellado, después de C1 y C2. La victoria purifica el bosque y muestra el epílogo y los créditos. La guerra contra el Rey Demonio continúa fuera de esta demo. En el proyecto de Unity el capitán otorga 200 XP y 100 Coronas, tiene fases de jefe y es inmune al aturdimiento.
 - Cuatro protagonistas jugables: Valerian (caballero), Elaina (arquera), Noelle (clérigo) y Evanora (maga). La subida de nivel mejora las estadísticas según la clase.
 - Once tipos de enemigos normales, con combate por turnos, posiciones, habilidades, efectos de estado e inteligencia artificial.
 - Mapa de la sesión, escenas de diálogo del recorrido principal, tienda e inventario.
@@ -4656,7 +4513,7 @@ El recorrido está fijado en [[01 - Estructura del Contenido]] y en [[03 - Siste
 - Reliquias: catálogo de 20 (12 universales y 8 exclusivas, dos por héroe), dos casillas por héroe, recompensa de combate y de eventos, y una tienda de cuatro espacios que se renueva con el avance. Consumibles y reliquias sin equipar se pueden vender por el 50 % de su precio.
 - Tutoriales interactivos: uno en el primer combate y otro en el mapa, justo después de ganarlo (tienda, venta, inventario y reliquias).
 - Héroes caídos en lugar de muertos: los enemigos no pueden atacarlos ni ellos actúan hasta que se les cura.
-- Sesión en memoria. La derrota total, o abandonar la partida, borra el progreso y devuelve al menú principal. Los protagonistas no mueren: a 0 HP quedan caídos y siguen así tras la victoria hasta que se les cura con una Poción de curación o con una curación de Noelle. Subir de nivel restaura la vida al 100 % de quien siga en pie, y quienes terminan el combate vivos conservan su vida.
+- Sesión en memoria. La derrota total, o abandonar la partida, borra el progreso y devuelve al menú principal. Los protagonistas no mueren: a 0 HP quedan caídos y reviven con el 30 % de su vida máxima al ganar el combate. Subir de nivel restaura la vida al 100 % de quien siga en pie, y quienes terminan el combate vivos conservan su vida.
 
 ### No incluido
 
@@ -4700,10 +4557,6 @@ No se recortan el combate por turnos, los cuatro protagonistas, los dos consumib
 ---
 
 # Roles y Responsabilidades
-
-## Descripción de la sección
-
-Define quién es responsable de cada área y evita que tareas importantes queden sin dueño.
 
 ## Equipo
 
@@ -4753,10 +4606,6 @@ Cada entregable importante debe tener una persona responsable de coordinarlo, au
 ---
 
 # Roadmap
-
-## Descripción de la sección
-
-El roadmap organiza el desarrollo en etapas y entregables.
 
 ## Etapas
 
@@ -4831,7 +4680,7 @@ Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD des
 
 - Build de Windows, en español, jugable con teclado y ratón.
 - Recorrido verificable de Aethel: nueve encuentros, **La máscara rota**, jefe y los dos cierres de la demo.
-- Créditos al completar la victoria contra el capitán.
+- Epílogo y créditos al completar la victoria contra el capitán.
 - Lista de problemas conocidos que no impiden terminar la demo.
 - GDD actualizado a la versión entregada, con el historial de versiones y el estado del proyecto alineados a la build.
 - Paquete de entrega académica: build, instrucciones de ejecución y enlace o copia del repositorio.
@@ -4847,17 +4696,13 @@ Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD des
 | Ficha del capitán | Diseño de combate del jefe | Rol, estadísticas, habilidades e inteligencia artificial quedan documentados al mismo nivel que el resto de enemigos | En progreso: implementado en Unity, falta documentarlo en el GDD |
 | Bosque Oscuro | Capítulo 2 integrado | B1, **La máscara rota**, B2 y B3 se juegan en ese orden; Noelle intercambia sus cuatro habilidades y Corrupción queda desbloqueada | En progreso: implementado en Unity, falta verificarlo |
 | Corrupción del Bosque | Capítulo 3 integrado | C1 y C2 se vencen con los cuatro tipos de enemigos corruptos y habilitan el Trono Sellado | En progreso: implementado en Unity, falta verificarlo |
-| Desenlace de la demo | Jefe, victoria y derrota | Derrotar al capitán purifica el bosque y muestra los créditos. La caída del equipo devuelve al menú y borra la sesión | En progreso: capitán y derrota implementados; falta confirmar la pantalla de créditos |
+| Desenlace de la demo | Jefe, victoria y derrota | Derrotar al capitán purifica el bosque y muestra el epílogo y los créditos. La caída del equipo devuelve al menú y borra la sesión | En progreso: capitán y derrota implementados; epílogo y créditos implementados; falta probar el recorrido completo |
 | Pase de pruebas | Informe del recorrido completo | No quedan errores bloqueantes en progresión, economía, evento, jefe ni rendimiento acordado | Pendiente |
 | Entrega | Build de Windows y GDD de esa versión | Una persona ajena al desarrollo ejecuta la demo y completa el recorrido de Aethel con las instrucciones entregadas | Pendiente |
 
 ---
 
 # Backlog del Proyecto
-
-## Descripción de la sección
-
-El backlog contiene el trabajo necesario para convertir el diseño en un videojuego funcional.
 
 ## Backlog
 
@@ -4873,7 +4718,7 @@ Responsable: *por asignar*. Las prioridades son una propuesta basada en el estad
 | Partida completa de prueba: P1 a capitán | Alta | Pendiente | Integración | Recorrido sin errores bloqueantes |
 | Prueba de desbloqueos y de La máscara rota | Alta | Pendiente | Partida de prueba | B2 cerrado hasta confirmar; Volver deja el evento pendiente |
 | Pruebas automáticas de turnos, recompensas únicas y desbloqueos | Media | Pendiente | Test Framework (instalado) | Pruebas ejecutables en el editor |
-| Confirmar pantalla de créditos tras vencer al capitán | Media | Pendiente | — | Créditos y regreso al menú |
+| Confirmar pantalla de créditos tras vencer al capitán | Media | Terminada (2026-11-13) | — | Epílogo, créditos y regreso al menú; falta probarlo en la partida completa |
 | Pruebas de rendimiento a 1920x1080 y requisitos mínimos de hardware | Media | Pendiente | Build de Windows | 60 FPS en equipos de gama baja y media |
 | Retirar paquetes de plantilla sin uso | Baja | Pendiente | — | Manifest sin Visual Scripting, Collaborate ni Learn IET |
 | Completar secciones vacías del GDD (Trama, UI y Menús, UX, Guardado) | Media | Terminada (2026-11-10) | — | Sin plantillas vacías |
@@ -4886,10 +4731,6 @@ Prioriza aquello que desbloquea otras tareas o valida primero las partes más ri
 ---
 
 # Gestión de Cambios
-
-## Descripción de la sección
-
-El diseño de un videojuego cambia. Esta sección evita que las modificaciones importantes se pierdan o aparezcan sin evaluar sus consecuencias.
 
 ## Registro
 
@@ -4914,9 +4755,6 @@ Decisiones ya aplicadas al GDD.
 
 # Criterios de Calidad
 
-## Descripción de la sección
-
-Define qué significa que una característica esté correctamente terminada.
 
 ## Calidad funcional
 
@@ -4956,10 +4794,6 @@ Una característica se considera terminada cuando:
 ---
 
 # Pruebas
-
-## Descripción de la sección
-
-Define cómo se comprobará que el videojuego funciona como fue diseñado y recoge las pruebas ya ejecutadas.
 
 ## Tipos de prueba
 
@@ -5014,9 +4848,9 @@ El sistema de métricas de combate genera un informe por encuentro (rondas, dañ
 | BUG-004 | El tutorial del mapa podía bloquear los clics si la zona resaltada no existía | Alta | Programación | Resuelto (2026-11-10): sin zona, el paso no bloquea |
 | BUG-005 | El Acechador Oscuro se solapaba con el Corrupto errante en C1 | Baja | Programación | Resuelto: el desplazamiento solo se aplica detrás de una unidad grande |
 | BUG-006 | El nombre del encuentro C2 aún mencionaba al Corrupto errante | Baja | Programación | Resuelto (2026-11-10) |
-| BUG-008 | El Capitán usa un sprite provisional | Media | Arte | Abierto |
-| BUG-009 | Los héroes y enemigos no tienen animaciones propias (idle, ataque, daño, caída) | Media | Arte y Animación | Abierto |
-| BUG-010 | La pantalla de créditos está prevista y no existe; tras el capitán se vuelve al mapa | Media | Programación | Abierto |
+| BUG-008 | El Capitán usa un sprite provisional | Media | Arte | Resuelto (2026-11-13): el sprite actual es el definitivo |
+| BUG-009 | Los héroes y enemigos no tienen animaciones propias (idle, ataque, daño, caída) | Media | Arte y Animación | Resuelto (2026-11-13): héroes, enemigos y capitán tienen animaciones por fotogramas |
+| BUG-010 | La pantalla de créditos está prevista y no existe; tras el capitán se vuelve al mapa | Media | Programación | Resuelto (2026-11-13): epílogo y créditos implementados; falta probar el recorrido completo |
 | BUG-011 | Requisitos mínimos de hardware sin medir | Media | QA | Abierto: depende de CP-12 |
 
 ---
@@ -5094,10 +4928,6 @@ El sistema de métricas de combate genera un informe por encuentro (rondas, dañ
 
 # Glosario
 
-## Descripción de la sección
-
-Centraliza términos técnicos, de diseño y propios del universo del videojuego.
-
 | Término | Definición |
 |---|---|
 | GDD | Documento de Diseño de Videojuego. |
@@ -5150,10 +4980,6 @@ Documenta aquí términos que el equipo debe escribir siempre de la misma manera
 ---
 
 # Referencias e Inspiración
-
-## Descripción de la sección
-
-Registra juegos, películas, libros, fotografías, artículos, diseños o cualquier otra referencia utilizada para tomar decisiones.
 
 ## Referencia
 
@@ -5230,10 +5056,6 @@ Puedes utilizar enlaces normales:
 
 # Historial de Versiones
 
-## Descripción de la sección
-
-Registra los cambios importantes realizados al GDD. Esto permite conocer cómo evolucionó el diseño y cuándo se modificó una decisión.
-
 ## Formato
 
 | Versión | Fecha | Cambios principales | Responsable |
@@ -5249,6 +5071,3 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 - **MAJOR:** cambios estructurales importantes.
 - **MINOR:** nuevas secciones o características relevantes.
 - **PATCH:** correcciones, aclaraciones y pequeños ajustes.
-
----
-

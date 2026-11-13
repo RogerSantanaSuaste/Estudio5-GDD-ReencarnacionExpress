@@ -1,9 +1,5 @@
 # Progresión
 
-## Descripción de la sección
-
-Explica cómo cambia la experiencia desde el inicio hasta el final. La progresión puede afectar al personaje, al mundo, a las habilidades, al contenido o al conocimiento del jugador.
-
 ## Progresión general
 
 Describe las etapas principales del juego.

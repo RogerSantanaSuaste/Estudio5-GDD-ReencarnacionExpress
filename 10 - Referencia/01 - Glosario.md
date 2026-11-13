@@ -1,9 +1,5 @@
 # Glosario
 
-## Descripción de la sección
-
-Centraliza términos técnicos, de diseño y propios del universo del videojuego.
-
 | Término | Definición |
 |---|---|
 | GDD | Documento de Diseño de Videojuego. |

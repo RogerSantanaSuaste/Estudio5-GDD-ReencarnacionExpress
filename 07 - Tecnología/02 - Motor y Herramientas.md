@@ -1,9 +1,5 @@
 # Motor y Herramientas
 
-## Descripción de la sección
-
-Documenta las herramientas utilizadas para crear el videojuego y por qué fueron seleccionadas.
-
 ## Motor
 
 **Motor:** Unity 6

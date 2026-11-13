@@ -1,9 +1,5 @@
 # Jugabilidad
 
-## Descripción de la sección
-
-La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
-
 ## Bucle principal de juego
 
 El ciclo principal consiste en seleccionar un encuentro, conocer su contexto narrativo, combatir y obtener experiencia y Coronas. Con esos recursos el equipo sube de nivel, compra consumibles y reliquias, equipa a sus héroes y desbloquea el siguiente tramo del recorrido.

@@ -1,9 +1,5 @@
 # Backlog del Proyecto
 
-## Descripción de la sección
-
-El backlog contiene el trabajo necesario para convertir el diseño en un videojuego funcional.
-
 ## Backlog
 
 Responsable: *por asignar*. Las prioridades son una propuesta basada en el estado del proyecto al 2 de noviembre de 2026.
@@ -18,7 +14,7 @@ Responsable: *por asignar*. Las prioridades son una propuesta basada en el estad
 | Partida completa de prueba: P1 a capitán | Alta | Pendiente | Integración | Recorrido sin errores bloqueantes |
 | Prueba de desbloqueos y de La máscara rota | Alta | Pendiente | Partida de prueba | B2 cerrado hasta confirmar; Volver deja el evento pendiente |
 | Pruebas automáticas de turnos, recompensas únicas y desbloqueos | Media | Pendiente | Test Framework (instalado) | Pruebas ejecutables en el editor |
-| Confirmar pantalla de créditos tras vencer al capitán | Media | Pendiente | — | Créditos y regreso al menú |
+| Confirmar pantalla de créditos tras vencer al capitán | Media | Terminada (2026-11-13) | — | Epílogo, créditos y regreso al menú; falta probarlo en la partida completa |
 | Pruebas de rendimiento a 1920x1080 y requisitos mínimos de hardware | Media | Pendiente | Build de Windows | 60 FPS en equipos de gama baja y media |
 | Retirar paquetes de plantilla sin uso | Baja | Pendiente | — | Manifest sin Visual Scripting, Collaborate ni Learn IET |
 | Completar secciones vacías del GDD (Trama, UI y Menús, UX, Guardado) | Media | Terminada (2026-11-10) | — | Sin plantillas vacías |

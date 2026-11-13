@@ -132,7 +132,7 @@ Porta un atuendo heterogéneo: la túnica azul clásica de una academia mágica,
 Utiliza esta conexión para conjurar poderosos hechizos para arrasar con los enemigos más fuertes.
 - **Orbe Arcano:** ataque de energía mágica pura (100 % del daño). Solo desde la retaguardia (P3–P4); alcanza las cuatro posiciones enemigas. Sin recarga.
 - **Llamarada:** energía mágica convertida en fuego sobrenatural (85 % del daño) que aplica Quemadura de 2 de daño durante 2 turnos. Alcanza las posiciones enemigas P3–P4. Recarga: 1 turno.
-- **Ruptura Ígnea:** golpe arcano (100 % del daño); contra un enemigo con Quemadura causa 150 % y consume la Quemadura. Alcanza P3–P4. Recarga: 2 turnos.
+- **Ruptura Ígnea:** golpe arcano (100 % del daño); contra un enemigo con Quemadura causa 150 % y consume la Quemadura. Se usa desde P3–P4 y alcanza P1–P4. Recarga: 2 turnos.
 - **Golpe de Meteorito:** conjuración poderosa y agotadora que impacta a **todos** los enemigos (100 % a cada uno) y puede aplicar Quemadura (50 % de probabilidad). Solo puede usarse desde la ronda 3. Recarga: 3 turnos.
 
 **Debilidades:**

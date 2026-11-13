@@ -1,9 +1,4 @@
 # Niveles
-
-## Descripción de la sección
-
-Cada nivel debe documentar su propósito jugable, estructura, dificultad, contenido y condiciones de entrada/salida.
-
 ## Detalle de los niveles
 
 ### Capítulo 1: Llanuras Centrales
@@ -50,7 +45,7 @@ Estos enemigos aparecen en diferentes combinaciones durante los cuatro encuentro
 - 100 Coronas en total.
 - Experiencia para mejorar los atributos de los protagonistas.
 - Desbloqueo de la región Bosque.
-- Una reliquia aleatoria con un 65 % de probabilidad por combate (solo comunes).
+- Una reliquia aleatoria con un 75 % de probabilidad por combate (comunes, con alguna rara).
 
 **Puntos de guardado:**
 No existen puntos de guardado. El progreso se conserva temporalmente durante la sesión activa, pero se pierde al abandonar la partida o sufrir una derrota total.
@@ -131,7 +126,7 @@ La región también presenta un obstáculo de progresión: el jugador debe compl
 - 120 Coronas en total. 
 - Intercambio de habilidades de Noelle mediante el evento La máscara rota.
 - Desbloqueo de Corrupción.
-- Una reliquia aleatoria con un 80 % de probabilidad por combate (comunes o raras).
+- Una reliquia aleatoria con un 90 % de probabilidad por combate (comunes o raras).
 El evento de Noelle no entrega experiencia ni Coronas adicionales.
 
 **Puntos de guardado:**
@@ -217,7 +212,7 @@ Las diferentes combinaciones enemigas buscan obligar al jugador a administrar su
 - 120 Coronas en total.
 - Experiencia y progresión adicional para los protagonistas.
 - Cumplimiento de los requisitos para acceder al capitán, jefe final de la demo.
-- Una reliquia aleatoria con un 90 % de probabilidad por combate (más probable que sea rara).
+- Una reliquia aleatoria con un 100 % de probabilidad por combate (más probable que sea rara).
 
 **Puntos de guardado:**
 No existen puntos de guardado. Si el equipo completo es derrotado, termina la sesión y el jugador debe comenzar una nueva partida.
@@ -264,8 +259,8 @@ Corrupción desbloqueada
 ![B3 La última vigilia (Bosque)|880](../Media/Avance_2026-11-10/Combate/Bosque_B3.jpg)
 *B3 La última vigilia (Bosque)*
 
-![Jefe final, La última orden: el Capitán aún usa unidades provisionales|880](../Media/Avance_2026-11-10/Combate/Jefe_Final.jpg)
-*Jefe final, La última orden: el Capitán aún usa unidades provisionales*
+![Jefe final, La última orden: el Capitán con su arte definitivo y dos Corruptos errantes ante el Trono Sellado|880](../Media/Avance_2026-11-13/Combate/Jefe_Final_Capitan.jpg)
+*Jefe final, La última orden: el Capitán con su arte definitivo y dos Corruptos errantes ante el Trono Sellado*
 
 ## Criterios de calidad
 
@@ -274,6 +269,5 @@ Corrupción desbloqueada
 - El desafío corresponde al nivel de progresión.
 - Existe retroalimentación suficiente.
 - El jugador entiende por qué tuvo éxito o fracaso.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Estructura del Contenido]] · [[03 - Enemigos y NPC]] →

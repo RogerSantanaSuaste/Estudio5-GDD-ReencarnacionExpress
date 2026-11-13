@@ -1,9 +1,5 @@
 # Ficha del Proyecto
 
-## Descripción de la sección
-
-Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
-
 ## Información general
 
 | Campo                        | Información                                                                                                                                  |
@@ -21,31 +17,18 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Identidad del videojuego
 
 **Género principal:**  Rol (RPG)
-> Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
 
-**Subgéneros:** Aventura, JRPG, Estrategia por turnos.
-> Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
-
-**Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
+**Subgéneros:** Aventura, Estrategia por turnos.
 
 **Plataforma objetivo:**  PC (Windows).
-> Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
 **Modo de juego:**  Un Jugador
-> Consulta [[05 - Modos de Juego]].
 
 **Perspectiva:**  Top-Down (mapa de eventos) y lateral (combates).
-> Consulta [[04 - Perspectivas y Cámaras]].
 
 **Clasificaciones y etiquetas adicionales:**  Lineal, inventario, jefes, misiones, combate, mapa de eventos.
-> Consulta [[06 - Clasificaciones y Etiquetas]].
 
 **Tecnología principal:**  Unity 6, C#
-> Motor, lenguaje y herramientas principales.
-
-## Elevator Pitch
-
-RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas reencarnadas avanzan por un mapa de eventos con escenas de novela visual para detener a las fuerzas del Rey Demonio.
 
 ## Estado actual
 
@@ -54,8 +37,8 @@ RPG de combate táctico por turnos para PC, un jugador, en el que cuatro almas r
 - [x] Mecánica principal definida
 - [x] Prototipo funcional
 - [x] Vertical slice (Capítulo 1 implementado en Unity; falta verificarlo con una partida completa)
-- [ ] Producción (en curso: los tres capítulos, el mapa, la tienda y el capitán están en la rama `feature/sistema-combate`)
-- [ ] Pruebas
+- [x] Producción (en curso: los tres capítulos, el mapa, la tienda y el capitán están en la rama `feature/sistema-combate`)
+- [x] Pruebas
 - [ ] Versión final
 
 ## Criterio de éxito del proyecto

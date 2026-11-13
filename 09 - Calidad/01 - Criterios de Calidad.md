@@ -1,8 +1,5 @@
 # Criterios de Calidad
 
-## Descripción de la sección
-
-Define qué significa que una característica esté correctamente terminada.
 
 ## Calidad funcional
 

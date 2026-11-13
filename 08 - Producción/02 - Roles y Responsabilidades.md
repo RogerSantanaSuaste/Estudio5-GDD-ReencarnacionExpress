@@ -1,9 +1,5 @@
 # Roles y Responsabilidades
 
-## Descripción de la sección
-
-Define quién es responsable de cada área y evita que tareas importantes queden sin dueño.
-
 ## Equipo
 
 | Integrante                    | Rol principal | Responsabilidades                      |

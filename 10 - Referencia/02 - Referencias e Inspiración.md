@@ -1,9 +1,5 @@
 # Referencias e Inspiración
 
-## Descripción de la sección
-
-Registra juegos, películas, libros, fotografías, artículos, diseños o cualquier otra referencia utilizada para tomar decisiones.
-
 ## Referencia
 
 ### Darkest Dungeon

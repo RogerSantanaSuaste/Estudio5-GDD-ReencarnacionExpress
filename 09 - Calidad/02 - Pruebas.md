@@ -1,9 +1,5 @@
 # Pruebas
 
-## Descripción de la sección
-
-Define cómo se comprobará que el videojuego funciona como fue diseñado y recoge las pruebas ya ejecutadas.
-
 ## Tipos de prueba
 
 ### Pruebas funcionales

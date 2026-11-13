@@ -1,9 +1,5 @@
 # Accesibilidad
 
-## Descripción de la sección
-
-La accesibilidad busca que el mayor número posible de jugadores pueda comprender y utilizar el videojuego. Esta sección distingue lo que la demo ya cumple, lo que cubre parcialmente y lo que queda fuera de su alcance.
-
 ## Opciones previstas
 
 | Opción | Estado | Detalle |

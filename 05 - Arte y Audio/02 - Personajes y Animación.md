@@ -1,9 +1,4 @@
 # Personajes y Animación
-
-## Descripción de la sección
-
-Documenta cómo deben verse y comportarse visualmente los personajes y qué hay hecho hoy.
-
 ## Requisitos por personaje
 
 | Personaje | Sprite de combate | Retrato e icono | Animaciones | VFX | Estado |

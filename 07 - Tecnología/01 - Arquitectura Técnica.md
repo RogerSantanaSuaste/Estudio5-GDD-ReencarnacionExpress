@@ -1,10 +1,5 @@
 # Arquitectura Técnica
 
-## Descripción de la sección
-
-Explica cómo está construido técnicamente el videojuego y cómo se comunican sus componentes.
-
-
 ## Arquitectura
 
 ```text

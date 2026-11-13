@@ -1,9 +1,5 @@
 # Registro visual
 
-## Descripción de la sección
-
-Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en qué condiciones, para poder repetirla o sustituirla cuando el juego cambie. Todas las imágenes están en la carpeta `Media/` del repositorio.
-
 ## Estructura de la carpeta Media
 
 | Carpeta | Contenido |
@@ -11,6 +7,10 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 | `Media/Avance_2026-11-10/Interfaz` | Capturas del mapa, la tienda, la ficha de héroe, el tutorial, la victoria y la derrota |
 | `Media/Avance_2026-11-10/Combate` | Capturas de combates de las tres regiones jugables |
 | `Media/Avance_2026-11-10/Enemigos` | Hoja de retratos de los enemigos |
+| `Media/Avance_2026-11-13/Interfaz` | Capturas del epílogo y de los créditos |
+| `Media/Avance_2026-11-13/Combate` | Captura del combate contra el capitán con su arte definitivo |
+| `Media/Audio/Musica` | Pistas de música del juego en MP3, por carpetas (Menu, Mapa, Combate, Introduccion, Narrativas) |
+| `Media/Audio/Efectos` | Efectos de sonido en MP3, por categorías (Habilidades, Enemigos, Interfaz, Dialogos, Combate, Eventos, Introduccion, Victoria) |
 | `Media/Arte/Personajes` | Imágenes base de los héroes (copias reducidas) |
 | `Media/Arte/Iconos` | Iconos oficiales de los héroes |
 | `Media/Arte/Enemigos` | Los once sprites de enemigos |
@@ -21,7 +21,7 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 
 ## Condiciones de captura
 
-- **Origen de las capturas:** ventana Game del editor de Unity 6 en modo Play, con la versión del proyecto del 2026-11-10. No son maquetas ni arte conceptual: muestran el juego tal como se ejecuta.
+- **Origen de las capturas:** ventana Game del editor de Unity 6 en modo Play, con la versión del proyecto del 2026-11-10 (las capturas de epílogo, créditos y jefe final son del 2026-11-13). No son maquetas ni arte conceptual: muestran el juego tal como se ejecuta.
 - **Relación de aspecto:** 16:9. Las copias del repositorio se reducen a 1600 px de ancho como máximo y se guardan en JPEG para mantener el repositorio ligero.
 - **Arte original:** los sprites y fondos se guardan reducidos (PNG con transparencia hasta 512–600 px; fondos en JPEG de 1200 px). Los originales están en `Assets/Sprites/` del proyecto de Unity y no se duplican aquí.
 
@@ -39,11 +39,13 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 | `Interfaz/Reliquias_Hoja.jpg` | Hoja de iconos de reliquias | Referencia |
 | `Interfaz/Menu_Principal.jpg`, `Introduccion_Cinematica_1.jpg`, `Introduccion_Dialogo.jpg`, `Dialogo_Santuario.jpg` | Menú principal, introducción y diálogos | [[02 - UI y Menús]] |
 | `Interfaz/Pausa_Mapa.jpg`, `Ayuda_Mapa.jpg`, `Combate/Pausa_Combate.jpg` | Pausa y ayuda | [[02 - UI y Menús]] |
-| `Combate/Pradera_P1.jpg`, `Pradera_P4.jpg`, `Bosque_B1.jpg`, `Bosque_B3.jpg`, `Jefe_Final.jpg` | Combates de Pradera, Bosque y jefe final (con unidades provisionales) | [[02 - Niveles]] |
+| `Combate/Pradera_P1.jpg`, `Pradera_P4.jpg`, `Bosque_B1.jpg`, `Bosque_B3.jpg`, `Jefe_Final.jpg` | Combates de Pradera, Bosque y una primera captura del jefe final (sustituida por `Jefe_Final_Capitan.jpg`) | [[02 - Niveles]] |
 | `Combate/Heroes_Combate.jpg` | Los cuatro héroes en C1 | [[02 - Personajes y Animación]], [[04 - Interfaz Visual]] |
 | `Combate/Corrupcion_C1.jpg`, `Corrupcion_C2_Guardian.jpg` | Combates de Corrupción; el segundo con el Guardián Corrupto de dos posiciones | [[03 - Enemigos y NPC]] |
 | `Combate/Pradera_Orden_Turno.jpg`, `Bosque_B2_Barras.jpg` | Combates de Pradera y Bosque | [[03 - Enemigos y NPC]] |
 | `Enemigos/Retratos_Enemigos.jpg` | Retratos de los enemigos en el orden de turno | [[03 - Enemigos y NPC]] |
+| `Avance_2026-11-13/Combate/Jefe_Final_Capitan.jpg` | Combate final «La última orden»: el capitán con su arte definitivo y dos Corruptos errantes | [[02 - Niveles]] |
+| `Avance_2026-11-13/Interfaz/Epilogo_Trono_Sellado.jpg`, `Creditos.jpg` | Epílogo en el Trono Sellado y pantalla de créditos | [[02 - UI y Menús]] |
 
 ## Cómo actualizar
 
@@ -57,6 +59,5 @@ Documenta de dónde sale cada referencia visual del GDD, cuándo se obtuvo y en 
 - Capturas de los combates P2, P3, B2, C1 y C2 con el arte actual, y del evento del Santuario.
 - Capturas del tutorial de combate.
 - Animaciones en GIF: el proyecto ya contiene fotogramas de animación de Valerian (reposo, ataques, defensa y heridas) que aún no se han convertido a GIF.
-- Arte del Capitán de las Fuerzas Expedicionarias.
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Audio y Música]] · [[01 - UX y Flujo del Jugador]] →

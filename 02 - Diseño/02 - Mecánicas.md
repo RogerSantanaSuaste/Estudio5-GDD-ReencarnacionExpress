@@ -1,11 +1,5 @@
 # Mecánicas
 
-## Descripción de la sección
-
-Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
-
-Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
-
 ## Mecánicas principales
 
 ### Mecánica 01: Combate táctico por turnos
@@ -173,7 +167,7 @@ Solo la Poción de curación levanta a un héroe caído; el Antídoto no actúa 
 
 ### 4. Héroes caídos y recuperación
 
-Los protagonistas no mueren. Al llegar a 0 HP caen al suelo, se atenúan y pasan a una casilla libre de la retaguardia; no actúan ni pueden ser objetivo. Tras la victoria siguen caídos hasta que se les cura con una Poción de curación o con una curación de Noelle; quienes terminaron en pie conservan exactamente su vida. Subir de nivel restaura la vida al 100 % de los héroes que no están caídos. El equipo conserva su progresión para el siguiente encuentro.
+Los protagonistas no mueren. Al llegar a 0 HP caen al suelo, se atenúan y pasan a una casilla libre de la retaguardia; no actúan ni pueden ser objetivo. Tras la victoria se levantan con el 30 % de su vida máxima; quienes terminaron en pie conservan exactamente su vida. Durante el combate solo los levanta una Poción de curación o una curación de Noelle. Subir de nivel restaura la vida al 100 % de los héroes que no están caídos. El equipo conserva su progresión para el siguiente encuentro.
 
 ### 5. Transformación de Noelle
 

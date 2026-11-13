@@ -1,9 +1,5 @@
 # Interfaz Visual
 
-## Descripción de la sección
-
-Documenta la información que el juego muestra al jugador y las reglas visuales de la interfaz. Todas las pantallas se diseñan sobre un lienzo de 1920 × 1080 con escalado por altura.
-
 ## HUD
 
 ### HUD del combate

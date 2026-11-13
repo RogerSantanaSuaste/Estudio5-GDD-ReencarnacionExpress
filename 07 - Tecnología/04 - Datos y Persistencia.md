@@ -1,9 +1,5 @@
 # Datos y Persistencia
 
-## Descripción de la sección
-
-Define qué información necesita conservar el juego y cómo se estructura.
-
 ## Datos de la sesión
 
 La demo no tiene guardado permanente. Estos datos permanecen en memoria mientras la sesión está activa y se descartan si el equipo es derrotado o si el jugador abandona la partida:

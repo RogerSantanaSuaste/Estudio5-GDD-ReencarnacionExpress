@@ -1,9 +1,5 @@
 # Seguridad y Riesgos Técnicos
 
-## Descripción de la sección
-
-Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o abuso de sistemas.
-
 ## Riesgos
 
 | Riesgo | Probabilidad | Impacto | Mitigación |

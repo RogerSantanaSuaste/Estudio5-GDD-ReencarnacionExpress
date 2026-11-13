@@ -1,9 +1,5 @@
 # Mundo
 
-## Descripción de la sección
-
-Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, historia, tecnología, conflictos y elementos que hacen coherente el mundo.
-
 ## Concepto del mundo
 
 **Época:** Medieval

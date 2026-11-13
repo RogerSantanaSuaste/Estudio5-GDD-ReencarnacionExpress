@@ -1,9 +1,5 @@
 # Controles
 
-## Descripción de la sección
-
-Define la relación entre las acciones del jugador y las entradas físicas del dispositivo.
-
 ## Mapa de controles
 
 | Acción                       | Teclado | Mouse                                            | Control | Táctil |
@@ -81,6 +77,5 @@ En la versión beta de Reencarnación Express, no se contempla la reasignación 
 |Seleccionar Volver al menú|Se solicita una segunda confirmación antes de descartar la partida.|
 |Ganar un combate|Se muestra el resultado y la opción para continuar hacia el mapa.|
 |Perder un combate|Se presenta la derrota y la opción de regresar al menú principal.|
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

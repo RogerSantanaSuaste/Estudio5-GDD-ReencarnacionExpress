@@ -1,12 +1,5 @@
 # Requisitos Técnicos
 
-## Descripción de la sección
-
-Define las condiciones técnicas necesarias para ejecutar y desarrollar el videojuego.
-
-> [!info] Pendiente de pruebas
-> Los requisitos mínimos de CPU, GPU, RAM y almacenamiento se determinarán durante las pruebas de rendimiento de la demo ([[03 - Roadmap]], etapa de Pruebas). Hasta entonces se dejan como "Por determinar".
-
 ## Requisitos mínimos
 
 **Sistema operativo:** Windows (PC).

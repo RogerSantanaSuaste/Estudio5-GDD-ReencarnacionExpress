@@ -1,9 +1,5 @@
 # Dirección de Arte
 
-## Descripción de la sección
-
-Define la identidad visual del videojuego y las reglas que deben seguir los recursos gráficos.
-
 ## Identidad visual
 
 ![Fondo del menú principal|720](../Media/Arte/Fondos/MenuPrincipal.jpg)
@@ -60,6 +56,4 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 4. La corrupción debe tener un lenguaje visual propio y reconocible en todos los elementos que afecte.
 5. Evitar saturación excesiva de efectos visuales que dificulten seguir el combate.
 
-## Referencias
-
-(Añadir enlaces o imágenes dentro de la carpeta del proyecto.)
+> **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →

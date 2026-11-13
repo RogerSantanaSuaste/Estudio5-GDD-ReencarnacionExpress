@@ -1,9 +1,5 @@
 # Roadmap
 
-## Descripción de la sección
-
-El roadmap organiza el desarrollo en etapas y entregables.
-
 ## Etapas
 
 La demo recorre un solo mundo, Aethel, en tres capítulos, nueve encuentros, el evento obligatorio **La máscara rota** y el enfrentamiento contra el capitán de las fuerzas expedicionarias. El orden de trabajo sigue las dependencias de [[01 - Estructura del Contenido]]: Llanuras Centrales, Bosque Oscuro, Corrupción del Bosque y, al final, el Trono Sellado.
@@ -77,7 +73,7 @@ Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD des
 
 - Build de Windows, en español, jugable con teclado y ratón.
 - Recorrido verificable de Aethel: nueve encuentros, **La máscara rota**, jefe y los dos cierres de la demo.
-- Créditos al completar la victoria contra el capitán.
+- Epílogo y créditos al completar la victoria contra el capitán.
 - Lista de problemas conocidos que no impiden terminar la demo.
 - GDD actualizado a la versión entregada, con el historial de versiones y el estado del proyecto alineados a la build.
 - Paquete de entrega académica: build, instrucciones de ejecución y enlace o copia del repositorio.
@@ -93,7 +89,7 @@ Entregar una demo de Windows que pueda jugarse de principio a fin y cuyo GDD des
 | Ficha del capitán | Diseño de combate del jefe | Rol, estadísticas, habilidades e inteligencia artificial quedan documentados al mismo nivel que el resto de enemigos | En progreso: implementado en Unity, falta documentarlo en el GDD |
 | Bosque Oscuro | Capítulo 2 integrado | B1, **La máscara rota**, B2 y B3 se juegan en ese orden; Noelle intercambia sus cuatro habilidades y Corrupción queda desbloqueada | En progreso: implementado en Unity, falta verificarlo |
 | Corrupción del Bosque | Capítulo 3 integrado | C1 y C2 se vencen con los cuatro tipos de enemigos corruptos y habilitan el Trono Sellado | En progreso: implementado en Unity, falta verificarlo |
-| Desenlace de la demo | Jefe, victoria y derrota | Derrotar al capitán purifica el bosque y muestra los créditos. La caída del equipo devuelve al menú y borra la sesión | En progreso: capitán y derrota implementados; falta confirmar la pantalla de créditos |
+| Desenlace de la demo | Jefe, victoria y derrota | Derrotar al capitán purifica el bosque y muestra el epílogo y los créditos. La caída del equipo devuelve al menú y borra la sesión | En progreso: capitán y derrota implementados; epílogo y créditos implementados; falta probar el recorrido completo |
 | Pase de pruebas | Informe del recorrido completo | No quedan errores bloqueantes en progresión, economía, evento, jefe ni rendimiento acordado | Pendiente |
 | Entrega | Build de Windows y GDD de esa versión | Una persona ajena al desarrollo ejecuta la demo y completa el recorrido de Aethel con las instrucciones entregadas | Pendiente |
 

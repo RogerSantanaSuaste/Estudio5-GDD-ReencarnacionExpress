@@ -1,9 +1,5 @@
 # Pilares de Diseño
 
-## Descripción de la sección
-
-Los pilares son los principios que deben mantenerse durante todo el desarrollo. Cuando dos ideas entren en conflicto, los pilares ayudan a decidir cuál encaja mejor con la identidad del juego.
-
 ## Pilar 1 — Combate táctico y estratégico
 
 **Descripción:**
@@ -58,17 +54,5 @@ Crear una identidad artística fantasía medieval, utilizando elementos visuales
 - Ambientaciones que reflejan la fantasía, el misterio y los conflictos del mundo.
 - Música que acompaña los momentos narrativos y los enfrentamientos.
 - Interfaces visuales coherentes entre el mapa, las escenas de novela visual y los combates.
-## Reglas de decisión
-
-Antes de incorporar una característica importante, preguntar:
-
-- ¿Refuerza uno de nuestros pilares?
-- ¿Mejora la experiencia principal?
-- ¿Justifica el costo de desarrollo?
-- ¿Complica innecesariamente otro sistema?
-
-> [!warning] Evitar
-> Convertir los pilares en frases genéricas como “que sea divertido”. Deben describir decisiones concretas de diseño.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Público y Plataforma]] · [[01 - Jugabilidad]] →

@@ -1,9 +1,5 @@
 # Objetos y Coleccionables
 
-## Descripción de la sección
-
-Define los objetos que el jugador puede recoger, utilizar, equipar, comprar o vender: dos consumibles, un catálogo de 20 reliquias y la moneda del juego (Coronas). Las cifras proceden de los datos reales de Unity (`ConsumableService`, `RelicData`, `RelicShopStock`, `RelicRewards`).
-
 ## Objeto 01: Poción de curación
 
 **Tipo:**
@@ -95,7 +91,7 @@ Objetos antiguos que se equipan en la ficha de un personaje. Cada una suma bonif
 - Cambiar la vida máxima mediante una reliquia no cura: la vida actual solo se recorta si supera el nuevo máximo.
 
 **Cómo se obtienen:**
-- **Recompensa de combate (primera victoria de cada encuentro):** una sola tirada por misión. Probabilidad de reliquia: Pradera 65 %, Bosque 80 %, Corrupción 90 %, Jefe 100 %. Rareza: Pradera solo comunes; Bosque 60 % comunes y 40 % raras; Corrupción 30 % y 70 %; el jefe da una rara o una exclusiva disponible. Desde B2 hay un 20 % de que la recompensa sea una exclusiva no poseída; en C2 se garantiza una exclusiva si aún no se consiguió ninguna. Tras dos combates seguidos sin reliquia, el tercero entrega una.
+- **Recompensa de combate (primera victoria de cada encuentro):** una sola tirada por misión. Probabilidad de reliquia: Pradera 75 %, Bosque 90 %, Corrupción 100 %, Jefe 100 %. Rareza: Pradera 75 % comunes y 25 % raras; Bosque 45 % comunes y 55 % raras; Corrupción 20 % y 80 %; el jefe da una rara o una exclusiva disponible. Desde B1 hay un 40 % de que la recompensa sea una exclusiva no poseída; en C2 se garantiza una exclusiva si aún no se consiguió ninguna. Tras dos combates seguidos sin reliquia, el tercero entrega una.
 - **Eventos:** «La máscara rota» entrega el Fragmento de la Máscara (Noelle) y «El informe del último vigía» entrega el Broche del Vigía.
 - **Tienda:** cuatro espacios, una unidad por espacio (ver Recurso 02).
 
@@ -116,7 +112,7 @@ Compra: 45–115 CR según la reliquia. Venta: el 50 % del precio de compra (mí
 | **Espejo del Dolor Universal** | Rara | −4 Vida | Cuando recibes daño directo, tu siguiente ataque directo acertado inflige +4 de daño. Máximo una vez por ronda; el bono desaparece si no atacas en tu siguiente turno. | Cualquiera | Recompensa de combate |
 | **Espina del Juramento** | Rara | −3 Vida | La primera vez que recibes daño directo en cada ronda, el atacante sufre Sangrado de 1 de daño durante 2 turnos. | Cualquiera | Recompensa de combate |
 | **Ídolo del Último Aliento Universal** | Rara | −5 Vida | La primera vez que un ataque directo debería derrotarte, sobrevives con 1 HP y después sufres Debilitamiento (−20 % de Ataque) durante 1 turno. Una vez por combate. No protege contra el daño periódico. | Cualquiera | Recompensa de combate |
-| **Reloj de Arena Roto Universal** | Rara | −1 % Protección | La primera habilidad que uses en cada combate con enfriamiento de 2 turnos o más reduce su enfriamiento en 1. | Cualquiera | Tienda (110 CR) o recompensa |
+| **Reloj de Arena Roto Universal** | Rara | −1 % Protección | La primera vez en cada combate que usas tu habilidad de mayor enfriamiento (mínimo 2 turnos), su enfriamiento se reduce en 1. | Cualquiera | Tienda (110 CR) o recompensa |
 | **Sello del Desollador Universal** | Rara | −1 Velocidad | Al acertar un ataque directo contra un enemigo que sufre Sangrado, recuperas 3 HP. Una vez por turno. | Cualquiera | Tienda (115 CR) o recompensa |
 | **Cadena del Bastión** | Épica | −3 Vida | Cuando protege a un aliado con Guardia de Trinchera, otro aliado recibe 10 % de Protección durante 1 turno. Una vez por ronda. | Valerian | Recompensa de combate (exclusiva) |
 | **Corazón de Carbón** | Épica | −5 Vida | Cuando Evanora acierta un ataque directo contra un enemigo que ya tiene Quemadura, consume uno de sus pulsos pendientes y lo aplica de inmediato con +2 de daño. Una vez por turno; ese pulso no vuelve a ocurrir. | Evanora | Recompensa de combate (exclusiva) |

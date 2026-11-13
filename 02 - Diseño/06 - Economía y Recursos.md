@@ -47,7 +47,7 @@ La venta paga el 50 % del precio de compra, redondeado, con un mínimo de 1 CR. 
   - Cuesta la acción del personaje que lo utiliza.
   - Elimina sangrado, veneno y quemadura del aliado elegido.
   - No elimina debilitamiento, vulnerabilidad ni otros efectos, no recupera vida y no actúa sobre héroes caídos.
-- **Héroes caídos:** los protagonistas no mueren. Al llegar a 0 HP quedan caídos y siguen así al terminar el combate hasta que se les cura con una Poción de curación o con una curación de Noelle. Los que siguen en pie conservan la vida con la que cerraron el combate. Subir de nivel restaura la vida al 100 %, salvo que el héroe esté caído.
+- **Héroes caídos:** los protagonistas no mueren. Al llegar a 0 HP quedan caídos y, si el equipo gana, reviven al terminar el combate con el 30 % de su vida máxima; durante el combate solo los levanta una Poción de curación o una curación de Noelle. Los que siguen en pie conservan la vida con la que cerraron el combate. Subir de nivel restaura la vida al 100 %, salvo que el héroe esté caído.
 - **Recompensas únicas:** las Coronas y la reliquia aleatoria de un combate se entregan solo la primera vez que se gana. Los eventos narrativos no dan Coronas ni experiencia.
 - **Tienda de consumibles:** la Poción de curación tiene existencias ilimitadas; el Antídoto, tres por partida sin reposición. No se puede comprar con el inventario lleno (cinco unidades).
 - **Tienda de reliquias:** cuatro espacios, una unidad por espacio; se renueva al completar por primera vez cualquier encuentro. Detalle en [[04 - Objetos y Coleccionables]].
